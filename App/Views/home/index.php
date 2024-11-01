@@ -1,9 +1,9 @@
   <header class="slider">
     <div class="slider-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada/portada-las-lilas.png" data-stellar-background-ratio="1.15">
+        <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada/portada-santa-maría.png" data-stellar-background-ratio="1.15">
           <div class="container">
-            <h1><span>Las Lilas 1233333</span></h1>
+            <h1><span>Las Lilas 123</span></h1>
             <h2>Vive en Valle Hemorso</h2>
             <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
             <figure><img src="<?= $baseUrl ?>images/services-icon01.png" alt="Image"></figure>
@@ -23,9 +23,9 @@
         <!-- end swiper-slide -->
         <div class="swiper-slide" data-background="<?= $baseUrl ?>images/slide03.jpg" data-stellar-background-ratio="1.15">
           <div class="container">
-            <h1><span>Hømepark</span> Elite Residences</h1>
-            <h2>We build your dream house</h2>
-            <a href="#">GET A CONSULTATION <i class="fas fa-caret-right"></i></a>
+            <h1><span>Roma</span> Miraflores</h1>
+            <h2>Entre Febrero 2025</h2>
+            <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
             <figure><img src="<?= $baseUrl ?>images/services-icon07.png" alt="Image"></figure>
           </div>
           <!-- end container -->
@@ -63,7 +63,54 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6">
+          <figure style="background-color: #20a7ae">
+            <div class="pattern-bg" data-stellar-ratio="1.07"></div>
+            <!-- end pattern-bg -->
+            <div class="holder" data-stellar-ratio="1.10"> <img src="<?= $baseUrl ?>images/side-image01.jpg" alt="Image"></div>
+            <!-- end holder -->
+          </figure>
+        </div>
+        <!-- end col-6 -->
+        <div class="col-lg-6 wow fadeInUp">
+          <div class="content-box"> <b>01</b>
+            <h4><span>Pozniaky</span> Construction LLC</h4>
+            <h3>Living spaces for creative peoples</h3>
+            <p>The smaller male cones release pollen,
+              which fertilizes the female </p>
+            <a href="#"> <img src="<?= $baseUrl ?>images/icon-m2.png" alt="Image">See our projects</a>
+          </div>
+          <!-- end content-box -->
+        </div>
+        <!-- edn col-6 -->
+      </div>
+      <!-- end row -->
+       <div class="row align-items-center">
+        <div class="col-lg-6 wow fadeInUp">
+          <div class="content-box"> <b>01</b>
+            <h4><span>Pozniaky</span> Construction LLC</h4>
+            <h3>Living spaces for creative peoples</h3>
+            <p>The smaller male cones release pollen,
+              which fertilizes the female </p>
+            <a href="#"> <img src="<?= $baseUrl ?>images/icon-m2.png" alt="Image">See our projects</a>
+          </div>
+          <!-- end content-box -->
+        </div>
+        <!-- edn col-6 -->
+        <div class="col-lg-6">
           <figure>
+            <div class="pattern-bg" data-stellar-ratio="1.07"></div>
+            <!-- end pattern-bg -->
+            <div class="holder" data-stellar-ratio="1.10"> <img src="<?= $baseUrl ?>images/side-image01.jpg" alt="Image"></div>
+            <!-- end holder -->
+          </figure>
+        </div>
+        <!-- end col-6 -->
+        
+      </div>
+      <!-- end row -->
+       <div class="row align-items-center">
+        <div class="col-lg-6">
+          <figure style="background-color: #68b330">
             <div class="pattern-bg" data-stellar-ratio="1.07"></div>
             <!-- end pattern-bg -->
             <div class="holder" data-stellar-ratio="1.10"> <img src="<?= $baseUrl ?>images/side-image01.jpg" alt="Image"></div>
@@ -375,37 +422,37 @@
     <div class="container">
       <div class="row">
         <div class="col-12 wow fadeInUp"> <b>08</b>
-          <h4><span>Homepark</span> Living Spaces</h4>
-          <h3>Are you interested to Homepark</h3>
+          <h4><span>Crearq</span> Espacios comodos</h4>
+          <h3>Estas interesado en Crearq</h3>
         </div>
         <!-- end col-12 -->
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 wow fadeInUp" data-wow-delay="0s">
           <figure data-toggle="tooltip" data-placement="top" title="The smaller male cones release pollen, which fertilizes"> <img src="<?= $baseUrl ?>images/services-icon01.png" alt="Image">
-            <figcaption>Water Taps</figcaption>
+            <figcaption>Agua potable</figcaption>
           </figure>
         </div>
         <!-- end col-2 -->
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 wow fadeInUp" data-wow-delay="0.05s">
           <figure data-toggle="tooltip" data-placement="top" title="The smaller male cones release pollen, which fertilizes"> <img src="<?= $baseUrl ?>images/services-icon02.png" alt="Image">
-            <figcaption>Furniture</figcaption>
+            <figcaption>Muebles</figcaption>
           </figure>
         </div>
         <!-- end col-2 -->
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 wow fadeInUp" data-wow-delay="0.10s">
           <figure data-toggle="tooltip" data-placement="top" title="The smaller male cones release pollen, which fertilizes"> <img src="<?= $baseUrl ?>images/services-icon03.png" alt="Image">
-            <figcaption>Electricity</figcaption>
+            <figcaption>Electricidad</figcaption>
           </figure>
         </div>
         <!-- end col-2 -->
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 wow fadeInUp" data-wow-delay="0.15s">
           <figure data-toggle="tooltip" data-placement="top" title="The smaller male cones release pollen, which fertilizes"> <img src="<?= $baseUrl ?>images/services-icon04.png" alt="Image">
-            <figcaption>Wood Edition</figcaption>
+            <figcaption>Edicion de madera</figcaption>
           </figure>
         </div>
         <!-- end col-2 -->
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 wow fadeInUp" data-wow-delay="0.20s">
           <figure data-toggle="tooltip" data-placement="top" title="The smaller male cones release pollen, which fertilizes"> <img src="<?= $baseUrl ?>images/services-icon05.png" alt="Image">
-            <figcaption>Ceramics</figcaption>
+            <figcaption>Ceramicas</figcaption>
           </figure>
         </div>
         <!-- end col-2 -->
@@ -417,19 +464,19 @@
         <!-- end col-2 -->
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 wow fadeInUp" data-wow-delay="0s">
           <figure data-toggle="tooltip" data-placement="top" title="The smaller male cones release pollen, which fertilizes"> <img src="<?= $baseUrl ?>images/services-icon07.png" alt="Image">
-            <figcaption>Cimento</figcaption>
+            <figcaption>Cimiento</figcaption>
           </figure>
         </div>
         <!-- end col-2 -->
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 wow fadeInUp" data-wow-delay="0.05s">
           <figure data-toggle="tooltip" data-placement="top" title="The smaller male cones release pollen, which fertilizes"> <img src="<?= $baseUrl ?>images/services-icon08.png" alt="Image">
-            <figcaption>Hummer</figcaption>
+            <figcaption>Martillo</figcaption>
           </figure>
         </div>
         <!-- end col-2 -->
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 wow fadeInUp" data-wow-delay="0.10s">
           <figure data-toggle="tooltip" data-placement="top" title="The smaller male cones release pollen, which fertilizes"> <img src="<?= $baseUrl ?>images/services-icon09.png" alt="Image">
-            <figcaption>Digging</figcaption>
+            <figcaption>Excavación</figcaption>
           </figure>
         </div>
         <!-- end col-2 -->
@@ -441,13 +488,13 @@
         <!-- end col-2 -->
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 wow fadeInUp" data-wow-delay="0.20s">
           <figure data-toggle="tooltip" data-placement="top" title="The smaller male cones release pollen, which fertilizes"> <img src="<?= $baseUrl ?>images/services-icon11.png" alt="Image">
-            <figcaption>Screwsrive</figcaption>
+            <figcaption>Destornillador</figcaption>
           </figure>
         </div>
         <!-- end col-2 -->
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 wow fadeInUp" data-wow-delay="0.25s">
           <figure data-toggle="tooltip" data-placement="top" title="The smaller male cones release pollen, which fertilizes"> <img src="<?= $baseUrl ?>images/services-icon12.png" alt="Image">
-            <figcaption>Blueprint</figcaption>
+            <figcaption>Diseños</figcaption>
           </figure>
         </div>
         <!-- end col-2 -->

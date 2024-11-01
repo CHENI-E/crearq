@@ -20,6 +20,34 @@ class Home
         View::render($views, $args);
     }
 
+    public function view_proyectos()
+    {
+        $views = ['home/proyectos'];
+        $args  = ['title' => 'Crearq | Proyectos'];
+        View::render($views, $args);
+    }
+
+    public function view_postVenta()
+    {
+        $views = ['home/postVenta/index'];
+        $args  = ['title' => 'Crearq | Post-Venta'];
+        View::render($views, $args);
+    }
+
+    public function view_servicio()
+    {
+        $views = ['home/servicio/index'];
+        $args  = ['title' => 'Crearq | Servicio'];
+        View::render($views, $args);
+    }
+
+    public function view_inversionista()
+    {
+        $views = ['home/inversionista/index'];
+        $args  = ['title' => 'Crearq | Inversionista'];
+        View::render($views, $args);
+    }
+
     public function exampleWithArgs($id = null)
     {
         $views = ['home/example_with_args'];

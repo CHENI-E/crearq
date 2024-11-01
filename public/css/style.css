@@ -3345,6 +3345,19 @@ button[type=submit] {
 }
 /* RESPONSIVE MOBILE FIXES */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+
+  .before-titulo-postVenta{
+      position: relative;
+      padding: 170px;
+  }
+
+  .banner-titulo-postVenta{
+      position: absolute;
+      top: 10%;
+      left: -50%;
+      width: 250px;
+  }
+
   .side-navigation {
     width: 80vw;
   }

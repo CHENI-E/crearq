@@ -1,5 +1,5 @@
 <header class="page-header" data-background="images/nosotros/banner_nosotros.png" data-stellar-background-ratio="1.15">
-    <div class="container">
+    <div class="container text-center">
         <h1 style="font-size: 80px;">¿Porqué confiar en nosotros?</h1>
         <!-- <p>Descubre porqué confiar en nosotros.</p> -->
         <ol class="breadcrumb">
@@ -15,23 +15,23 @@
         <div class="row">
             <div class="col-12">
                 <blockquote>
-                    <h5 class="text-center text-light">Somos una compañía con más de 18 años de experiencia y mucha pasión por la arquitectura.</h5>
+                    <h3 class="text-center text-white font-weight-bold">Somos una compañía con más de 18 años de experiencia y mucha pasión por la arquitectura.</h3>
                     <hr class="bg-light">
                     <p class="text-center text-light">Buscamos en cada proyecto crear una experiencia que mejore la calidad de vida de las personas, combinando las mejores técnicas en ingeniería, estilo 
                     armonioso y mucho cuidado por los detalles. Dando como resultado proyectos únicos para crear momentos maravillosos.</p>
                 </blockquote>
             </div>
 
-            <div class="d-flex align-items-center">
-                <div class="col-6">
-                    <blockquote class="h-100" style="background: #68a632 !important;">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-lg-6 align-items-center">
+                    <blockquote class="" style="height: 200px; background: #68a632 !important;">
                         <p class="text-center text-light">Nuestra Misión es construir espacios de calidad que mejoren nuestra ciudad y la 
                             calidad de vida de nuestros clientes.</p>
                     </blockquote>
                 </div>
 
-                <div class="col-6">
-                    <blockquote style="background: #229aa1 !important;">
+                <div class="col-sm-12 col-lg-6 align-items-center">
+                    <blockquote style="height: 200px; background: #229aa1 !important;">
                         <p class="text-center text-light">Nuestra Visión es ser la inmobiliaria y constructora más reconocida en el País por la calidad de sus proyectos, 
                             respeto de los tiempos establecidos y por contribuir a desarrollar una ciudad mejor para todos.</p>
                     </blockquote>

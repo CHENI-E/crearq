@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="format-detection" content="telephone=no">
     <meta name="theme-color" content="#282828" />
-    <title>Homepark | Real Estate & Luxury Homes</title>
+    <title>Crearq</title>
     <meta name="author" content="Themezinho">
     <meta name="description" content="Homepark | Real Estate & Luxury Homes">
     <meta name="keywords" content="homepark, realestate, flat, apartment, benefits, facility, consultation, home, house, studio, pool, animation, transportation">
@@ -34,7 +34,7 @@
     <link href="<?= $baseUrl ?>ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon" sizes="114x114">
     <link href="<?= $baseUrl ?>ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72">
     <link href="<?= $baseUrl ?>ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon">
-    <link href="<?= $baseUrl ?>ico/favicon.png" rel="shortcut icon">
+    <link href="<?= $baseUrl ?>images/faviconCrearq.png" rel="shortcut icon">
 
     <!-- CSS FILES -->
     <link rel="stylesheet" href="<?= $baseUrl ?>css/fontawesome.min.css">
@@ -44,6 +44,7 @@
     <link rel="stylesheet" href="<?= $baseUrl ?>css/swiper.min.css">
     <link rel="stylesheet" href="<?= $baseUrl ?>css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= $baseUrl ?>css/style.css">
+    <link rel="stylesheet" href="<?= $baseUrl ?>css/postVenta.css">
 </head>
 
 <body>
@@ -67,37 +68,37 @@
         <div class="menu">
             <ul>
                 <li><a href="<?= $baseUrl ?>">INICIO</a></li>
-                <li><a href="#">NOSOTROS</a></li>
+                <li><a href="nosotros">NOSOTROS</a></li>
                 <li><a href="#">PROYECTOS</a>
                     <ul>
-                        <li><a href=""></a>LOS GERANIOS 328</li>
-                        <li><a href=""></a>ROMA 255</li>
-                        <li><a href=""></a>LAS LILAS 123</li>
-                        <li><a href=""></a>AURORA 1940</li>
-                        <li><a href=""></a>AQUA 2</li>
+                        <li><a href="">LOS GERANIOS 328</a></li>
+                        <li><a href="">ROMA 255</a></li>
+                        <li><a href="">LAS LILAS 123</a></li>
+                        <li><a href="">AURORA 1940</a></li>
+                        <li><a href="">AQUA 2</a></li>
                     </ul>
                 </li>
-                <li><a href="#">POST VENTA</a></li>
-                <li><a href="facilities.html">SERVICIO</a></li>
-                <li><a href="news.html">INVERSIONISTAS</a></li>
-                <li><a href="contact.html">COMUNÍCATE</a></li>
+                <li><a href="postVenta">POST VENTA</a></li>
+                <li><a href="servicio">SERVICIO</a></li>
+                <li><a href="inversionistas">INVERSIONISTAS</a></li>
+                <li><a href="comunicate">COMUNÍCATE</a></li>
             </ul>
         </div>
         <!-- end menu -->
         <div class="side-content">
             <figure> <img src="<?= $baseUrl ?>images/logo-crearq.png" alt="Image"> </figure>
-            <p>By aiming to take the life quality to an upper level with the whole realized Projects, Homepark continues to be the address of luxury.</p>
+            <p>Somos una compañía con más de 18 años de experiencia y mucha pasión por la arquitectura.</p>
             <ul class="gallery">
                 <li><a href="<?= $baseUrl ?>images/gallery-thumb01.jpg" data-fancybox><img src="<?= $baseUrl ?>images/gallery-thumb01.jpg" alt="Image"></a></li>
                 <li><a href="<?= $baseUrl ?>images/gallery-thumb02.jpg" data-fancybox><img src="<?= $baseUrl ?>images/gallery-thumb02.jpg" alt="Image"></a></li>
                 <li><a href="<?= $baseUrl ?>images/gallery-thumb03.jpg" data-fancybox><img src="<?= $baseUrl ?>images/gallery-thumb03.jpg" alt="Image"></a></li>
             </ul>
             <address>
-                Kyiv | G. Stalingrada Avenue, 6
-                Vilnius | Antakalnio St. 17
+                Roma | Av. Benavides 246
+                Miraflores | Parque Kennedy calle. 17
             </address>
-            <h6>+380(98)298-59-73</h6>
-            <p><a href="#">hello@homepark.com.ua</a></p>
+            <h6>+51 987 515 678</h6>
+            <p><a href="#">ventas@inversioneshi.com</a></p>
             <ul class="social-media">
                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -105,7 +106,7 @@
                 <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                 <li><a href="#"><i class="fab fa-youtube"></i></a></li>
             </ul>
-            <small>© 2019 Homepark | Real Estate & Luxury Homes</small>
+            <small>© 2024 Crearp | Encuetra tu nuevo hogar aqui</small>
         </div>
         <!-- end side-content -->
     </div>
@@ -116,11 +117,11 @@
                 <div class="logo"> <a href="index.html"><img src="<?= $baseUrl ?>images/logo-crearq.png" alt="Image"></a> </div>
                 <!-- end logo -->
                 <div class="phone-email"> <img src="<?= $baseUrl ?>images/icon-phone.png" alt="Image">
-                    <h4>+380(98)298-59-73</h4>
-                    <small><a href="#">hello@homepark.com.ua</a></small>
+                    <h4>+51 987 515 678</h4>
+                    <small><a href="#">ventas@inversioneshi.com</a></small>
                 </div>
                 <!-- end phone -->
-                <div class="language"> <a href="#">EN</a> <a href="#">UA</a> </div>
+                <div class="language"> <a href="#">ES</a></div>
                 <!-- end language -->
                 <div class="hamburger"> <span></span> <span></span> <span></span><span></span> </div>
                 <!-- end hamburger -->
@@ -129,20 +130,20 @@
             <div class="menu">
                 <ul>
                     <li><a href="<?= $baseUrl ?>">INICIO</a></li>
-                    <li><a href="#">NOSOTROS</a></li>
+                    <li><a href="nosotros">NOSOTROS</a></li>
                     <li><a href="#">PROYECTOS</a>
                         <ul>
-                            <li><a href=""></a>LOS GERANIOS 328</li>
-                            <li><a href=""></a>ROMA 255</li>
-                            <li><a href=""></a>LAS LILAS 123</li>
-                            <li><a href=""></a>AURORA 1940</li>
-                            <li><a href=""></a>AQUA 2</li>
+                            <li><a href="<?= $baseUrl ?>proyectos/los_geranios_328">LOS GERANIOS 328</a></li>
+                            <li><a href="<?= $baseUrl ?>proyectos/roma_255">ROMA 255</a></li>
+                            <li><a href="<?= $baseUrl ?>proyectos/las_lilas_123">LAS LILAS 123</a></li>
+                            <li><a href="<?= $baseUrl ?>proyectos/aurora_1940">AURORA 1940</a></li>
+                            <li><a href="<?= $baseUrl ?>proyectos/aqua_2">AQUA 2</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">POST VENTA</a></li>
-                    <li><a href="facilities.html">SERVICIO</a></li>
-                    <li><a href="news.html">INVERSIONISTAS</a></li>
-                    <li><a href="contact.html">COMUNÍCATE</a></li>
+                    <li><a href="postVenta">POST VENTA</a></li>
+                    <li><a href="servicio">SERVICIO</a></li>
+                    <li><a href="inversionistas">INVERSIONISTAS</a></li>
+                    <li><a href="comunicate">COMUNÍCATE</a></li>
                 </ul>
             </div>
             <!-- end menu -->

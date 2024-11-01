@@ -2,43 +2,40 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.05s"> <img src="<?= $baseUrl ?>images/logo-light.png" alt="Image" class="logo">
-                <p>By aiming to take the life quality to an upper level with the whole realized Projects, Homepark continues to be the address of luxury.</p>
-                <div class="select-box dropdown show"> <a class="dropdown-toggle" href="#" role="button" id="language-select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span><img src="<?= $baseUrl ?>images/flag-tr.svg" alt="Image"> Turkish</span> </a>
-                    <ul class="dropdown-menu" aria-labelledby="language-select">
+            <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.05s"> <img src="<?= $baseUrl ?>images/logo-crearq.png" alt="Image" class="logo">
+                <p>Crearp es crear, diseñar, idear, construir y proyectar innovación. Una arquitectura nueva y fresca plasmada en la mejor distribución de espacios en los departamentos.</p>
+                <div class="select-box dropdown show"> <a class="dropdown-toggle" href="#" role="button" id="language-select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span><img src="<?= $baseUrl ?>images/Flag_of_Peru.svg" alt="Image"> Perú</span> </a>
+                    <!-- <ul class="dropdown-menu" aria-labelledby="language-select">
                         <li><a class="dropdown-item" href="#"><img src="<?= $baseUrl ?>images/flag-en.svg" alt="Image"> English</a></li>
                         <li><a class="dropdown-item" href="#"><img src="<?= $baseUrl ?>images/flag-ua.svg" alt="Image"> Russian</a></li>
                         <li><a class="dropdown-item" href="#"><img src="<?= $baseUrl ?>images/flag-br.svg" alt="Image"> Portugues</a></li>
-                    </ul>
+                    </ul> -->
                 </div>
                 <!-- end select-box -->
             </div>
             <!-- end col-4 -->
             <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.10s">
                 <ul class="footer-menu">
-                    <li><a href="#">HOMPARK</a></li>
-                    <li><a href="#">Apartments</a></li>
-                    <li><a href="#">Facilities</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Incio</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Proyectos</a></li>
+                    <li><a href="#">Post Venta</a></li>
                 </ul>
             </div>
             <!-- end col-2 -->
             <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.15s">
                 <ul class="footer-menu">
-                    <li><a href="#">Suites</a></li>
-                    <li><a href="#">Apartments</a></li>
-                    <li><a href="#">Villas & Houses</a></li>
-                    <li><a href="#">Butique Room</a></li>
-                    <li><a href="#">Buildings</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Inversionistas</a></li>
+                    <li><a href="#">Contactanos</a></li>
                 </ul>
             </div>
             <!-- end col-2 -->
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.20s">
                 <div class="contact-box">
                     <h5>CALL CENTER</h5>
-                    <h3>+380(98)298-59-73</h3>
-                    <p><a href="#">hello@homepark.com.ua</a></p>
+                    <h3>+51 987 515 678</h3>
+                    <p><a href="#">ventas@inversioneshi.com</a></p>
                     <ul>
                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -50,7 +47,7 @@
                 <!-- end contact-box -->
             </div>
             <!-- end col-4 -->
-            <div class="col-12"> <span class="copyright">© 2019 Homepark | Real Estate &amp; Luxury Homes</span> <span class="creation">Site created by <a href="#">Themezinho</a></span> </div>
+            <div class="col-12"> <span class="copyright">© 2024 Crearq | Encuetra tu nuevo hogar aqui</span> <span class="creation">Sitio creado por <a href="#">Terminos</a></span> </div>
             <!-- end col-12 -->
         </div>
         <!-- end row -->
