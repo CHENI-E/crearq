@@ -68,7 +68,7 @@
         <div class="menu">
             <ul>
                 <li><a href="<?= $baseUrl ?>">INICIO</a></li>
-                <li><a href="nosotros">NOSOTROS</a></li>
+                <li><a href="<?= $baseUrl ?>nosotros">NOSOTROS</a></li>
                 <li><a href="#">PROYECTOS</a>
                     <ul>
                         <li><a href="">LOS GERANIOS 328</a></li>
@@ -78,10 +78,11 @@
                         <li><a href="">AQUA 2</a></li>
                     </ul>
                 </li>
-                <li><a href="postVenta">POST VENTA</a></li>
-                <li><a href="servicio">SERVICIO</a></li>
-                <li><a href="inversionistas">INVERSIONISTAS</a></li>
-                <li><a href="comunicate">COMUNÍCATE</a></li>
+                <li><a href="<?= $baseUrl ?>postVenta">POST VENTA</a></li>
+                <li><a href="<?= $baseUrl ?>servicio">SERVICIO</a></li>
+                <li><a href="<?= $baseUrl ?>inversionistas">INVERSIONISTAS</a></li>
+                <li><a href="<?= $baseUrl ?>blog">Blog</a></li>
+                <li><a href="<?= $baseUrl ?>comunicate">COMUNÍCATE</a></li>
             </ul>
         </div>
         <!-- end menu -->
@@ -130,7 +131,7 @@
             <div class="menu">
                 <ul>
                     <li><a href="<?= $baseUrl ?>">INICIO</a></li>
-                    <li><a href="nosotros">NOSOTROS</a></li>
+                    <li><a href="<?= $baseUrl ?>nosotros">NOSOTROS</a></li>
                     <li><a href="#">PROYECTOS</a>
                         <ul>
                             <li><a href="<?= $baseUrl ?>proyectos/los_geranios_328">LOS GERANIOS 328</a></li>
@@ -140,10 +141,11 @@
                             <li><a href="<?= $baseUrl ?>proyectos/aqua_2">AQUA 2</a></li>
                         </ul>
                     </li>
-                    <li><a href="postVenta">POST VENTA</a></li>
-                    <li><a href="servicio">SERVICIO</a></li>
-                    <li><a href="inversionistas">INVERSIONISTAS</a></li>
-                    <li><a href="comunicate">COMUNÍCATE</a></li>
+                    <li><a href="<?= $baseUrl ?>postVenta">POST VENTA</a></li>
+                    <li><a href="<?= $baseUrl ?>servicio">SERVICIO</a></li>
+                    <li><a href="<?= $baseUrl ?>inversionistas">INVERSIONISTAS</a></li>
+                    <li><a href="<?= $baseUrl ?>blog">BLOG</a></li>
+                    <li><a href="<?= $baseUrl ?>comunicate">COMUNÍCATE</a></li>
                 </ul>
             </div>
             <!-- end menu -->

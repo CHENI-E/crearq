@@ -15,7 +15,7 @@
 }
 </style>
 <!-- property-plans -->
-  <section class="get-consultation" data-background="<?= $baseUrl ?>images/servicios_1.jpg" data-stellar-background-ratio="0.6" style="background-size: 100%; background-position: 100% -1px;">
+<section class="get-consultation" data-background="<?= $baseUrl ?>images/servicios_1.jpg" data-stellar-background-ratio="0.6" style="background-size: 100%; background-position: 100% -1px;">
     <div class="container">
       <!-- <div class="row">
         <div class="col-lg-6 col-md-8 fadeInUp wow mt-5">
@@ -29,10 +29,10 @@
       </div> -->
       <!-- end row -->
     </div>
-    <!-- end container -->
-  </section>
+  <!-- end container -->
+</section>
   <!-- end recent-gallery -->
-  <section class="property-calculator">
+  <section class="property-calculator property-calculator-celeste">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6">
@@ -47,14 +47,13 @@
         <div class="col-lg-6 wow fadeInUp">
           <div class="content-box">
             <h4><span>Crearq</span> Buenos espacios</h4>
-            <h3>Decorated Flats in Pozniaky - Kiev</h3>
-            <p>The smaller male cones release pollen,
-              which fertilizes the female </p>
+            <h3>Hogares que crean recuerdos</h3>
+            <p>Es la gran oportunidad, ubicados a cuadras de centros principales </p>
             <ul>
               <li><img src="<?= $baseUrl ?>images/bank-logos01.jpg" alt="Image"></li>
               <li><img src="<?= $baseUrl ?>images/bank-logos02.jpg" alt="Image"></li>
             </ul>
-            <a href="#"><img src="<?= $baseUrl ?>images/icon-calculator.png" alt="Image"> Living Space Calculator</a>
+            <a href="#"><img src="<?= $baseUrl ?>images/icon-calculator.png" alt="Image"> Cuotas desde S/.2999</a>
           </div>
           <!-- end content-box -->
         </div>
@@ -214,6 +213,7 @@
     <!-- end container -->
   </section>
 
+  <!-- end logos -->
   <section class="footer-bar">
     <div class="container">
         <div class="inner wow fadeIn">

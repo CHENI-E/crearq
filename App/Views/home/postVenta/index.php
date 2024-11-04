@@ -22,14 +22,13 @@
     <div class="container">
         <div class="row">
             <div class="col-12 wow fadeInUp before-titulo-postVenta">
-                <h4 class="banner-titulo-postVenta">Nos esforzamos cada día por brindarles un <span>excelente servicio</span></h4>
+                <h3 class="banner-titulo-postVenta">Nos esforzamos cada día por brindarles un </h3> <h2><span style="color: #a555b6">excelente servicio</span></h2> 
             </div>
         </div>
         <!-- end row -->
     </div>
     <!-- end container -->
 </section>
-<!-- end page-header -->
 <section class="about-content" style="padding: 50px;">
     <div class="container">
         <section class="b1servicio">
@@ -167,23 +166,23 @@
             <div class="row">
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.05s">
                     <figure><img src="images/footer-icon01.png" alt="Image"></figure>
-                    <h3>Address Infos</h3>
-                    <p>Kyiv | G. Stalingrada Avenue, 6 <br>
-                        Vilnius | Antakalnio St. 17</p>
+                    <h3>Estamos ubicados</h3>
+                    <p>Calle Armando Blondet 217, Of. 501<br>
+                        San Isidro, Lima, Perú</p>
                 </div>
                 <!-- end col-4 -->
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.10s">
                     <figure><img src="images/footer-icon02.png" alt="Image"></figure>
-                    <h3>Working Hours</h3>
-                    <p>Monday to Friday <strong>09:00</strong> to <strong>18:30</strong> <br>
-                        Saturday we work until <strong>15:30</strong></p>
+                    <h3>Horario de atencion</h3>
+                    <p>Lunes a Viernes <strong>09:00</strong> a <strong>18:30</strong> <br>
+                        Sabados y Domingos <strong>15:30</strong></p>
                 </div>
                 <!-- end col-4 -->
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.15s">
                     <figure><img src="images/footer-icon03.png" alt="Image"></figure>
-                    <h3>Sales Office</h3>
-                    <p>Boryssa Himry 124 B Block Pozniaky<br>
-                        Kiev Oblast - Ukraine</p>
+                    <h3>Nuestras oficinas</h3>
+                    <p>Calle Armando Blondet 217, Of. 501<br>
+                        San Isidro, Lima, Perú</p>
                 </div>
                 <!-- end col-4 -->
             </div>

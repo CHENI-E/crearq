@@ -866,11 +866,11 @@ button[type=submit] {
 /* SLIDER */
 .slider {
   width: 100%;
-  height: 100vh;
+  height:100vh;
   min-height: 600px;
   display: flex;
   flex-wrap: wrap;
-  background: #26282b;
+  background: #fff;
   overflow: hidden;
 }
 .slider .slider-container {
@@ -897,6 +897,7 @@ button[type=submit] {
   justify-content: center;
   align-content: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 /* POR ACA SE CAMBIA EL COLOR DEL FONDO DE LOS SLIDERS PRINCIPALES CARRUSEL*/
 .slider .slider-container .swiper-slide:after {
@@ -1115,7 +1116,7 @@ button[type=submit] {
 /* PAGE HEADER */
 .page-header {
   width: 100%;
-  height: 500px;
+  height: 90vh;
   display: flex;
   flex-wrap: wrap;
   padding-top: 200px;
@@ -1464,11 +1465,43 @@ button[type=submit] {
   background: #a555b6;
   position: relative;
 }
+.property-calculator-celeste figure {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: -20px;
+  background: #20a7ae;
+  position: relative;
+}
+.property-calculator-verde figure {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: -20px;
+  background: #68b330;
+  position: relative;
+}
 .property-calculator figure:before {
   content: "";
   width: 50vw;
   height: 100%;
   background: #a555b6;
+  position: absolute;
+  left: -50vw;
+  top: 0;
+}
+.property-calculator-celeste figure:before {
+  content: "";
+  width: 50vw;
+  height: 100%;
+  background: #20a7ae;
+  position: absolute;
+  left: -50vw;
+  top: 0;
+}
+.property-calculator-verde figure:before {
+  content: "";
+  width: 50vw;
+  height: 100%;
+  background: #68b330;
   position: absolute;
   left: -50vw;
   top: 0;
@@ -1491,7 +1524,8 @@ button[type=submit] {
 }
 .property-calculator figure .holder img {
   box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
-  width: 525px;
+  /* width: 525px; */
+  width: 900px;
 }
 .property-calculator .content-box {
   display: block;
@@ -1618,7 +1652,7 @@ button[type=submit] {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 150px;
+  padding-top: 175px;
   margin-bottom: 100px;
   background-size: auto 120%;
   background-position: right;
@@ -2772,7 +2806,8 @@ button[type=submit] {
 }
 .contact .map .holder iframe {
   box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
-  width: 525px;
+  /* width: 525px; */
+  width: 970px;
   height: 657px;
   border: none;
 }

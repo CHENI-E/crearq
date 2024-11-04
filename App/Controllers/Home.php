@@ -48,6 +48,20 @@ class Home
         View::render($views, $args);
     }
 
+    public function view_blog()
+    {
+        $views = ['home/blog/index'];
+        $args  = ['title' => 'Crearq | Blog'];
+        View::render($views, $args);
+    }
+
+    public function view_comunicate()
+    {
+        $views = ['home/comunicate/index'];
+        $args  = ['title' => 'Crearq | Comunicate'];
+        View::render($views, $args);
+    }
+
     public function exampleWithArgs($id = null)
     {
         $views = ['home/example_with_args'];

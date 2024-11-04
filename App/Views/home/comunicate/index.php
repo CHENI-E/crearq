@@ -14,47 +14,33 @@
     list-style: none;
 }
 </style>
-<!-- property-plans -->
-  <section class="get-consultation" data-background="<?= $baseUrl ?>images/servicios_1.jpg" data-stellar-background-ratio="0.6" style="background-size: 100%; background-position: 100% -1px;">
+<section class="get-consultation" data-background="<?= $baseUrl ?>images/comunicate-4.jpg" data-stellar-background-ratio="0.6" style="background-size: 100%; background-position: 100% -1px;">
     <div class="container">
-      <!-- <div class="row">
-        <div class="col-lg-6 col-md-8 fadeInUp wow mt-5">
-          <div class="content-box">
-            <h4><span>Crearq</span> VASDASDASDASDASDo</h4>
-            <h3>Tu hogar ideal te espera.</h3>
-            <p>Cada rincón de nuestros hogares está diseñado con acabados de calidad, garantizando elegancia y durabilidad en tu espacio.</p>
+      <div class="row">
+        <div class="col-lg-4 col-md-8 fadeInUp wow mt-5">
+          <div class="content-box" style="height: 550px;">
+            <h4><span>Crearq</span> Vive el sueño</h4>
+            <h3>Facilidad de contacto y respuesta rápida.</h3>
+            <p>Comunicación inmediata, ofrecemos múltiples formas de contacto (teléfono, WhatsApp, redes sociales, etc.) y nos aseguramos en responder con rapidez.</p>
             <a href="#">CONTACTANOS <i class="fas fa-caret-right"></i></a>
           </div>
+          <!-- end content-box -->
         </div>
-      </div> -->
-      <!-- end row -->
-    </div>
-    <!-- end container -->
-  </section>
-  <!-- end recent-gallery -->
-  <section class="property-calculator">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6">
-          <figure>
-            <div class="pattern-bg" data-stellar-ratio="1.03"></div>
-            <!-- end pattern-bg -->
-            <div class="holder" data-stellar-ratio="1.07"> <img src="<?= $baseUrl ?>images/gallery-thumb05.jpg" alt="Image"></div>
-            <!-- end holder -->
-          </figure>
+        <div class="col-lg-4 col-md-8 fadeInUp wow mt-5">
+          <div class="content-box" style="background: #20a7ae; height: 550px;">
+            <h4><span>Crearq</span> Vive el sueño</h4>
+            <h3>Guías personalizadas.</h3>
+            <p>Entrega al cliente una guía paso a paso o un análisis de inversión personalizado después de una breve consulta, para que vea el valor y profesionalismo que puedes aportar.</p>
+            <a href="#">CONTACTANOS <i class="fas fa-caret-right"></i></a>
+          </div>
+          <!-- end content-box -->
         </div>
-        <!-- end col-6 -->
-        <div class="col-lg-6 wow fadeInUp">
-          <div class="content-box">
-            <h4><span>Crearq</span> Buenos espacios</h4>
-            <h3>Decorated Flats in Pozniaky - Kiev</h3>
-            <p>The smaller male cones release pollen,
-              which fertilizes the female </p>
-            <ul>
-              <li><img src="<?= $baseUrl ?>images/bank-logos01.jpg" alt="Image"></li>
-              <li><img src="<?= $baseUrl ?>images/bank-logos02.jpg" alt="Image"></li>
-            </ul>
-            <a href="#"><img src="<?= $baseUrl ?>images/icon-calculator.png" alt="Image"> Living Space Calculator</a>
+        <div class="col-lg-4 col-md-8 fadeInUp wow mt-5">
+          <div class="content-box" style="background: #68b330; height: 550px;">
+            <h4><span>Crearq</span> Vive el sueño</h4>
+            <h3>Credibilidad y confianza.</h3>
+            <p>Mostramos nuestras experiencias y resultados comprobables, ya sea con testimonios de clientes satisfechos, historias de éxito o reseñas positivas.</p>
+            <a href="#">CONTACTANOS <i class="fas fa-caret-right"></i></a>
           </div>
           <!-- end content-box -->
         </div>
@@ -64,63 +50,49 @@
     </div>
     <!-- end container -->
   </section>
-  <!-- end property-calculator -->
-  <!-- end get-consultation -->
-  <section class="property-plans about-content">
+<section class="about-content" style="padding: 50px;">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6 wow fadeInUp"> <b>05</b>
-          <h4><span>Crearq</span> Adaptable</h4>
-          <h3>Hogares que crean recuerdos</h3>
-          <p>Te esperamos en nuestra oficina de ventas para que tengas todas estas oportunidades con precios accesibles y oportunidades de pago adecuadas...</p>
-          <table>
-            <tbody>
-              <tr>
-                <td>Total area:</td>
-                <td>100 m²</td>
-              </tr>
-              <tr>
-                <td>Comedor:</td>
-                <td>1 principal</td>
-              </tr>
-              <tr>
-                <td>Baños:</td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>Espacio:</td>
-                <td>Sala - Comedor</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+    <section class="contact about-content">
+  <div class="container">
+    <div class="row align-items-center">
+   	<div class="col-lg-6 wow fadeInUp"> <b>01</b>
+        <h4><span>Crearq</span> Tu hogar ideal te espera</h4>
+        <small>Vive tus sueños </small> </div>
         <!-- end col-6 -->
-        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.05s">
-          <ul class="nav nav-pills" id="pills-tab" role="tablist">
-            <li class="nav-item"> <a class="nav-link active" data-toggle="pill" href="#tab-one">1 Sala 47m²</a> </li>
-            <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#tab-two" role="tab">2 Sala 65m²</a> </li>
-            <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#tab-three" role="tab">3 Sala 90m²</a> </li>
-          </ul>
-          <div class="tab-content">
-            <div class="tab-pane fade show active" id="tab-one">
-              <figure><img src="<?= $baseUrl ?>images/plan01.jpg" alt="Image"></figure>
-            </div>
-            <!-- end tab-pane -->
-            <div class="tab-pane fade" id="tab-two">
-              <figure><img src="<?= $baseUrl ?>images/plan02.jpg" alt="Image"></figure>
-            </div>
-            <!-- end tab-pane -->
-            <div class="tab-pane fade" id="tab-three">
-              <figure><img src="<?= $baseUrl ?>images/plan03.jpg" alt="Image"></figure>
-            </div>
-            <!-- end tab-pane -->
+        <div class="col-lg-3 col-md-6 wow fadeInUp"> 
+        <address>
+        	<strong>Visitanos</strong>
+        	<p>Calle Armando Blondet 217, Of. 501<br>San Isidro, Lima, Perú</p>
+        </address>
+	   </div>
+        <!-- end col-3 -->
+        <div class="col-lg-3 col-md-6 wow fadeInUp"> 
+        <address>
+        	<strong>Contáctanos</strong>
+        	<p><a href="#">ventas@inversioneshi.com</a> <br>+51 987 515 678</p>
+        </address>
+	   </div>
+        <!-- end col-3 -->
+	  </div>
+       <!-- end row -->
+    <div class="row align-items-center">
+      <div class="col-lg-12">
+        <div class="map">
+          <div class="pattern-bg" data-stellar-ratio="1.03"></div>
+          <!-- end pattern-bg -->
+          <div class="holder" data-stellar-ratio="1.07"> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.2378765886474!2d-73.97644805915624!3d40.69075842971381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bb6c6fe52c7%3A0x2b3bb16e97b13c01!2sFort+Greene+Tennis+Courts!5e0!3m2!1sen!2str!4v1559831164025!5m2!1sen!2str" allowfullscreen></iframe>
           </div>
-          <!-- end tab-contnet -->
+          <!-- end holder --> 
         </div>
-        <!-- end col-6 -->
-      </div>
-      <!-- end row -->
-      <section class="b2servicio">
+      <!-- end map -->
+    </div>
+   </div>
+    <!-- end row --> 
+  </div>
+  <!-- end container --> 
+</section>
+        <section class="b2servicio">
             <div class="b2servicio_deco1"><img src="<?= $baseUrl ?>images/contacto-deco2.png" width="141" height="200"></div>
             <div class="b2servicio_container ww_center">
                 <div class="b2servicio_deco2"><img src="<?= $baseUrl ?>images/contacto-deco1.png" width="226" height="439"></div>
@@ -210,11 +182,12 @@
                 </div>
             </div>
         </section>
+        <!-- end row -->
     </div>
     <!-- end container -->
-  </section>
-
-  <section class="footer-bar">
+</section>
+<!-- end about-content -->
+<section class="footer-bar">
     <div class="container">
         <div class="inner wow fadeIn">
             <div class="row">

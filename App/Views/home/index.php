@@ -21,7 +21,7 @@
           <!-- end container -->
         </div>
         <!-- end swiper-slide -->
-        <div class="swiper-slide" data-background="<?= $baseUrl ?>images/slide03.jpg" data-stellar-background-ratio="1.15">
+        <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada/portada-aurora.png" data-stellar-background-ratio="1.15">
           <div class="container">
             <h1><span>Roma</span> Miraflores</h1>
             <h2>Entre Febrero 2025</h2>
@@ -536,33 +536,33 @@
   <!-- end certificates -->
   <section class="footer-bar">
     <div class="container">
-      <div class="inner wow fadeIn">
-        <div class="row">
-          <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.05s">
-            <figure><img src="<?= $baseUrl ?>images/footer-icon01.png" alt="Image"></figure>
-            <h3>Address Infos</h3>
-            <p>Kyiv | G. Stalingrada Avenue, 6 <br>
-              Vilnius | Antakalnio St. 17</p>
-          </div>
-          <!-- end col-4 -->
-          <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.10s">
-            <figure><img src="<?= $baseUrl ?>images/footer-icon02.png" alt="Image"></figure>
-            <h3>Working Hours</h3>
-            <p>Monday to Friday <strong>09:00</strong> to <strong>18:30</strong> <br>
-              Saturday we work until <strong>15:30</strong></p>
-          </div>
-          <!-- end col-4 -->
-          <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.15s">
-            <figure><img src="<?= $baseUrl ?>images/footer-icon03.png" alt="Image"></figure>
-            <h3>Sales Office</h3>
-            <p>Boryssa Himry 124 B Block Pozniaky<br>
-              Kiev Oblast - Ukraine</p>
-          </div>
-          <!-- end col-4 -->
+        <div class="inner wow fadeIn">
+            <div class="row">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.05s">
+                    <figure><img src="images/footer-icon01.png" alt="Image"></figure>
+                    <h3>Estamos ubicados</h3>
+                    <p>Calle Armando Blondet 217, Of. 501<br>
+                        San Isidro, Lima, Perú</p>
+                </div>
+                <!-- end col-4 -->
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.10s">
+                    <figure><img src="images/footer-icon02.png" alt="Image"></figure>
+                    <h3>Horario de atencion</h3>
+                    <p>Lunes a Viernes <strong>09:00</strong> a <strong>18:30</strong> <br>
+                        Sabados y Domingos <strong>15:30</strong></p>
+                </div>
+                <!-- end col-4 -->
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.15s">
+                    <figure><img src="images/footer-icon03.png" alt="Image"></figure>
+                    <h3>Nuestras oficinas</h3>
+                    <p>Calle Armando Blondet 217, Of. 501<br>
+                        San Isidro, Lima, Perú</p>
+                </div>
+                <!-- end col-4 -->
+            </div>
+            <!-- end row -->
         </div>
-        <!-- end row -->
-      </div>
-      <!-- end inner -->
+        <!-- end inner -->
     </div>
     <!-- end container -->
-  </section>
+</section>
