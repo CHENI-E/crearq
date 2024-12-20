@@ -1650,10 +1650,10 @@ button[type=submit] {
 /* GET CONSULTATION */
 .get-consultation {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 175px;
-  margin-bottom: 100px;
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* padding-top: 175px; */
+  /* margin-bottom: 100px; */
   background-size: auto 120%;
   background-position: right;
   background-repeat: no-repeat;
@@ -2725,7 +2725,7 @@ button[type=submit] {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 150px 0;
+  padding: 10px 0;
 }
 .contact b {
   display: block;
@@ -2778,6 +2778,7 @@ button[type=submit] {
   margin-top: 100px;
   background: #a555b6;
   position: relative;
+  left: -20vw;
 }
 .contact .map:before {
   content: "";
