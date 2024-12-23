@@ -1,18 +1,20 @@
 <style>
-.b2servicio_form {
-    width: 100% !important;
-    -webkit-box-sizing: border-box !important;
-    -moz-box-sizing: border-box !important;
-    box-sizing: border-box !important;
-}
-.ul-config{
-    margin: auto !important;
-    padding: 0 !important;
-    border: 0 !important;
-}
-.ul-config li{
-    list-style: none;
-}
+    .b2servicio_form {
+        width: 100% !important;
+        -webkit-box-sizing: border-box !important;
+        -moz-box-sizing: border-box !important;
+        box-sizing: border-box !important;
+    }
+
+    .ul-config {
+        margin: auto !important;
+        padding: 0 !important;
+        border: 0 !important;
+    }
+
+    .ul-config li {
+        list-style: none;
+    }
 </style>
 <section class="property-customization" style="padding: 260px;">
     <div class="video-bg" style="background: linear-gradient(161deg, #26282b 0%, #26282b 60%, #20a7ae 100%);">
@@ -22,7 +24,8 @@
     <div class="container">
         <div class="row">
             <div class="col-12 wow fadeInUp before-titulo-postVenta">
-                <h3 class="banner-titulo-postVenta">Nos esforzamos cada día por brindarles un </h3> <h2><span style="color: #a555b6">excelente servicio</span></h2> 
+                <h3 class="banner-titulo-postVenta">Nos esforzamos cada día por brindarles un </h3>
+                <h2><span style="color: #a555b6">excelente servicio</span></h2>
             </div>
         </div>
         <!-- end row -->
@@ -31,8 +34,9 @@
 </section>
 <section class="about-content" style="padding: 50px;">
     <div class="container">
-        <section class="b1servicio">
-            <div class="b1servicio_content">
+        <section class="b1servicio row">
+
+            <div class="b1servicio_content col-lg-6">
                 <div class="b1servicio_wrap ww_center">
                     <div class="b1servicio_title">
                         <div class="title_light title_40 title_black"><span>POST VENTA</span>
@@ -40,8 +44,8 @@
                         </div>
                     </div>
                     <div class="b1servicio_text">
-                        <p>En Crearq, nuestro equipo de postventa está disponible para asegurarse de que tu experiencia sea completamente satisfactoria. 
-                            Te ofrecemos asistencia personalizada para resolver cualquier duda o inquietud que puedas tener, así como apoyo en la gestión de trámites y 
+                        <p>En Crearq, nuestro equipo de postventa está disponible para asegurarse de que tu experiencia sea completamente satisfactoria.
+                            Te ofrecemos asistencia personalizada para resolver cualquier duda o inquietud que puedas tener, así como apoyo en la gestión de trámites y
                             servicios relacionados con tu propiedad. Tu tranquilidad es nuestra misión, y estamos aquí para acompañarte en cada etapa, incluso después de la firma.</p>
                     </div>
                     <div class="b1servicio_info">
@@ -62,100 +66,93 @@
                     </div> -->
                 </div>
             </div>
-            <div class="b1servicio_img" style="background-image: url('<?= $baseUrl ?>images/post_venta_1.jpg');">
-            </div>
-        </section>
-        <section class="b2servicio">
-            <div class="b2servicio_deco1"><img src="<?= $baseUrl ?>images/contacto-deco2.png" width="141" height="200"></div>
-            <div class="b2servicio_container ww_center">
-                <div class="b2servicio_deco2"><img src="<?= $baseUrl ?>images/contacto-deco1.png" width="226" height="439"></div>
-                <div class="b2servicio_content">
-                    <div class="b2servicio_title">
-                        <h2>DÉJANOS TUS DATOS
-                        </h2>
-                    </div>
-                    <form class="b2servicio_form" action="/atencion-al-cliente/" id="formServicio" method="post"
-                        data-hs-cf-bound="true">
-                        <div class="b2servicio_dni">
-                            <div class="input_select_box"><label>Documento de Identidad*</label>
-                                <div class="input_select_left">
-                                    <div class="input input_select"><span class="icon-arrow-bottom"></span><select
-                                            class="validate[required]" name="document_type">
-                                            <option value="DNI" selected="">DNI</option>
-                                            <option value="CE">CE</option>
-                                            <option value="Pasaporte">Pasaporte</option>
-                                        </select></div>
-                                </div>
-                                <div class="input_select_right">
-                                    <div class="input"><input class="validate[required] soloNumber" type="number"
-                                            name="document"></div>
-                                </div>
+
+            <div class="b2servicio_content col-lg-6">
+                <div class="b2servicio_title">
+                    <h2>DÉJANOS TUS DATOS
+                    </h2>
+                </div>
+                <form class="b2servicio_form" action="/atencion-al-cliente/" id="formServicio" method="post"
+                    data-hs-cf-bound="true">
+                    <div class="b2servicio_dni px-1">
+                        <div class="input_select_box"><label>Documento de Identidad*</label>
+                            <div class="input_select_left">
+                                <div class="input input_select"><span class="icon-arrow-bottom"></span><select
+                                        class="validate[required]" name="document_type">
+                                        <option value="DNI" selected="">DNI</option>
+                                        <option value="CE">CE</option>
+                                        <option value="Pasaporte">Pasaporte</option>
+                                    </select></div>
+                            </div>
+                            <div class="input_select_right">
+                                <div class="input"><input class="validate[required] soloNumber" type="number"
+                                        name="document"></div>
                             </div>
                         </div>
-                        <ul class="ul-config">
-                            <li>
-                                <div class="input"><label>Nombre*</label><input class="validate[required]" type="text"
-                                        name="name"></div>
-                            </li>
-                            <li class="ml-lg-3">
-                                <div class="input"><label>Apellidos*</label><input class="validate[required]"
-                                        type="text" name="lastname"></div>
-                            </li>
-                            <li>
-                                <div class="input"><label>Email *</label><input class="validate[required,custom[email]]"
-                                        type="email" name="email"></div>
-                            </li>
-                            <li class="ml-lg-3">
-                                <div class="input"><label>Télefono / Celular*</label><input
-                                        class="validate[required, custom[phone]] soloNumber" type="number" name="phone">
+                    </div>
+                    <ul class="ul-config row d-flex justify-content-between">
+                        <li class="col-lg-6 px-1">
+                            <div class="input"><label>Nombre*</label><input class="validate[required]" type="text"
+                                    name="name"></div>
+                        </li>
+                        <li class="col-lg-6 px-1">
+                            <div class="input"><label>Apellidos*</label><input class="validate[required]"
+                                    type="text" name="lastname"></div>
+                        </li>
+                        <li class="col-lg-6 px-1">
+                            <div class="input"><label>Email *</label><input class="validate[required,custom[email]]"
+                                    type="email" name="email"></div>
+                        </li>
+                        <li class="col-lg-6 px-1">
+                            <div class="input"><label>Télefono / Celular*</label><input
+                                    class="validate[required, custom[phone]] soloNumber" type="number" name="phone">
+                            </div>
+                        </li>
+                        <li class="col-lg-6 px-1">
+                            <div class="input"><label>Proyecto</label>
+                                <div class="input_select"><span class="icon-arrow-bottom"></span><select
+                                        class="validate[required]" id="form_support_project" name="project">
+                                        <option value="" disabled="disabled" selected="selected">Seleccione*</option>
+                                        <option value="LOS GERANIOS 328" data-id="aliaga-435">LOS GERANIOS 328</option>
+                                        <option value="ROMA 255" data-id="patria">ROMA 255</option>
+                                        <option value="LAS LILAS 123" data-id="legado-torre-a">LAS LILAS 123</option>
+                                        <option value="AUROSA 1940" data-id="legado-torre-a">AUROSA 1940</option>
+                                        <option value="AQUA 2" data-id="legado-torre-a">AQUA 2</option>
+                                    </select><input type="hidden" id="form_support_project_id" name="project_id">
                                 </div>
-                            </li>
-                            <li>
-                                <div class="input"><label>Proyecto</label>
-                                    <div class="input_select"><span class="icon-arrow-bottom"></span><select
-                                            class="validate[required]" id="form_support_project" name="project">
-                                            <option value="" disabled="disabled" selected="selected">Seleccione*</option>
-                                            <option value="LOS GERANIOS 328" data-id="aliaga-435">LOS GERANIOS 328</option>
-                                            <option value="ROMA 255" data-id="patria">ROMA 255</option>
-                                            <option value="LAS LILAS 123" data-id="legado-torre-a">LAS LILAS 123</option>
-                                            <option value="AUROSA 1940" data-id="legado-torre-a">AUROSA 1940</option>
-                                            <option value="AQUA 2" data-id="legado-torre-a">AQUA 2</option>
-                                        </select><input type="hidden" id="form_support_project_id" name="project_id">
-                                    </div>
+                            </div>
+                        </li>
+                        <li class="col-lg-6 px-1">
+                            <div class="input"><label>Número de departamento</label><input name="numero_deaprtamento" type="text"></div>
+                        </li>
+                        <li class="col-lg-12 px-1">
+                            <div class="input input_textarea"><label>Detalle del Problema</label><textarea name="message"
+                                    placeholder="Mensaje"></textarea></div>
+                        </li>
+                    </ul>
+                    <div class="b2servicio_campos px-1">
+                        <p>(*) Campos obligatorios</p>
+                    </div>
+                    <div class="b2servicio_check px-1">
+                        <div class="input_checkbox"><input class="validate[required]" type="checkbox"
+                                id="supportcheck" name="terminos"><label for="supportcheck">
+                                <div class="input_checkbox_box"></div>
+                                <div class="input_checkbox_text">He leído y acepto la
+                                    <a href="/terminos-y-condiciones/" target="_blank">Términos y condiciones</a>
+                                    y las
+                                    <a href="/politicas-de-privacidad/" target="_blank">Políticas de Privacidad</a>
+                                    de Crearq.
                                 </div>
-                            </li>
-                            <li class="ml-lg-3">
-                                <div class="input"><label>Tipo de departamento</label><input name="project_type"
-                                        type="text"></div>
-                            </li>
-                            <li class="full">
-                                <div class="input input_textarea"><label>Mensaje</label><textarea name="message"
-                                        placeholder="Mensaje"></textarea></div>
-                            </li>
-                        </ul>
-                        <div class="b2servicio_campos">
-                            <p>(*) Campos obligatorios</p>
-                        </div>
-                        <div class="b2servicio_check">
-                            <div class="input_checkbox"><input class="validate[required]" type="checkbox"
-                                    id="supportcheck" name="terminos"><label for="supportcheck">
-                                    <div class="input_checkbox_box"></div>
-                                    <div class="input_checkbox_text">He leído y acepto la
-                                        <a href="/terminos-y-condiciones/" target="_blank">Términos y condiciones</a>
-                                        y las
-                                        <a href="/politicas-de-privacidad/" target="_blank">Políticas de Privacidad</a>
-                                        de Crearq.
-                                    </div>
-                                </label></div>
-                        </div><input type="hidden" id="form__token"
-                            value="DFv6KfFCPIaf9cvqh_gEG_GpO9w2LwexIQ7Q2xfnFZI">
-                        <div class="b2servicio_btn" id="btnServicio"><a class="btn btnServicio"
-                                style="cursor: pointer; background-color: #68b330;"><span class="text-white">Enviar mis datos</span></a></div>
-                    </form>
-                </div>
+                            </label></div>
+                    </div><input type="hidden" id="form__token"
+                        value="DFv6KfFCPIaf9cvqh_gEG_GpO9w2LwexIQ7Q2xfnFZI">
+                    <div class="b2servicio_btn px-1" id="btnServicio"><a class="btn btnServicio"
+                            style="cursor: pointer; background-color: #68b330;"><span class="text-white">Enviar mis datos</span></a></div>
+                </form>
             </div>
+
         </section>
-        <!-- end row -->
+
     </div>
     <!-- end container -->
 </section>
@@ -180,9 +177,9 @@
                 <!-- end col-4 -->
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.15s">
                     <figure><img src="images/footer-icon03.png" alt="Image"></figure>
-                    <h3>Nuestras oficinas</h3>
-                    <p>Calle Armando Blondet 217, Of. 501<br>
-                        San Isidro, Lima, Perú</p>
+                    <h3>Contáctanos</h3>
+                    <p>+ 51 987 515 678<br>
+                    gerencia@crearqinmobiliaria.com</p>
                 </div>
                 <!-- end col-4 -->
             </div>

@@ -67,7 +67,7 @@
                             </div>
                             <form class="b2servicio_form" action="/atencion-al-cliente/" id="formServicio" method="post"
                                 data-hs-cf-bound="true">
-                                <div class="b2servicio_dni">
+                                <div class="b2servicio_dni px-1">
                                     <div class="input_select_box"><label>Documento de Identidad*</label>
                                         <div class="input_select_left">
                                             <div class="input input_select"><span class="icon-arrow-bottom"></span><select
@@ -84,24 +84,24 @@
                                     </div>
                                 </div>
                                 <ul class="ul-config row d-flex justify-content-between">
-                                    <li class="col-lg-6 pr-1">
+                                    <li class="col-lg-6 px-1">
                                         <div class="input"><label>Nombre*</label><input class="validate[required]" type="text"
                                                 name="name"></div>
                                     </li>
-                                    <li class="col-lg-6 pl-1">
+                                    <li class="col-lg-6 px-1">
                                         <div class="input"><label>Apellidos*</label><input class="validate[required]"
                                                 type="text" name="lastname"></div>
                                     </li>
-                                    <li class="col-lg-6 pr-1">
+                                    <li class="col-lg-6 px-1">
                                         <div class="input"><label>Email *</label><input class="validate[required,custom[email]]"
                                                 type="email" name="email"></div>
                                     </li>
-                                    <li class="col-lg-6 pl-1">
+                                    <li class="col-lg-6 px-1">
                                         <div class="input"><label>Télefono / Celular*</label><input
                                                 class="validate[required, custom[phone]] soloNumber" type="number" name="phone">
                                         </div>
                                     </li>
-                                    <li class="col-lg-6 pr-1">
+                                    <li class="col-lg-6 px-1">
                                         <div class="input"><label>Proyecto</label>
                                             <div class="input_select"><span class="icon-arrow-bottom"></span><select
                                                     class="validate[required]" id="form_support_project" name="project">
@@ -115,19 +115,19 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="col-lg-6 pl-1">
+                                    <li class="col-lg-6 px-1">
                                         <div class="input"><label>Tipo de departamento</label><input name="project_type"
                                                 type="text"></div>
                                     </li>
-                                    <li class="col-lg-12">
+                                    <li class="col-lg-12 px-1">
                                         <div class="input input_textarea"><label>Mensaje</label><textarea name="message"
                                                 placeholder="Mensaje"></textarea></div>
                                     </li>
                                 </ul>
-                                <div class="b2servicio_campos">
+                                <div class="b2servicio_campos px-1">
                                     <p>(*) Campos obligatorios</p>
                                 </div>
-                                <div class="b2servicio_check">
+                                <div class="b2servicio_check px-1">
                                     <div class="input_checkbox"><input class="validate[required]" type="checkbox"
                                             id="supportcheck" name="terminos"><label for="supportcheck">
                                             <div class="input_checkbox_box"></div>
@@ -140,14 +140,14 @@
                                         </label></div>
                                 </div><input type="hidden" id="form__token"
                                     value="DFv6KfFCPIaf9cvqh_gEG_GpO9w2LwexIQ7Q2xfnFZI">
-                                <div class="b2servicio_btn" id="btnServicio"><a class="btn btnServicio"
+                                <div class="b2servicio_btn px-1" id="btnServicio"><a class="btn btnServicio"
                                         style="cursor: pointer; background-color: #68b330;"><span class="text-white">Enviar mis datos</span></a></div>
                             </form>
                         </div>
                     </div>
 
                     <div class="col-lg-6 pt-5 order-lg-1">
-                        <iframe style="width:100%; height:100%;" 
+                        <iframe style="width:100%; height:100%;"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.2378765886474!2d-73.97644805915624!3d40.69075842971381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bb6c6fe52c7%3A0x2b3bb16e97b13c01!2sFort+Greene+Tennis+Courts!5e0!3m2!1sen!2str!4v1559831164025!5m2!1sen!2str" allowfullscreen></iframe>
                     </div>
 
@@ -182,9 +182,9 @@
                 <!-- end col-4 -->
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.15s">
                     <figure><img src="images/footer-icon03.png" alt="Image"></figure>
-                    <h3>Nuestras oficinas</h3>
-                    <p>Calle Armando Blondet 217, Of. 501<br>
-                        San Isidro, Lima, Perú</p>
+                    <h3>Contáctanos</h3>
+                    <p>+ 51 987 515 678<br>
+                    gerencia@crearqinmobiliaria.com</p>
                 </div>
                 <!-- end col-4 -->
             </div>

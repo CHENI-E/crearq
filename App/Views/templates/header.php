@@ -112,23 +112,39 @@
         <!-- end side-content -->
     </div>
     <!-- end side-navigation -->
+     
     <nav class="navbar">
         <div class="container">
             <div class="upper-side">
                 <div class="logo"> <a href="index.html"><img src="<?= $baseUrl ?>images/logo-crearq.png" alt="Image"></a> </div>
                 <!-- end logo -->
-                <div class="phone-email"> <img src="<?= $baseUrl ?>images/icon-phone.png" alt="Image">
-                    <h4>+51 987 515 678</h4>
-                    <small><a href="#">ventas@inversioneshi.com</a></small>
+                
+                <div class="phone-email pr-5">
+                    <div class="menu">
+                        <ul class="mb-0">
+                            <li><a href="<?= $baseUrl ?>">INICIO</a></li>
+                            <li><a href="<?= $baseUrl ?>nosotros">NOSOTROS</a></li>
+                            <li><a href="#">PROYECTOS</a>
+                                <ul>
+                                    <li><a href="<?= $baseUrl ?>proyectos/los_geranios_328">LOS GERANIOS 328</a></li>
+                                    <li><a href="<?= $baseUrl ?>proyectos/roma_255">ROMA 255</a></li>
+                                    <li><a href="<?= $baseUrl ?>proyectos/las_lilas_123">LAS LILAS 123</a></li>
+                                    <li><a href="<?= $baseUrl ?>proyectos/aurora_1940">AURORA 1940</a></li>
+                                    <li><a href="<?= $baseUrl ?>proyectos/aqua_2">AQUA 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="<?= $baseUrl ?>postVenta">POST VENTA</a></li>
+                            <li><a href="<?= $baseUrl ?>servicio">SERVICIO</a></li>
+                            <li><a href="<?= $baseUrl ?>inversionistas">INVERSIONISTAS</a></li>
+                            <li><a href="<?= $baseUrl ?>blog">BLOG</a></li>
+                            <li><a href="<?= $baseUrl ?>comunicate">COMUNÍCATE</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <!-- end phone -->
-                <div class="language"> <a href="#">ES</a></div>
-                <!-- end language -->
                 <div class="hamburger"> <span></span> <span></span> <span></span><span></span> </div>
-                <!-- end hamburger -->
             </div>
-            <!-- end upper-side -->
-            <div class="menu">
+
+            <!-- <div class="menu">
                 <ul>
                     <li><a href="<?= $baseUrl ?>">INICIO</a></li>
                     <li><a href="<?= $baseUrl ?>nosotros">NOSOTROS</a></li>
@@ -147,8 +163,8 @@
                     <li><a href="<?= $baseUrl ?>blog">BLOG</a></li>
                     <li><a href="<?= $baseUrl ?>comunicate">COMUNÍCATE</a></li>
                 </ul>
-            </div>
-            <!-- end menu -->
+            </div> -->
+
         </div>
         <!-- end container -->
     </nav>
