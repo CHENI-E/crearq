@@ -68,6 +68,17 @@
 <script src="<?= $baseUrl ?>js/jquery.stellar.js"></script>
 <script src="<?= $baseUrl ?>js/isotope.min.js"></script>
 <script src="<?= $baseUrl ?>js/scripts.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script>
+    var splide = new Splide( '.splide', {
+    type   : 'loop',
+    perPage: 3,
+    perMove: 1,
+    } );
+
+    splide.mount();
+</script>
 </body>
 
 <!-- Mirrored from themezinho.net/hompark/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 14 Oct 2024 04:26:10 GMT -->

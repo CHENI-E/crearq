@@ -45,6 +45,9 @@
     <link rel="stylesheet" href="<?= $baseUrl ?>css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= $baseUrl ?>css/style.css">
     <link rel="stylesheet" href="<?= $baseUrl ?>css/postVenta.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -112,13 +115,13 @@
         <!-- end side-content -->
     </div>
     <!-- end side-navigation -->
-     
+
     <nav class="navbar">
         <div class="container">
             <div class="upper-side">
                 <div class="logo"> <a href="index.html"><img src="<?= $baseUrl ?>images/logo-crearq.png" alt="Image"></a> </div>
                 <!-- end logo -->
-                
+
                 <div class="phone-email pr-5">
                     <div class="menu">
                         <ul class="mb-0">
