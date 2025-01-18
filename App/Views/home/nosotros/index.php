@@ -10,7 +10,7 @@
     <!-- end container -->
 </header>
 <!-- end page-header -->
-<section class="about-content">
+<section class="about-content pt-5 pb-5">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -40,18 +40,10 @@
             
 
 
-            <div class="col-12">
-                <div class="gallery-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="images/blog01.jpg" alt="Image"></div>
-                        <div class="swiper-slide"><img src="images/blog02.jpg" alt="Image"></div>
-                        <div class="swiper-slide"><img src="images/blog03.jpg" alt="Image"></div>
-                        <div class="swiper-slide"><img src="images/blog04.jpg" alt="Image"></div>
-                    </div>
-                    <!-- add swiper-wrapper -->
-                    <div class="gallery-pagination"></div>
-                    <!-- end gallery-pagination -->
-                </div>
+            <div class="col-lg-12 order-lg-1">
+                <iframe style="width:100%; height:400px;" 
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7802.479403328077!2d-77.022336!3d-12.095736000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c865504950a9%3A0x21193b6f6c6ee4c2!2sC.%20Armando%20Blondet%20217%2C%20San%20Isidro%2015047!5e0!3m2!1ses!2spe!4v1735596362537!5m2!1ses!2spe" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
 
             <!-- en col-12 -->

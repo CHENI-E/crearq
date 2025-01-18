@@ -15,58 +15,10 @@
 }
 </style>
 <!-- property-plans -->
-  <section class="get-consultation" data-background="<?= $baseUrl ?>images/servicios_1.jpg" data-stellar-background-ratio="0.6" style="background-size: 100%; background-position: 100% -1px;">
-    <div class="container">
-      <!-- <div class="row">
-        <div class="col-lg-6 col-md-8 fadeInUp wow mt-5">
-          <div class="content-box">
-            <h4><span>Crearq</span> VASDASDASDASDASDo</h4>
-            <h3>Tu hogar ideal te espera.</h3>
-            <p>Cada rincón de nuestros hogares está diseñado con acabados de calidad, garantizando elegancia y durabilidad en tu espacio.</p>
-            <a href="#">CONTACTANOS <i class="fas fa-caret-right"></i></a>
-          </div>
-        </div>
-      </div> -->
-      <!-- end row -->
-    </div>
-    <!-- end container -->
-  </section>
-  <!-- end recent-gallery -->
-  <section class="property-calculator">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6">
-          <figure>
-            <div class="pattern-bg" data-stellar-ratio="1.03"></div>
-            <!-- end pattern-bg -->
-            <div class="holder" data-stellar-ratio="1.07"> <img src="<?= $baseUrl ?>images/gallery-thumb05.jpg" alt="Image"></div>
-            <!-- end holder -->
-          </figure>
-        </div>
-        <!-- end col-6 -->
-        <div class="col-lg-6 wow fadeInUp">
-          <div class="content-box">
-            <h4><span>Crearq</span> Buenos espacios</h4>
-            <h3>Decorated Flats in Pozniaky - Kiev</h3>
-            <p>The smaller male cones release pollen,
-              which fertilizes the female </p>
-            <ul>
-              <li><img src="<?= $baseUrl ?>images/bank-logos01.jpg" alt="Image"></li>
-              <li><img src="<?= $baseUrl ?>images/bank-logos02.jpg" alt="Image"></li>
-            </ul>
-            <a href="#"><img src="<?= $baseUrl ?>images/icon-calculator.png" alt="Image"> Living Space Calculator</a>
-          </div>
-          <!-- end content-box -->
-        </div>
-        <!-- end col-6 -->
-      </div>
-      <!-- end row -->
-    </div>
-    <!-- end container -->
-  </section>
-  <!-- end property-calculator -->
-  <!-- end get-consultation -->
-  <section class="property-plans about-content">
+  <img src="<?= $baseUrl ?>images/portada/GERANIOS-2.png" class="w-100" alt="">
+
+  
+  <section class="property-plans about-content pt-5 pb-5">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 wow fadeInUp"> <b>05</b>

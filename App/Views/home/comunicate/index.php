@@ -101,7 +101,7 @@
                                                 class="validate[required, custom[phone]] soloNumber" type="number" name="phone">
                                         </div>
                                     </li>
-                                    <li class="col-lg-6 px-1">
+                                    <li class="col-lg-12 px-1">
                                         <div class="input"><label>Proyecto</label>
                                             <div class="input_select"><span class="icon-arrow-bottom"></span><select
                                                     class="validate[required]" id="form_support_project" name="project">
@@ -114,10 +114,6 @@
                                                 </select><input type="hidden" id="form_support_project_id" name="project_id">
                                             </div>
                                         </div>
-                                    </li>
-                                    <li class="col-lg-6 px-1">
-                                        <div class="input"><label>Tipo de departamento</label><input name="project_type"
-                                                type="text"></div>
                                     </li>
                                     <li class="col-lg-12 px-1">
                                         <div class="input input_textarea"><label>Mensaje</label><textarea name="message"

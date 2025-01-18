@@ -19,48 +19,73 @@
 <header class="slider">
   <div class="slider-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada/portada-santa-maría.png" data-stellar-background-ratio="1.15">
+      <!-- PROYECTO LAS LILAS -->
+      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada/LILAS.png" data-stellar-background-ratio="1.15">
         <div class="container">
           <h1><span>Las Lilas 123</span></h1>
           <h2>Vive en Valle Hemorso</h2>
           <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
           <figure><img src="<?= $baseUrl ?>images/services-icon01.png" alt="Image"></figure>
         </div>
-        <!-- end container -->
       </div>
-      <!-- end swiper-slide -->
-      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada/portada-geranios.png" data-stellar-background-ratio="1.15">
+      <!-- PROYECTO GERANIOS -->
+      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada/GERANIOS.png" data-stellar-background-ratio="1.15">
         <div class="container">
           <h1><span>Geranios</span> Lince</h1>
           <h2>Entrega Abril 2025</h2>
           <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
           <figure><img src="<?= $baseUrl ?>images/services-icon08.png" alt="Image"></figure>
         </div>
-        <!-- end container -->
       </div>
-      <!-- end swiper-slide -->
-      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada/portada-aurora.png" data-stellar-background-ratio="1.15">
+      <!-- PROYECTO ROMA -->
+      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada/ROMA.png" data-stellar-background-ratio="1.15">
         <div class="container">
           <h1><span>Roma</span> Miraflores</h1>
           <h2>Entre Febrero 2025</h2>
           <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
           <figure><img src="<?= $baseUrl ?>images/services-icon07.png" alt="Image"></figure>
         </div>
-        <!-- end container -->
       </div>
-      <!-- end swiper-slide -->
+      <!-- PROYECTO AURORA -->
+      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada/AURORA.png" data-stellar-background-ratio="1.15">
+        <div class="container">
+          <h1><span>Aurora 1940</span></h1>
+          <h2>La Aurora Miraflores</h2>
+          <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
+          <figure><img src="<?= $baseUrl ?>images/services-icon07.png" alt="Image"></figure>
+        </div>
+      </div>
+      <!-- PROYECTO RODIN -->
+      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada/RODIN.png" data-stellar-background-ratio="1.15">
+        <div class="container">
+          <h1><span>Rodin 245</span></h1>
+          <h2>Rodin Surquillo</h2>
+          <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
+          <figure><img src="<?= $baseUrl ?>images/services-icon07.png" alt="Image"></figure>
+        </div>
+      </div>
+      <!-- PROYECTO PARQ -->
+      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada/PARQ.png" data-stellar-background-ratio="1.15">
+        <div class="container">
+          <h1><span>PARQ</span></h1>
+          <h2>Jr. Rio Huaura 340 - Pueblo Libre</h2>
+          <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
+          <figure><img src="<?= $baseUrl ?>images/services-icon07.png" alt="Image"></figure>
+        </div>
+      </div>
+
     </div>
     <!-- Add Pagination -->
     <div class="inner-elements">
       <div class="container">
         <div class="pagination"></div>
         <!-- end pagination -->
-        <div class="button-prev">PREV</div>
+        <div class="button-prev"><<</div>
         <!-- end button-prev -->
-        <div class="button-next">NEXT</div>
+        <div class="button-next">>></div>
         <!-- end button-next -->
         <div class="social-media">
-          <h6>SOCIAL MEDIA</h6>
+          <h6>REDES SOCIALES</h6>
           <ul>
             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -90,14 +115,17 @@
           	<li><a href="javascript:void(0);" data-filter=".surco">SURCO</a></li>
             <li><a href="javascript:void(0);" data-filter=".lince">LINCE</a></li>
             <li><a href="javascript:void(0);" data-filter=".p_libre">PUEBLO LIBRE</a></li>
+            <li><a href="javascript:void(0);" data-filter=".santa_maria_mar">SANTA MARÍA DEL MAR</a></li>
    		</ul>
     		<ul class="gallery">
-    			<li class="miraflores"><a href="<?= $baseUrl ?>images/proyectos/GERANIOS-328---WEB-1---TRANSPARENCIA.png" data-fancybox><img src="<?= $baseUrl ?>images/proyectos/GERANIOS-328---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
+    			<li class="lince"><a href="<?= $baseUrl ?>images/proyectos/GERANIOS-328---WEB-1---TRANSPARENCIA.png" data-fancybox><img src="<?= $baseUrl ?>images/proyectos/GERANIOS-328---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
           <li class="surco"><a href="<?= $baseUrl ?>images/proyectos/LAS-LILAS-123---WEB-1---TRANSPARENCIA.png" data-fancybox><img src="<?= $baseUrl ?>images/proyectos/LAS-LILAS-123---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
-          <li class="surquillo"><a href="<?= $baseUrl ?>images/proyectos/PARQ---WEB-1---TRANSPARENCIA.png" data-fancybox><img src="<?= $baseUrl ?>images/proyectos/PARQ---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
-          <li class="lince"><a href="<?= $baseUrl ?>images/proyectos/RODIN-245---WEB-1---TRANSPARENCIA.png" data-fancybox><img src="<?= $baseUrl ?>images/proyectos/RODIN-245---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
-          <li class="p_libre"><a href="<?= $baseUrl ?>images/proyectos/ROMA-255---WEB-1-TRANSPARENCIA.png" data-fancybox><img src="<?= $baseUrl ?>images/proyectos/ROMA-255---WEB-1-TRANSPARENCIA.png" alt="Image"></a></li>
-    		</ul>
+          <li class="p_libre"><a href="<?= $baseUrl ?>images/proyectos/PARQ---WEB-1---TRANSPARENCIA.png" data-fancybox><img src="<?= $baseUrl ?>images/proyectos/PARQ---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
+          <li class="surquillo"><a href="<?= $baseUrl ?>images/proyectos/RODIN-245---WEB-1---TRANSPARENCIA.png" data-fancybox><img src="<?= $baseUrl ?>images/proyectos/RODIN-245---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
+          <li class="miraflores"><a href="<?= $baseUrl ?>images/proyectos/ROMA-255---WEB-1-TRANSPARENCIA.png" data-fancybox><img src="<?= $baseUrl ?>images/proyectos/ROMA-255---WEB-1-TRANSPARENCIA.png" alt="Image"></a></li>
+          <li class="santa_maria_mar"><a href="<?= $baseUrl ?>images/proyectos/Avance-Web-aqua-2-sin-fondo.png" data-fancybox><img src="<?= $baseUrl ?>images/proyectos/Avance-Web-aqua-2-sin-fondo.png" alt="Image"></a></li>
+          <li class="miraflores"><a href="<?= $baseUrl ?>images/proyectos/AURORA---WEB-1-.-TRANSPARENCIA.png" data-fancybox><img src="<?= $baseUrl ?>images/proyectos/AURORA---WEB-1-.-TRANSPARENCIA.png" alt="Image"></a></li>
+        </ul>
     	</div>
     	<!-- end col-12 -->
     </div>
@@ -260,7 +288,7 @@
                         class="validate[required, custom[phone]] soloNumber" type="number" name="phone">
                     </div>
                   </li>
-                  <li class="col-lg-6 px-1">
+                  <li class="col-lg-12 px-1">
                     <div class="input"><label>Proyecto</label>
                       <div class="input_select"><span class="icon-arrow-bottom"></span><select
                           class="validate[required]" id="form_support_project" name="project">
@@ -273,10 +301,6 @@
                         </select><input type="hidden" id="form_support_project_id" name="project_id">
                       </div>
                     </div>
-                  </li>
-                  <li class="col-lg-6 px-1">
-                    <div class="input"><label>Tipo de departamento</label><input name="project_type"
-                        type="text"></div>
                   </li>
                   <li class="col-lg-12 px-1">
                     <div class="input input_textarea"><label>Mensaje</label><textarea name="message"
