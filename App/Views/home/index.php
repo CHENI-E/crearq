@@ -15,6 +15,10 @@
   .ul-config li {
     list-style: none;
   }
+  .bg-19experiencia{
+    background: #e5e4df;
+    margin: 70px 0px 50px 0px;
+  }
 </style>
 <header class="slider">
   <div class="slider-container">
@@ -137,7 +141,7 @@
 
 
 
-<section class="recent-gallery">
+<section class="recent-gallery bg-19experiencia">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-5 wow fadeInUp">
@@ -147,7 +151,7 @@
       </div>
       <!-- end col-5 -->
       <div class="col-lg-7">
-        <div class="row inner">
+        <div class="">
 
           <section class="splide" aria-label="Splide Basic HTML Example">
             <div class="splide__track">

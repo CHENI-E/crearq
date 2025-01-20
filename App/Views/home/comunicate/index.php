@@ -50,15 +50,6 @@
                 <!-- end row -->
                 <div class="row">
 
-                    <!-- <div class="col-lg-6">
-                        <div class="map">
-                            <div class="pattern-bg" data-stellar-ratio="1.03"></div>
-                            <div class="holder" data-stellar-ratio="1.07">
-                                <iframe style="width: 300%;"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.2378765886474!2d-73.97644805915624!3d40.69075842971381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bb6c6fe52c7%3A0x2b3bb16e97b13c01!2sFort+Greene+Tennis+Courts!5e0!3m2!1sen!2str!4v1559831164025!5m2!1sen!2str" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div> -->
                     <div class="col-lg-6 order-lg-2">
                         <div class="b2servicio_content">
                             <div class="b2servicio_title">
@@ -146,8 +137,6 @@
                         <iframe style="width:100%; height:100%;"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.2378765886474!2d-73.97644805915624!3d40.69075842971381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bb6c6fe52c7%3A0x2b3bb16e97b13c01!2sFort+Greene+Tennis+Courts!5e0!3m2!1sen!2str!4v1559831164025!5m2!1sen!2str" allowfullscreen></iframe>
                     </div>
-
-
 
                 </div>
                 <!-- end row -->
