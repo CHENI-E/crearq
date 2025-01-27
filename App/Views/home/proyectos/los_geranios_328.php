@@ -29,20 +29,36 @@
         <table>
           <tbody>
             <tr>
-              <td>Total area:</td>
-              <td>100 m²</td>
+              <td style="width:20px !important;">•</td>
+              <td>11 Pisos</td>
             </tr>
             <tr>
-              <td>Comedor:</td>
-              <td>1 principal</td>
+              <td style="width:20px !important;">•</td>
+              <td>37 Departamentos</td>
             </tr>
             <tr>
-              <td>Baños:</td>
-              <td>3</td>
+              <td style="width:20px !important;">•</td>
+              <td>De 1, 2 y 3 Dormitorios</td>
             </tr>
             <tr>
-              <td>Espacio:</td>
-              <td>Sala - Comedor</td>
+              <td style="width:20px !important;">•</td>
+              <td>Flats y dúplex</td>
+            </tr>
+            <tr>
+              <td style="width:20px !important;">•</td>
+              <td>Desde 45 m2 hasta 132 m2</td>
+            </tr>
+            <tr>
+              <td style="width:20px !important;">•</td>
+              <td>Pisos de SPC de alta resistencia al agua y gran durabilidad</td>
+            </tr>
+            <tr>
+              <td style="width:20px !important;">•</td>
+              <td>Ventanas termo acústicas con marco de PVC con doble vidrio templado</td>
+            </tr>
+            <tr>
+              <td style="width:20px !important;">•</td>
+              <td>Ubicación Estratégica cerca al Centro Financiero de San Isidro</td>
             </tr>
           </tbody>
         </table>

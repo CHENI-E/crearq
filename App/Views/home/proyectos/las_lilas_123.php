@@ -1,247 +1,259 @@
 <style>
-.b2servicio_form {
+  .b2servicio_form {
     width: 100% !important;
     -webkit-box-sizing: border-box !important;
     -moz-box-sizing: border-box !important;
     box-sizing: border-box !important;
-}
-.ul-config{
+  }
+
+  .ul-config {
     margin: auto !important;
     padding: 0 !important;
     border: 0 !important;
-}
-.ul-config li{
+  }
+
+  .ul-config li {
     list-style: none;
-}
+  }
 </style>
 <!-- property-plans -->
-<section class="get-consultation" data-background="<?= $baseUrl ?>images/servicios_1.jpg" data-stellar-background-ratio="0.6" style="background-size: 100%; background-position: 100% -1px;">
-    <div class="container">
-      <!-- <div class="row">
-        <div class="col-lg-6 col-md-8 fadeInUp wow mt-5">
-          <div class="content-box">
-            <h4><span>Crearq</span> VASDASDASDASDASDo</h4>
-            <h3>Tu hogar ideal te espera.</h3>
-            <p>Cada rincón de nuestros hogares está diseñado con acabados de calidad, garantizando elegancia y durabilidad en tu espacio.</p>
-            <a href="#">CONTACTANOS <i class="fas fa-caret-right"></i></a>
-          </div>
-        </div>
-      </div> -->
-      <!-- end row -->
-    </div>
-    <!-- end container -->
-  </section>
-  <!-- end recent-gallery -->
-  <section class="property-calculator property-calculator-verde">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6">
-          <figure>
-            <div class="pattern-bg" data-stellar-ratio="1.03"></div>
-            <!-- end pattern-bg -->
-            <div class="holder" data-stellar-ratio="1.07"> <img src="<?= $baseUrl ?>images/gallery-thumb01.jpg" alt="Image"></div>
-            <!-- end holder -->
-          </figure>
-        </div>
-        <!-- end col-6 -->
-        <div class="col-lg-6 wow fadeInUp">
-          <div class="content-box">
-            <h4><span>Crearq</span> Buenos espacios</h4>
-            <h3>Hogares que crean recuerdos</h3>
-            <p>Es la gran oportunidad, ubicados a cuadras de centros principales </p>
-            <ul>
-              <li><img src="<?= $baseUrl ?>images/bank-logos01.jpg" alt="Image"></li>
-              <li><img src="<?= $baseUrl ?>images/bank-logos02.jpg" alt="Image"></li>
-            </ul>
-            <a href="#"><img src="<?= $baseUrl ?>images/icon-calculator.png" alt="Image"> Cuotas desde S/.2999</a>
-          </div>
-          <!-- end content-box -->
-        </div>
-        <!-- end col-6 -->
-      </div>
-      <!-- end row -->
-    </div>
-    <!-- end container -->
-  </section>
-  <!-- end property-calculator -->
-  <!-- end get-consultation -->
-  <section class="property-plans about-content">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6 wow fadeInUp"> <b>05</b>
-          <h4><span>Crearq</span> Adaptable</h4>
-          <h3>Hogares que crean recuerdos</h3>
-          <p>Te esperamos en nuestra oficina de ventas para que tengas todas estas oportunidades con precios accesibles y oportunidades de pago adecuadas...</p>
-          <table>
-            <tbody>
-              <tr>
-                <td>Total area:</td>
-                <td>100 m²</td>
-              </tr>
-              <tr>
-                <td>Comedor:</td>
-                <td>1 principal</td>
-              </tr>
-              <tr>
-                <td>Baños:</td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>Espacio:</td>
-                <td>Sala - Comedor</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <!-- end col-6 -->
-        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.05s">
-          <ul class="nav nav-pills" id="pills-tab" role="tablist">
-            <li class="nav-item"> <a class="nav-link active" data-toggle="pill" href="#tab-one">1 Sala 47m²</a> </li>
-            <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#tab-two" role="tab">2 Sala 65m²</a> </li>
-            <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#tab-three" role="tab">3 Sala 90m²</a> </li>
-          </ul>
-          <div class="tab-content">
-            <div class="tab-pane fade show active" id="tab-one">
-              <figure><img src="<?= $baseUrl ?>images/plan01.jpg" alt="Image"></figure>
-            </div>
-            <!-- end tab-pane -->
-            <div class="tab-pane fade" id="tab-two">
-              <figure><img src="<?= $baseUrl ?>images/plan02.jpg" alt="Image"></figure>
-            </div>
-            <!-- end tab-pane -->
-            <div class="tab-pane fade" id="tab-three">
-              <figure><img src="<?= $baseUrl ?>images/plan03.jpg" alt="Image"></figure>
-            </div>
-            <!-- end tab-pane -->
-          </div>
-          <!-- end tab-contnet -->
-        </div>
-        <!-- end col-6 -->
-      </div>
-      <!-- end row -->
-      <section class="b2servicio">
-            <div class="b2servicio_deco1"><img src="<?= $baseUrl ?>images/contacto-deco2.png" width="141" height="200"></div>
-            <div class="b2servicio_container ww_center">
-                <div class="b2servicio_deco2"><img src="<?= $baseUrl ?>images/contacto-deco1.png" width="226" height="439"></div>
-                <div class="b2servicio_content">
-                    <div class="b2servicio_title">
-                        <h2>DÉJANOS TUS DATOS
-                        </h2>
-                    </div>
-                    <form class="b2servicio_form" action="/atencion-al-cliente/" id="formServicio" method="post"
-                        data-hs-cf-bound="true">
-                        <div class="b2servicio_dni">
-                            <div class="input_select_box"><label>Documento de Identidad*</label>
-                                <div class="input_select_left">
-                                    <div class="input input_select"><span class="icon-arrow-bottom"></span><select
-                                            class="validate[required]" name="document_type">
-                                            <option value="DNI" selected="">DNI</option>
-                                            <option value="CE">CE</option>
-                                            <option value="Pasaporte">Pasaporte</option>
-                                        </select></div>
-                                </div>
-                                <div class="input_select_right">
-                                    <div class="input"><input class="validate[required] soloNumber" type="number"
-                                            name="document"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <ul class="ul-config">
-                            <li>
-                                <div class="input"><label>Nombre*</label><input class="validate[required]" type="text"
-                                        name="name"></div>
-                            </li>
-                            <li class="ml-lg-3">
-                                <div class="input"><label>Apellidos*</label><input class="validate[required]"
-                                        type="text" name="lastname"></div>
-                            </li>
-                            <li>
-                                <div class="input"><label>Email *</label><input class="validate[required,custom[email]]"
-                                        type="email" name="email"></div>
-                            </li>
-                            <li class="ml-lg-3">
-                                <div class="input"><label>Télefono / Celular*</label><input
-                                        class="validate[required, custom[phone]] soloNumber" type="number" name="phone">
-                                </div>
-                            </li>
-                            <li>
-                                <div class="input"><label>Proyecto</label>
-                                    <div class="input_select"><span class="icon-arrow-bottom"></span><select
-                                            class="validate[required]" id="form_support_project" name="project">
-                                            <option value="" disabled="disabled" selected="selected">Seleccione*</option>
-                                            <option value="LOS GERANIOS 328" data-id="aliaga-435">LOS GERANIOS 328</option>
-                                            <option value="ROMA 255" data-id="patria">ROMA 255</option>
-                                            <option value="LAS LILAS 123" data-id="legado-torre-a">LAS LILAS 123</option>
-                                            <option value="AUROSA 1940" data-id="legado-torre-a">AUROSA 1940</option>
-                                            <option value="AQUA 2" data-id="legado-torre-a">AQUA 2</option>
-                                        </select><input type="hidden" id="form_support_project_id" name="project_id">
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="ml-lg-3">
-                                <div class="input"><label>Tipo de departamento</label><input name="project_type"
-                                        type="text"></div>
-                            </li>
-                            <li class="full">
-                                <div class="input input_textarea"><label>Mensaje</label><textarea name="message"
-                                        placeholder="Mensaje"></textarea></div>
-                            </li>
-                        </ul>
-                        <div class="b2servicio_campos">
-                            <p>(*) Campos obligatorios</p>
-                        </div>
-                        <div class="b2servicio_check">
-                            <div class="input_checkbox"><input class="validate[required]" type="checkbox"
-                                    id="supportcheck" name="terminos"><label for="supportcheck">
-                                    <div class="input_checkbox_box"></div>
-                                    <div class="input_checkbox_text">He leído y acepto la
-                                        <a href="/terminos-y-condiciones/" target="_blank">Términos y condiciones</a>
-                                        y las
-                                        <a href="/politicas-de-privacidad/" target="_blank">Políticas de Privacidad</a>
-                                        de Crearq.
-                                    </div>
-                                </label></div>
-                        </div><input type="hidden" id="form__token"
-                            value="DFv6KfFCPIaf9cvqh_gEG_GpO9w2LwexIQ7Q2xfnFZI">
-                        <div class="b2servicio_btn" id="btnServicio"><a class="btn btnServicio"
-                                style="cursor: pointer; background-color: #68b330;"><span class="text-white">Enviar mis datos</span></a></div>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </div>
-    <!-- end container -->
-  </section>
+<img src="<?= $baseUrl ?>images/portada/LILAS-2.png" class="w-100" alt="">
 
-  <section class="footer-bar">
-    <div class="container">
-        <div class="inner wow fadeIn">
-            <div class="row">
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.05s">
-                    <figure><img src="images/footer-icon01.png" alt="Image"></figure>
-                    <h3>Estamos ubicados</h3>
-                    <p>Calle Armando Blondet 217, Of. 501<br>
-                        San Isidro, Lima, Perú</p>
-                </div>
-                <!-- end col-4 -->
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.10s">
-                    <figure><img src="images/footer-icon02.png" alt="Image"></figure>
-                    <h3>Horario de atencion</h3>
-                    <p>Lunes a Viernes <strong>09:00</strong> a <strong>18:30</strong> <br>
-                        Sabados y Domingos <strong>15:30</strong></p>
-                </div>
-                <!-- end col-4 -->
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.15s">
-                    <figure><img src="images/footer-icon03.png" alt="Image"></figure>
-                    <h3>Nuestras oficinas</h3>
-                    <p>Calle Armando Blondet 217, Of. 501<br>
-                        San Isidro, Lima, Perú</p>
-                </div>
-                <!-- end col-4 -->
+
+<section class="property-plans about-content pt-3 pb-5">
+  <div class="container">
+    <div class="row align-items-center mt-5 mb-5">
+      <div class="col-lg-6 wow fadeInUp">
+        <h4><span>VIVE CERCA <br> A TODO EN VALLE HERMOSO</span></h4>
+        <p>Vive con exclusividad y cerca a lo que necesitas.</p>
+        <table>
+          <tbody>
+            <tr>
+              <td style="width:20px !important;">•</td>
+              <td>07 Pisos</td>
+            </tr>
+            <tr>
+              <td style="width:20px !important;">•</td>
+              <td>25 Departamentos</td>
+            </tr>
+            <tr>
+              <td style="width:20px !important;">•</td>
+              <td>De 3 Dormitorios</td>
+            </tr>
+            <tr>
+              <td style="width:20px !important;">•</td>
+              <td>Flats y dúplex</td>
+            </tr>
+            <tr>
+              <td style="width:20px !important;">•</td>
+              <td>Desde 90 m2 hasta 226 m2</td>
+            </tr>
+            <tr>
+              <td style="width:20px !important;">•</td>
+              <td>Auténticas ventanas termo acústicas con marco de PVC con doble vidrio insulado</td>
+            </tr>
+            <tr>
+              <td style="width:20px !important;">•</td>
+              <td>Área de parrilla por departamento con sistema de extracción (ver dptos con característica)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- end col-6 -->
+      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.05s">
+
+
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active" style="width: 100%; height:600px;">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/Noche-01-B_280322.jpg" class="d-block w-100" alt="...">
             </div>
-            <!-- end row -->
+            <div class="carousel-item" style="width: 100%; height:600px;">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/Parrilla-Tipica_250322-768x658.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" style="width: 100%; height:600px;">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/Dormitorio-02-vista-1-1024x585.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" style="width: 100%; height:600px;">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/SC-X01-01_260322-1024x576.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" style="width: 100%; height:600px;">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/Cocina-X01-01_140322.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" style="width: 100%; height:600px;">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/SC-X01-02_260322-1024x576.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" style="width: 100%; height:600px;">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/SC-X03-03_140322-1024x585.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" style="width: 100%; height:600px;">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/Terraza-02_140322.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" style="width: 100%; height:600px;">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/Dormitorio-01-vista-2-1024x585.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <!-- <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </button> -->
         </div>
-        <!-- end inner -->
+
+      </div>
     </div>
-    <!-- end container -->
+
+
+
+    <section class="benefits p-0" style="margin-top:70px;">
+      <div class="container">
+        <div class="row">
+          <a href="<?=$baseUrl?>pdf/BROCHURE-LAS-LILAS-123_VALLE-HERMOSO.pdf" target="_blank" class="col wow fadeInUp" data-wow-delay="0.05s">
+            <figure> <img src="<?=$baseUrl?>images/icon-benefits02.png" alt="Image"> <b></b> </figure>
+            <h6 style="font-size: 13px; color:#a6acaf; ">Ver Brochure</h6>
+          </a>
+          <a href="<?=$baseUrl?>pdf/PLANOS-LILAS.pdf" target="_blank" class="col wow fadeInUp" data-wow-delay="0.15s">
+            <figure> <img src="<?=$baseUrl?>images/icon-benefits04.png" alt="Image"> <b></b> </figure>
+            <h6 style="font-size: 13px; color:#a6acaf; ">Ver Planos</h6>
+          </a>
+          <a class="col wow fadeInUp" data-wow-delay="0.20s">
+            <figure> <img src="<?=$baseUrl?>images/icon-benefits05.png" alt="Image"> <b></b> </figure>
+            <h6 style="font-size: 13px; color:#a6acaf; ">Calle Las Lilas 123, Urb <br>Valle Hermoso <br> Santiago de Surco</h6>
+          </a>
+        </div>
+      </div> 
+    </section>
+
+
+
+    <div class="row mt-5 pt-5 mb-5">
+
+      <div class="col-lg-6 order-lg-2">
+        <div class="b2servicio_content">
+          <div class="b2servicio_title">
+            <h2>DÉJANOS TUS DATOS
+            </h2>
+          </div>
+          <form class="b2servicio_form" action="/atencion-al-cliente/" id="formServicio" method="post"
+            data-hs-cf-bound="true">
+            <div class="b2servicio_dni px-1">
+              <div class="input_select_box"><label>Documento de Identidad*</label>
+                <div class="input_select_left">
+                  <div class="input input_select"><span class="icon-arrow-bottom"></span><select
+                      class="validate[required]" name="document_type">
+                      <option value="DNI" selected="">DNI</option>
+                      <option value="CE">CE</option>
+                      <option value="Pasaporte">Pasaporte</option>
+                    </select></div>
+                </div>
+                <div class="input_select_right">
+                  <div class="input"><input class="validate[required] soloNumber" type="number"
+                      name="document"></div>
+                </div>
+              </div>
+            </div>
+            <ul class="ul-config row d-flex justify-content-between">
+              <li class="col-lg-6 px-1">
+                <div class="input"><label>Nombre*</label><input class="validate[required]" type="text"
+                    name="name"></div>
+              </li>
+              <li class="col-lg-6 px-1">
+                <div class="input"><label>Apellidos*</label><input class="validate[required]"
+                    type="text" name="lastname"></div>
+              </li>
+              <li class="col-lg-6 px-1">
+                <div class="input"><label>Email *</label><input class="validate[required,custom[email]]"
+                    type="email" name="email"></div>
+              </li>
+              <li class="col-lg-6 px-1">
+                <div class="input"><label>Télefono / Celular*</label><input
+                    class="validate[required, custom[phone]] soloNumber" type="number" name="phone">
+                </div>
+              </li>
+              <li class="col-lg-12 px-1">
+                <div class="input input_textarea"><label>Mensaje</label><textarea name="message"
+                    placeholder="Mensaje"></textarea></div>
+              </li>
+            </ul>
+            <div class="b2servicio_campos px-1">
+              <p>(*) Campos obligatorios</p>
+            </div>
+            <div class="b2servicio_check px-1">
+              <div class="input_checkbox"><input class="validate[required]" type="checkbox"
+                  id="supportcheck" name="terminos"><label for="supportcheck">
+                  <div class="input_checkbox_box"></div>
+                  <div class="input_checkbox_text">He leído y acepto la
+                    <a href="/terminos-y-condiciones/" target="_blank">Términos y condiciones</a>
+                    y las
+                    <a href="/politicas-de-privacidad/" target="_blank">Políticas de Privacidad</a>
+                    de Crearq.
+                  </div>
+                </label></div>
+            </div><input type="hidden" id="form__token"
+              value="DFv6KfFCPIaf9cvqh_gEG_GpO9w2LwexIQ7Q2xfnFZI">
+            <div class="b2servicio_btn px-1" id="btnServicio"><a class="btn btnServicio"
+                style="cursor: pointer; background-color: #68b330;"><span class="text-white">Enviar mis datos</span></a></div>
+          </form>
+        </div>
+      </div>
+
+      <div class="col-lg-6 pt-5 order-lg-1">
+        <iframe style="width:100%; height:100%;"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1950.421203742081!2d-76.97869835189128!3d-12.122933066971607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c788a5c89ce3%3A0x23b1b2e03db1e8a7!2sC.%20Las%20Lilas%20123%2C%20Lima%2015419!5e0!3m2!1ses!2spe!4v1737952761284!5m2!1ses!2spe" 
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+      </div>
+
+    </div>
+
+
+
+
+  </div>
+  <!-- end container -->
+</section>
+
+<section class="footer-bar">
+  <div class="container">
+    <div class="inner wow fadeIn">
+      <div class="row">
+        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.05s">
+          <figure><img src="<?=$baseUrl?>images/footer-icon01.png" alt="Image"></figure>
+          <h3>Estamos ubicados</h3>
+          <p>Calle Armando Blondet 217, Of. 501<br>
+            San Isidro, Lima, Perú</p>
+        </div>
+        <!-- end col-4 -->
+        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.10s">
+          <figure><img src="<?=$baseUrl?>images/footer-icon02.png" alt="Image"></figure>
+          <h3>Horario de atencion</h3>
+          <p>Lunes a Viernes <strong>09:00</strong> a <strong>18:30</strong> <br>
+            Sabados y Domingos <strong>15:30</strong></p>
+        </div>
+        <!-- end col-4 -->
+        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.15s">
+          <figure><img src="<?=$baseUrl?>images/footer-icon03.png" alt="Image"></figure>
+          <h3>Nuestras oficinas</h3>
+          <p>Calle Armando Blondet 217, Of. 501<br>
+            San Isidro, Lima, Perú</p>
+        </div>
+        <!-- end col-4 -->
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end inner -->
+  </div>
+  <!-- end container -->
 </section>

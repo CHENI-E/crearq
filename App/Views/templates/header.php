@@ -104,11 +104,11 @@
             <h6>+51 987 515 678</h6>
             <p><a href="#">ventas@inversioneshi.com</a></p>
             <ul class="social-media">
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.facebook.com/crearqconstructora/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/crearqconstructora/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <!-- <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                 <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li> -->
             </ul>
             <small>© 2024 Crearp | Encuetra tu nuevo hogar aqui</small>
         </div>
@@ -119,7 +119,7 @@
     <nav class="navbar">
         <div class="container">
             <div class="upper-side">
-                <div class="logo"> <a href="index.html"><img src="<?= $baseUrl ?>images/logo-crearq.png" alt="Image"></a> </div>
+                <div class="logo"> <a href="<?= $baseUrl ?>"><img src="<?= $baseUrl ?>images/logo-crearq.png" alt="Image"></a> </div>
                 <!-- end logo -->
 
                 <div class="phone-email pr-5">
