@@ -75,31 +75,28 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active" style="width: 100%; height:600px;">
-              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/Noche-01-B_280322.jpg" class="d-block w-100" alt="...">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/LILAS/1.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" style="width: 100%; height:600px;">
-              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/Parrilla-Tipica_250322-768x658.jpg" class="d-block w-100" alt="...">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/LILAS/2.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" style="width: 100%; height:600px;">
-              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/Dormitorio-02-vista-1-1024x585.jpg" class="d-block w-100" alt="...">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/LILAS/3.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" style="width: 100%; height:600px;">
-              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/SC-X01-01_260322-1024x576.jpg" class="d-block w-100" alt="...">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/LILAS/4.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" style="width: 100%; height:600px;">
-              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/Cocina-X01-01_140322.jpg" class="d-block w-100" alt="...">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/LILAS/5.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" style="width: 100%; height:600px;">
-              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/SC-X01-02_260322-1024x576.jpg" class="d-block w-100" alt="...">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/LILAS/6.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" style="width: 100%; height:600px;">
-              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/SC-X03-03_140322-1024x585.jpg" class="d-block w-100" alt="...">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/LILAS/7.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" style="width: 100%; height:600px;">
-              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/Terraza-02_140322.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item" style="width: 100%; height:600px;">
-              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/Dormitorio-01-vista-2-1024x585.jpg" class="d-block w-100" alt="...">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/LILAS/8.png" class="d-block w-100" alt="...">
             </div>
           </div>
           <!-- <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">

@@ -16,7 +16,7 @@
         list-style: none;
     }
 </style>
-<section class="get-consultation" data-background="<?= $baseUrl ?>images/portada/PORTADA-CONTACTANOS---WEB-2.png" data-stellar-background-ratio="0.6" style="background-size: 100%; background-position: 100% -1px;">
+<section class="get-consultation" data-background="<?= $baseUrl ?>images/portada/portada-de-la-web.png" data-stellar-background-ratio="0.6" style="background-size: 100%; background-position: 100% -1px;">
     <div class="bg-red">
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
