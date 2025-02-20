@@ -46,12 +46,12 @@
             <h2>DÉJANOS TUS DATOS
             </h2>
           </div>
-          <form class="b2servicio_form" action="/atencion-al-cliente/" id="formServicio" method="post"
-            data-hs-cf-bound="true">
+          <form class="b2servicio_form" action="<?=$baseUrl?>Home/storeEmail" id="formServicio" method="post" data-hs-cf-bound="true">
+            <input type="hidden" name="i" value="6" required>
             <div class="b2servicio_dni px-1">
               <div class="input_select_box"><label>Documento de Identidad*</label>
                 <div class="input_select_left">
-                  <div class="input input_select"><span class="icon-arrow-bottom"></span><select
+                  <div class="input input_select"><span class="icon-arrow-bottom"></span><select required 
                       class="validate[required]" name="document_type">
                       <option value="DNI" selected="">DNI</option>
                       <option value="CE">CE</option>
@@ -59,31 +59,31 @@
                     </select></div>
                 </div>
                 <div class="input_select_right">
-                  <div class="input"><input class="validate[required] soloNumber" type="number"
+                  <div class="input"><input class="validate[required] soloNumber" type="number" required 
                       name="document"></div>
                 </div>
               </div>
             </div>
             <ul class="ul-config row d-flex justify-content-between">
               <li class="col-lg-6 px-1">
-                <div class="input"><label>Nombre*</label><input class="validate[required]" type="text"
+                <div class="input"><label>Nombre*</label><input class="validate[required]" type="text" required 
                     name="name"></div>
               </li>
               <li class="col-lg-6 px-1">
-                <div class="input"><label>Apellidos*</label><input class="validate[required]"
+                <div class="input"><label>Apellidos*</label><input class="validate[required]" required 
                     type="text" name="lastname"></div>
               </li>
               <li class="col-lg-6 px-1">
-                <div class="input"><label>Email *</label><input class="validate[required,custom[email]]"
+                <div class="input"><label>Email *</label><input class="validate[required,custom[email]]" required 
                     type="email" name="email"></div>
               </li>
               <li class="col-lg-6 px-1">
                 <div class="input"><label>Télefono / Celular*</label><input
-                    class="validate[required, custom[phone]] soloNumber" type="number" name="phone">
+                    class="validate[required, custom[phone]] soloNumber" type="number" name="phone" required >
                 </div>
               </li>
               <li class="col-lg-12 px-1">
-                <div class="input input_textarea"><label>Mensaje</label><textarea name="message"
+                <div class="input input_textarea"><label>Mensaje</label><textarea name="message" required 
                     placeholder="Mensaje"></textarea></div>
               </li>
             </ul>
@@ -91,7 +91,7 @@
               <p>(*) Campos obligatorios</p>
             </div>
             <div class="b2servicio_check px-1">
-              <div class="input_checkbox"><input class="validate[required]" type="checkbox"
+              <div class="input_checkbox"><input class="validate[required]" type="checkbox" required
                   id="supportcheck" name="terminos"><label for="supportcheck">
                   <div class="input_checkbox_box"></div>
                   <div class="input_checkbox_text">He leído y acepto la
@@ -103,8 +103,8 @@
                 </label></div>
             </div><input type="hidden" id="form__token"
               value="DFv6KfFCPIaf9cvqh_gEG_GpO9w2LwexIQ7Q2xfnFZI">
-            <div class="b2servicio_btn px-1" id="btnServicio"><a class="btn btnServicio"
-                style="cursor: pointer; background-color: #68b330;"><span class="text-white">Enviar mis datos</span></a></div>
+            <div class="b2servicio_btn px-1" id="btnServicio"><button type="submit" class="btn btnServicio"
+                style="cursor: pointer; background-color: #68b330;"><span class="text-white">Enviar mis datos</span></button></div>
           </form>
         </div>
       </div>

@@ -9,25 +9,18 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="theme-color" content="#282828" />
     <title>Crearq</title>
-    <meta name="author" content="Themezinho">
-    <meta name="description" content="Homepark | Real Estate & Luxury Homes">
-    <meta name="keywords" content="homepark, realestate, flat, apartment, benefits, facility, consultation, home, house, studio, pool, animation, transportation">
+    <meta name="author" content="Marco">
+    <meta name="description" content="Crearq | Raquel">
+    <meta name="keywords" content="Crearq">
 
     <!-- SOCIAL MEDIA META -->
-    <meta property="og:description" content="Homepark | Real Estate & Luxury Homes">
+    <meta property="og:description" content="Crearq | Raquel">
     <meta property="og:image" content="preview.html">
-    <meta property="og:site_name" content="homepark">
-    <meta property="og:title" content="homepark">
+    <meta property="og:site_name" content="Crearq">
+    <meta property="og:title" content="Crearq">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://www.themezinho.net/hompark">
+    <!-- <meta property="og:url" content="http://www.themezinho.net/hompark"> -->
 
-    <!-- TWITTER META -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@homepark">
-    <meta name="twitter:creator" content="@homepark">
-    <meta name="twitter:title" content="homepark">
-    <meta name="twitter:description" content="Homepark | Real Estate & Luxury Homes">
-    <meta name="twitter:image" content="preview.html">
 
     <!-- FAVICON FILES -->
     <link href="<?= $baseUrl ?>ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
@@ -92,11 +85,11 @@
         <div class="side-content">
             <figure> <img src="<?= $baseUrl ?>images/logo-crearq.png" alt="Image"> </figure>
             <p>Somos una compañía con más de 18 años de experiencia y mucha pasión por la arquitectura.</p>
-            <ul class="gallery">
+            <!-- <ul class="gallery">
                 <li><a href="<?= $baseUrl ?>images/gallery-thumb01.jpg" data-fancybox><img src="<?= $baseUrl ?>images/gallery-thumb01.jpg" alt="Image"></a></li>
                 <li><a href="<?= $baseUrl ?>images/gallery-thumb02.jpg" data-fancybox><img src="<?= $baseUrl ?>images/gallery-thumb02.jpg" alt="Image"></a></li>
                 <li><a href="<?= $baseUrl ?>images/gallery-thumb03.jpg" data-fancybox><img src="<?= $baseUrl ?>images/gallery-thumb03.jpg" alt="Image"></a></li>
-            </ul>
+            </ul> -->
             <address>
                 Roma | Av. Benavides 246
                 Miraflores | Parque Kennedy calle. 17
