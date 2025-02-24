@@ -24,58 +24,68 @@
   <div class="slider-container">
     <div class="swiper-wrapper">
       <!-- PROYECTO LAS LILAS -->
-      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada/LILAS.png" data-stellar-background-ratio="1.15">
-        <div class="container ">
+      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/las-lilas.png" data-stellar-background-ratio="1.15">
+        <!-- <img src="<?= $baseUrl ?>images/portada3/las-lilas.png" class="w-100"> -->
+        <!-- <div class="container ">
           <h1><span>Las Lilas 123</span></h1>
           <h2>Vive en Valle Hemorso</h2>
           <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
           <figure><img src="<?= $baseUrl ?>images/services-icon01.png" alt="Image"></figure>
-        </div>
+        </div> -->
       </div>
       <!-- PROYECTO GERANIOS -->
-      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada/GERANIOS.png" data-stellar-background-ratio="1.15">
-        <div class="container">
+      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/geranios.png" data-stellar-background-ratio="1.15">
+        <!-- <div class="container">
           <h1><span>Geranios</span> Lince</h1>
           <h2>Entrega Abril 2025</h2>
           <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
           <figure><img src="<?= $baseUrl ?>images/services-icon08.png" alt="Image"></figure>
-        </div>
+        </div> -->
       </div>
       <!-- PROYECTO ROMA -->
-      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada/ROMA.png" data-stellar-background-ratio="1.15">
-        <div class="container">
+      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/roma.png" data-stellar-background-ratio="1.15">
+        <!-- <div class="container">
           <h1><span>Roma</span> Miraflores</h1>
           <h2>Entre Febrero 2025</h2>
           <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
           <figure><img src="<?= $baseUrl ?>images/services-icon07.png" alt="Image"></figure>
-        </div>
+        </div> -->
       </div>
       <!-- PROYECTO AURORA -->
-      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada/AURORA.png" data-stellar-background-ratio="1.15">
-        <div class="container">
+      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/aurora.png" data-stellar-background-ratio="1.15">
+        <!-- <div class="container">
           <h1><span>Aurora 1940</span></h1>
           <h2>La Aurora Miraflores</h2>
           <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
           <figure><img src="<?= $baseUrl ?>images/services-icon07.png" alt="Image"></figure>
-        </div>
+        </div> -->
       </div>
       <!-- PROYECTO RODIN -->
-      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada/RODIN.png" data-stellar-background-ratio="1.15">
-        <div class="container">
+      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/rodin.png" data-stellar-background-ratio="1.15">
+        <!-- <div class="container">
           <h1><span>Rodin 245</span></h1>
           <h2>Rodin Surquillo</h2>
           <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
           <figure><img src="<?= $baseUrl ?>images/services-icon07.png" alt="Image"></figure>
-        </div>
+        </div> -->
       </div>
       <!-- PROYECTO PARQ -->
-      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada/PARQ.png" data-stellar-background-ratio="1.15">
-        <div class="container">
+      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/parq.png" data-stellar-background-ratio="1.15">
+        <!-- <div class="container">
           <h1><span>PARQ</span></h1>
           <h2>Jr. Rio Huaura 340 - Pueblo Libre</h2>
           <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
           <figure><img src="<?= $baseUrl ?>images/services-icon07.png" alt="Image"></figure>
-        </div>
+        </div> -->
+      </div>
+      <!-- PROYECTO AQUA2 -->
+      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/aqua-2.png" data-stellar-background-ratio="1.15">
+        <!-- <div class="container">
+          <h1><span>PARQ</span></h1>
+          <h2>Jr. Rio Huaura 340 - Pueblo Libre</h2>
+          <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
+          <figure><img src="<?= $baseUrl ?>images/services-icon07.png" alt="Image"></figure>
+        </div> -->
       </div>
 
     </div>

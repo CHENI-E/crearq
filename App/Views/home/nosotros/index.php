@@ -1,14 +1,14 @@
-<header class="page-header" data-background="images/nosotros-1.jpg" data-stellar-background-ratio="1.15" style="background-size: 100%; background-position: 100% -1px;">
+<!-- <header class="page-header" data-background="images/nosotros-1.jpg" data-stellar-background-ratio="1.15" style="background-size: 100%; background-position: 100% -1px;">
     <div class="container text-center">
         <h1 style="font-size: 80px;">¿Porqué confiar en nosotros?</h1>
-        <!-- <p>Descubre porqué confiar en nosotros.</p> -->
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Crearq</a></li>
             <li class="breadcrumb-item active" aria-current="page">Nosotros</li>
         </ol>
     </div>
-    <!-- end container -->
-</header>
+</header> -->
+<img src="<?=$baseUrl?>images/portada3/PORTADA-INICIO.png" class="w-100" alt="">
+
 <!-- end page-header -->
 <section class="about-content pt-5 pb-5">
     <div class="container">

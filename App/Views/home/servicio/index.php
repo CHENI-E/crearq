@@ -17,7 +17,8 @@
   }
 </style>
 <!-- property-plans -->
-<section class="get-consultation" data-background="<?= $baseUrl ?>images/servicios_1.jpg" data-stellar-background-ratio="0.6" style="background-size: 100%; background-position: 100% -1px;">
+ <img src="<?= $baseUrl ?>images/portada3/servicios-web.png" class="w-100" alt="">
+<!-- <section class="get-consultation" data-background="<?= $baseUrl ?>images/servicios_1.jpg" data-stellar-background-ratio="0.6" style="background-size: 100%; background-position: 100% -1px;">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-8 fadeInUp wow mt-5" style="margin-top: 20% !important;">
@@ -28,7 +29,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <section class="recent-posts" style="padding: 50px; margin-top:90px !important;">
   <div class="container">

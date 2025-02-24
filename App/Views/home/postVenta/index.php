@@ -16,11 +16,13 @@
         list-style: none;
     }
 </style>
-<section class="property-customization" style="padding: 260px;">
+<img src="<?= $baseUrl ?>images/portada3/post-venta-web.png" class="w-100" alt="">
+<!-- <section class="property-customization" style="padding: 260px;">
+
     <div class="video-bg" style="background: linear-gradient(161deg, #26282b 0%, #26282b 60%, #20a7ae 100%);">
         <video src="<?= $baseUrl ?>videos/video03.mp4" loop autoplay muted></video>
     </div>
-    <!-- end video-bg -->
+
     <div class="container">
         <div class="row">
             <div class="col-12 wow fadeInUp before-titulo-postVenta">
@@ -28,10 +30,9 @@
                 <h2><span style="color: #a555b6">excelente servicio</span></h2>
             </div>
         </div>
-        <!-- end row -->
     </div>
-    <!-- end container -->
-</section>
+
+</section> -->
 <section class="about-content" style="padding: 50px;">
     <div class="container">
         <section class="b1servicio row">
