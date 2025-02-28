@@ -29,7 +29,9 @@ class Home
         $telefono = $_POST['phone'] ?? '';
         $proyecto = $_POST['project'] ?? '';
         $mensaje = $_POST['message'] ?? '';
+        $ambiente_inspeccionar = $_POST['ambiente_inspeccionar'] ?? '';
         $numero_departamento = $_POST['numero_departamento'] ?? '';
+        $servicio = $_POST['servicio'] ?? '';
         switch ($identificador) {
             case 6:
                 $Subjet = 'INVERSIONISTAS Y PROYECTOS';
@@ -62,7 +64,19 @@ class Home
                         <p><b>Telefono:</b> ".$telefono."</p>
                         <p><b>Correo:</b> ".$email."</p>
                         <p><b>Proyecto:</b> ".$proyecto."</p>
+                        <p><b>Ambiente a Inspeccionar:</b> ".$ambiente_inspeccionar."</p>
                         <p><b>Número Departamento:</b> ".$numero_departamento."</p>
+                        <p><b>Mensaje:</b> ".$mensaje."</p>";
+                break;
+            case 9:
+                $Subjet = 'SERVICIO';
+                $body = "<h3>Has recibido un nuevo mensaje de la Web CREARQ:</h3>
+                        <p><b>Nombre:</b> ".$nombre."</p>
+                        <p><b>Apellido:</b> ".$apellido."</p>
+                        <p><b>Documento:</b> ".$dni." ".$tipoDocumento."</p>
+                        <p><b>Telefono:</b> ".$telefono."</p>
+                        <p><b>Correo:</b> ".$email."</p>
+                        <p><b>Servicio:</b> ".$servicio."</p>
                         <p><b>Mensaje:</b> ".$mensaje."</p>";
                 break;
             default:

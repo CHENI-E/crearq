@@ -7,49 +7,80 @@
         </ol>
     </div>
 </header> -->
-<img src="<?=$baseUrl?>images/portada3/PORTADA-INICIO.png" class="w-100" alt="">
+<img src="<?= $baseUrl ?>images/portada3/PORTADA-INICIO.png" class="w-100" alt="">
 
-<!-- end page-header -->
-<section class="about-content pt-5 pb-5">
+
+<section class="about-content ">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <blockquote>
-                    <h3 class="text-center text-white font-weight-bold">Somos una compañía con más de 18 años de experiencia y mucha pasión por la arquitectura.</h3>
-                    <hr class="bg-light">
-                    <p class="text-center text-light">Buscamos en cada proyecto crear una experiencia que mejore la calidad de vida de las personas, combinando las mejores técnicas en ingeniería, estilo 
-                    armonioso y mucho cuidado por los detalles. Dando como resultado proyectos únicos para crear momentos maravillosos.</p>
-                </blockquote>
-            </div>
-
-            <div class="row align-items-center">
-                <div class="col-sm-12 col-lg-6 align-items-center">
-                    <blockquote class="" style="height: 200px; background: #68a632 !important;">
-                        <p class="text-center text-light">Nuestra Misión es construir espacios de calidad que mejoren nuestra ciudad y la 
-                            calidad de vida de nuestros clientes.</p>
-                    </blockquote>
-                </div>
-
-                <div class="col-sm-12 col-lg-6 align-items-center">
-                    <blockquote style="height: 200px; background: #229aa1 !important;">
-                        <p class="text-center text-light">Nuestra Visión es ser la inmobiliaria y constructora más reconocida en el País por la calidad de sus proyectos, 
-                            respeto de los tiempos establecidos y por contribuir a desarrollar una ciudad mejor para todos.</p>
-                    </blockquote>
+                <div class="text-center">
+                    <h3 class="text-center font-weight-bold" style="color:#873299;">Somos una compañía con más de 18 años de experiencia y mucha pasión por la arquitectura.</h3>
+                    <hr style="background:#873299;">
+                    <p class="text-center ">Buscamos en cada proyecto crear una experiencia que mejore la calidad de vida de las personas, combinando las mejores técnicas en ingeniería, estilo
+                        armonioso y mucho cuidado por los detalles. Dando como resultado proyectos únicos para crear momentos maravillosos.</p>
                 </div>
             </div>
-            
-
-
-            <div class="col-lg-12 order-lg-1">
-                <iframe style="width:100%; height:400px;" 
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7802.479403328077!2d-77.022336!3d-12.095736000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c865504950a9%3A0x21193b6f6c6ee4c2!2sC.%20Armando%20Blondet%20217%2C%20San%20Isidro%2015047!5e0!3m2!1ses!2spe!4v1735596362537!5m2!1ses!2spe" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
-
-            <!-- en col-12 -->
         </div>
-        <!-- end row -->
     </div>
-    <!-- end container -->
 </section>
-<!-- end about-content -->
+
+<section class="benefits py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col wow fadeInUp mt-0" data-wow-delay="0s">
+                <figure> <img src="images/icon-benefits02.png" alt="Image"> <b></b> </figure>
+                <h6>AÑOS DE EXPERIENCIA</h6>
+                <span class="odometer" data-count="19" data-status="yes">0</span>
+            </div>
+            <div class="col wow fadeInUp  mt-0" data-wow-delay="0.05s">
+                <figure> <img src="images/icon-benefits04.png" alt="Image"> <b></b> </figure>
+                <h6>FAMILIAS SATISFECHAS</h6>
+                <span class="odometer" data-count="300" data-status="yes">0</span>
+            </div>
+            <div class="col wow fadeInUp  mt-0" data-wow-delay="0.10s">
+                <figure> <img src="images/icon-benefits05.png" alt="Image"> <b></b> </figure>
+                <h6>PROYECTOS INMOBILIARIOS</h6>
+                <span class="odometer" data-count="14" data-status="yes">0</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-6 order-lg-1 order-2">
+            <img src="<?= $baseUrl ?>images/nosotros/crearq-web.png" class="w-100" alt="">
+        </div>
+        <div class="col-lg-6 d-flex align-content-center flex-wrap order-lg-2 order-1">
+            <div class="col-lg-12 my-2">
+                <h3 style="color:#68a632;">MISIÓN</h3>
+                <hr>
+                <p class="text-justify">Nuestra Misión es construir espacios de calidad que mejoren nuestra ciudad y la
+                    calidad de vida de nuestros clientes.</p>
+            </div>
+
+            <div class="col-lg-12 my-2">
+                <h3 style="color:#229aa1;">VISIÓN</h3>
+                <hr>
+                <p class="text-justify">Nuestra Visión es ser la inmobiliaria y constructora más reconocida en el País por la calidad de sus proyectos,
+                    respeto de los tiempos establecidos y por contribuir a desarrollar una ciudad mejor para todos.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5 mb-5">
+    <div class="row py-3">
+        <div class="col-lg-6 order-lg-1 order-2 py-2">
+            <iframe style="width:100%; height:100%;"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7802.479403328077!2d-77.022336!3d-12.095736000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c865504950a9%3A0x21193b6f6c6ee4c2!2sC.%20Armando%20Blondet%20217%2C%20San%20Isidro%2015047!5e0!3m2!1ses!2spe!4v1735596362537!5m2!1ses!2spe" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <div class="col-lg-6 order-lg-2 order-1 py-2">
+            <h3 class="text-center" style="color:#873299;">NUESTROS VALORES</h3>
+            <hr>
+            <img src="<?= $baseUrl ?>images/nosotros/valores.png" class="w-100" alt="">
+        </div>
+    </div>
+</div>

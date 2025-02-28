@@ -77,7 +77,7 @@
                 <li><a href="<?= $baseUrl ?>postVenta">POST VENTA</a></li>
                 <li><a href="<?= $baseUrl ?>servicio">SERVICIO</a></li>
                 <li><a href="<?= $baseUrl ?>inversionistas">INVERSIONISTAS</a></li>
-                <li><a href="<?= $baseUrl ?>blog">Blog</a></li>
+                <!-- <li><a href="<?= $baseUrl ?>blog">Blog</a></li> -->
                 <li><a href="<?= $baseUrl ?>comunicate">COMUNÍCATE</a></li>
             </ul>
         </div>
@@ -94,7 +94,7 @@
                 Roma | Av. Benavides 246
                 Miraflores | Parque Kennedy calle. 17
             </address>
-            <h6>+51 987 515 678</h6>
+            <h6>+51 967 782 740</h6>
             <p><a href="#">ventas@inversioneshi.com</a></p>
             <ul class="social-media">
                 <li><a href="https://www.facebook.com/crearqconstructora/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
@@ -132,7 +132,7 @@
                             <li><a href="<?= $baseUrl ?>postVenta">POST VENTA</a></li>
                             <li><a href="<?= $baseUrl ?>servicio">SERVICIO</a></li>
                             <li><a href="<?= $baseUrl ?>inversionistas">INVERSIONISTAS</a></li>
-                            <li><a href="<?= $baseUrl ?>blog">BLOG</a></li>
+                            <!-- <li><a href="<?= $baseUrl ?>blog">BLOG</a></li> -->
                             <li><a href="<?= $baseUrl ?>comunicate">COMUNÍCATE</a></li>
                         </ul>
                     </div>

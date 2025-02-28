@@ -1,4 +1,47 @@
 
+<style>
+    /* Estilos del botón flotante */
+    .whatsapp-float {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25D366;
+        color: white;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        text-decoration: none;
+        z-index: 1000;
+        transition: transform 0.3s ease-in-out;
+        box-shadow: 0 0 10px rgba(37, 211, 102, 0.8);
+        animation: respirar 1.5s infinite alternate ease-in-out;
+    }
+
+    /* Efecto de hover */
+    .whatsapp-float:hover {
+        transform: scale(1.1);
+    }
+
+    /* Animación de "respiración" en los bordes */
+    @keyframes respirar {
+        0% {
+            box-shadow: 0 0 10px rgba(37, 211, 102, 0.8);
+        }
+        100% {
+            box-shadow: 0 0 20px rgba(37, 211, 102, 1), 0 0 40px rgba(37, 211, 102, 0.5);
+        }
+    }
+
+    /* Icono dentro del botón */
+    .whatsapp-icon {
+        font-size: 30px;
+    }
+</style>
+
 <section class="footer-bar">
   <div class="container">
     <!-- PUEDO QUITAR EL mb-5 PARA DESABILITAR EL SHADOW -->
@@ -23,19 +66,11 @@
   </div>
 </section>
 
-<!-- end footer-bar -->
 <footer class="footer">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.05s"> <img src="<?= $baseUrl ?>images/logo-crearq.png" alt="Image" class="logo">
                 <p>Crearp es crear, diseñar, idear, construir y proyectar innovación. Una arquitectura nueva y fresca plasmada en la mejor distribución de espacios en los departamentos.</p>
-                <div class="select-box dropdown show"> <a class="dropdown-toggle" href="#" role="button" id="language-select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span><img src="<?= $baseUrl ?>images/Flag_of_Peru.svg" alt="Image"> Perú</span> </a>
-                    <!-- <ul class="dropdown-menu" aria-labelledby="language-select">
-                        <li><a class="dropdown-item" href="#"><img src="<?= $baseUrl ?>images/flag-en.svg" alt="Image"> English</a></li>
-                        <li><a class="dropdown-item" href="#"><img src="<?= $baseUrl ?>images/flag-ua.svg" alt="Image"> Russian</a></li>
-                        <li><a class="dropdown-item" href="#"><img src="<?= $baseUrl ?>images/flag-br.svg" alt="Image"> Portugues</a></li>
-                    </ul> -->
-                </div>
                 <!-- end select-box -->
             </div>
             <!-- end col-4 -->
@@ -53,17 +88,19 @@
                     <li><a href="#">Servicios</a></li>
                     <li><a href="#">Inversionistas</a></li>
                     <li><a href="#">Contactanos</a></li>
+                    <li><a href="<?=$baseUrl?>LibroReclamacion">Libro de Reclamaciones</a></li>
                 </ul>
             </div>
             <!-- end col-2 -->
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.20s">
                 <div class="contact-box">
                     <h5>CALL CENTER</h5>
-                    <h3>+51 987 515 678</h3>
+                    <h3>+51 967 782 740</h3>
                     <p><a href="#">ventas@inversioneshi.com</a></p>
                     <ul>
                         <li><a href="https://www.facebook.com/crearqconstructora/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                         <li><a href="https://www.instagram.com/crearqconstructora/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.tiktok.com/@crearq.inmobiliaria/" target="_blank"><i class="fab fa-tiktok"></i></a></li>
                         <!-- <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                         <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                         <li><a href="#"><i class="fab fa-youtube"></i></a></li> -->
@@ -72,14 +109,24 @@
                 <!-- end contact-box -->
             </div>
             <!-- end col-4 -->
-            <div class="col-12"> <span class="copyright">© 2024 Crearq | Encuetra tu nuevo hogar aqui</span> <span class="creation">Sitio creado por <a href="#">Terminos</a></span> </div>
+            <div class="col-12"> <span class="copyright">© 2024 Crearq | Encuetra tu nuevo hogar aqui</span> <span class="creation">Sitio creado por <a href="#">Marco</a></span> </div>
             <!-- end col-12 -->
         </div>
         <!-- end row -->
     </div>
     <!-- end container -->
 </footer>
-<!-- end footer -->
+
+
+<a href="https://wa.me/967782740" 
+    class="whatsapp-float" 
+    target="_blank" 
+    title="Chatea con nosotros en WhatsApp">
+    <span class="whatsapp-icon">
+        <img src="<?=$baseUrl?>images/WhatsApp.png" class="w-100" alt="">
+    </span>
+</a>
+
 
 <!-- JS FILES -->
 <script src="<?= $baseUrl ?>js/jquery.min.js"></script>
@@ -96,6 +143,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 <script>
+
     var splide = new Splide( '.splide', {
     type   : 'loop',
     perPage: 3,
@@ -103,6 +151,7 @@
     } );
 
     splide.mount();
+
 </script>
 </body>
 

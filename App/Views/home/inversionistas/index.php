@@ -35,10 +35,33 @@
   </div>
 </section> -->
 
+<section class="recent-posts" style="padding: 0px; margin-top:90px !important;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 wow fadeInUp">
+        <h4><span>¿Deseas Invertir?</span></h4>
+        <small>Crearq </small>
+      </div>
+
+      <div class="col-lg-12 wow fadeInUp" data-wow-delay="0s">
+        <div class="post-box">
+          <span class="text-justify">
+            El sector inmobiliario es uno de los rubros de nuestra economía que más ha crecido en los últimos tiempos, y aun tiene por desarrollarse mucho mas; es por eso, que se presenta
+            como una de las inversiones más seguras del mercado y con una interesante tasa de retorno, nuestra empresa esta a abierta a asociarse con diferentes inversionistas y/o propietarios
+            de terrenos para desarrollar un proyecto inmobiliario y/o comercial formando una alianza estratégica, donde el inversionista compra la totalidad de un terreno o un porcentaje del mismo
+            y nosotros completamos el otro porcentaje, y el inversionista tiene la seguridad que su terreno, durante todo el proyecto va a estar a su nombre además que nuestra empresa desarrollará
+            un proyecto rentable en base a nuestra experiencia.</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
 </section>
 <!-- end recent-posts -->
-<section class="contact about-content mb-5" style="margin-top: 100px !important;">
+<section class="contact about-content mb-5" style="margin-top: 50px !important;">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 order-lg-2">
@@ -51,17 +74,8 @@
             <input type="hidden" name="i" value="6" required>
             <div class="b2servicio_dni px-1">
               <div class="input_select_box"><label>Documento de Identidad*</label>
-                <div class="input_select_left">
-                  <div class="input input_select"><span class="icon-arrow-bottom"></span><select required 
-                      class="validate[required]" name="document_type">
-                      <option value="DNI" selected="">DNI</option>
-                      <option value="CE">CE</option>
-                      <option value="Pasaporte">Pasaporte</option>
-                    </select></div>
-                </div>
-                <div class="input_select_right">
-                  <div class="input"><input class="validate[required] soloNumber" type="number" required 
-                      name="document"></div>
+                <div class="input">
+                    <input class="validate[required] soloNumber" type="number" required name="document">
                 </div>
               </div>
             </div>

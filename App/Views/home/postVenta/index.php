@@ -46,8 +46,7 @@
                     </div>
                     <div class="b1servicio_text">
                         <p>En Crearq, nuestro equipo de postventa está disponible para asegurarse de que tu experiencia sea completamente satisfactoria.
-                            Te ofrecemos asistencia personalizada para resolver cualquier duda o inquietud que puedas tener, así como apoyo en la gestión de trámites y
-                            servicios relacionados con tu propiedad. Tu tranquilidad es nuestra misión, y estamos aquí para acompañarte en cada etapa, incluso después de la firma.</p>
+                            Te ofrecemos asistencia personalizada para resolver cualquier duda o inquietud que puedas tener sobre tu apartamento. Tu tranquilidad es nuestra misión, y estamos aquí para acompañarte en cada etapa, incluso después de la firma.</p>
                     </div>
                     <div class="b1servicio_info">
                         <div class="b1servicio_direction"><span>UBÍCANOS EN</span>
@@ -58,7 +57,7 @@
                                     href="#">ventas@inversioneshi.com</a>
                             </div>
                             <div class="b1servicio_link"><span>Teléfono</span><a
-                                    href="tel:+519471685395193844467596">+ 51 987 515 678</a></div>
+                                    href="tel:+519471685395193844467596">+ 51 967 782 740</a></div>
                         </div>
                     </div>
                     <!-- <div class="b1servicio_btn"><a class="btn btn_black"
@@ -125,6 +124,29 @@
                         </li>
                         <li class="col-lg-6 px-1">
                             <div class="input"><label>Número de departamento</label><input name="numero_departamento" type="text" maxlength="20" required ></div>
+                        </li>
+                        <li class="col-lg-12 px-1">
+                            <div class="input"><label>Mencione el ambiente que desea que inspeccionemos</label>
+                                <div class="input_select"><span class="icon-arrow-bottom"></span>
+                                    <select required class="validate[required]" id="form_support_project" name="ambiente_inspeccionar">
+                                        <option value="" disabled="disabled" selected="selected">Seleccione*</option>
+                                        <option value="Ambiente Multiple" data-id="aliaga-435">Ambiente Multiple</option>
+                                        <option value="Sala" data-id="aliaga-435">Sala</option>
+                                        <option value="Comedor" data-id="aliaga-435">Comedor</option>
+                                        <option value="Dormitorio" data-id="aliaga-435">Dormitorio</option>
+                                        <option value="Baño" data-id="aliaga-435">Baño</option>
+                                        <option value="Cocina" data-id="aliaga-435">Cocina</option>
+                                        <option value="Patio" data-id="aliaga-435">Patio</option>
+                                        <option value="Piscina" data-id="aliaga-435">Piscina</option>
+                                        <option value="Estación de enfermeras" data-id="aliaga-435">Estación de enfermeras</option>
+                                        <option value="Hospitalización" data-id="aliaga-435">Hospitalización</option>
+                                        <option value="Quirófano" data-id="aliaga-435">Quirófano</option>
+                                        <option value="Recuperación" data-id="aliaga-435">Recuperación</option>
+                                        <option value="Consultorios" data-id="aliaga-435">Consultorios</option>
+                                        <option value="Otro" data-id="aliaga-435">Otro</option>
+                                    </select><input type="hidden" id="form_support_project_id" name="project_id">
+                                </div>
+                            </div>
                         </li>
                         <li class="col-lg-12 px-1">
                             <div class="input input_textarea"><label>Detalle del Problema</label><textarea name="message"
