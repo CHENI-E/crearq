@@ -71,7 +71,8 @@
                         <li><a href="">ROMA 255</a></li>
                         <li><a href="">LAS LILAS 123</a></li>
                         <li><a href="">AURORA 1940</a></li>
-                        <li><a href="">AQUA 2</a></li>
+                        <li><a href="">RODIN</a></li>
+                        <li><a href="">PARQ-Q</a></li>
                     </ul>
                 </li>
                 <li><a href="<?= $baseUrl ?>postVenta">POST VENTA</a></li>
@@ -126,7 +127,8 @@
                                     <li><a href="<?= $baseUrl ?>proyectos/roma_255">ROMA 255</a></li>
                                     <li><a href="<?= $baseUrl ?>proyectos/las_lilas_123">LAS LILAS 123</a></li>
                                     <li><a href="<?= $baseUrl ?>proyectos/aurora_1940">AURORA 1940</a></li>
-                                    <li><a href="<?= $baseUrl ?>proyectos/aqua_2">AQUA 2</a></li>
+                                    <li><a href="<?= $baseUrl ?>proyectos/rodin">RODIN</a></li>
+                                    <li><a href="">PAR-Q</a></li>
                                 </ul>
                             </li>
                             <li><a href="<?= $baseUrl ?>postVenta">POST VENTA</a></li>

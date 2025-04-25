@@ -49,14 +49,14 @@
       <div class="row justify-content-center">
 
         <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.05s">
-          <figure><img src="images/footer-icon01.png" alt="Image"></figure>
+          <figure><img src="<?=$baseUrl?>images/footer-icon01.png" alt="Image"></figure>
           <h3>Estamos ubicados</h3>
           <p>Calle Armando Blondet 217, Of. 501<br>
             San Isidro, Lima, Perú</p>
         </div>
 
         <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.10s">
-          <figure><img src="images/footer-icon02.png" alt="Image"></figure>
+          <figure><img src="<?=$baseUrl?>images/footer-icon02.png" alt="Image"></figure>
           <h3>Horario de atencion</h3>
           <p>Lunes a Viernes <strong>09:00</strong> a <strong>18:30</strong> 
         </div>

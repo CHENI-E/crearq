@@ -129,15 +129,15 @@
           	<li><a href="javascript:void(0);" data-filter=".surco">SURCO</a></li>
             <li><a href="javascript:void(0);" data-filter=".lince">LINCE</a></li>
             <li><a href="javascript:void(0);" data-filter=".p_libre">PUEBLO LIBRE</a></li>
-            <li><a href="javascript:void(0);" data-filter=".santa_maria_mar">SANTA MARÍA DEL MAR</a></li>
+            <!-- <li><a href="javascript:void(0);" data-filter=".santa_maria_mar">SANTA MARÍA DEL MAR</a></li> -->
    		</ul>
     		<ul class="gallery">
     			<li class="lince"><a href="<?= $baseUrl ?>proyectos/los_geranios_328"><img src="<?= $baseUrl ?>images/proyectos/GERANIOS-328---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
           <li class="surco"><a href="<?= $baseUrl ?>proyectos/las_lilas_123"><img src="<?= $baseUrl ?>images/proyectos/LAS-LILAS-123---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
           <li class="p_libre"><a href="<?= $baseUrl ?>"><img src="<?= $baseUrl ?>images/proyectos/PARQ---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
-          <li class="surquillo"><a href="<?= $baseUrl ?>"><img src="<?= $baseUrl ?>images/proyectos/RODIN-245---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
+          <li class="surquillo"><a href="<?= $baseUrl ?>proyectos/rodin"><img src="<?= $baseUrl ?>images/proyectos/RODIN-245---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
           <li class="miraflores"><a href="<?= $baseUrl ?>proyectos/roma_255"><img src="<?= $baseUrl ?>images/proyectos/ROMA-255---WEB-1-TRANSPARENCIA.png" alt="Image"></a></li>
-          <li class="santa_maria_mar"><a href="<?= $baseUrl ?>proyectos/aqua_2"><img src="<?= $baseUrl ?>images/proyectos/Avance-Web-aqua-2-sin-fondo.png" alt="Image"></a></li>
+          <!-- <li class="santa_maria_mar"><a href="<?= $baseUrl ?>proyectos/aqua_2"><img src="<?= $baseUrl ?>images/proyectos/Avance-Web-aqua-2-sin-fondo.png" alt="Image"></a></li> -->
           <li class="miraflores"><a href="<?= $baseUrl ?>proyectos/aurora_1940"><img src="<?= $baseUrl ?>images/proyectos/AURORA---WEB-1-.-TRANSPARENCIA.png" alt="Image"></a></li>
         </ul>
     	</div>
