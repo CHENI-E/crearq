@@ -17,14 +17,17 @@
   }
 </style>
 <!-- property-plans -->
-<img src="<?= $baseUrl ?>images/portada/ROMA-2.png" class="w-100" alt="">
+<img src="<?= $baseUrl ?>images/portada3/roma (1).png" class="w-100" alt="">
 
 
 <section class="property-plans about-content pt-3 pb-5">
   <div class="container">
+    <h4 class="mt-5 text-center"><span>BIENVENIDO A TU NUEVO LUGAR FAVORITO</span></h4>
     <div class="row align-items-center mt-5 mb-5">
-      <div class="col-lg-6 wow fadeInUp">
-        <h4><span>BIENVENIDO <br> A TU NUEVO LUGAR FAVORITO</span></h4>
+
+      <div class="col-lg-6 col-md-6 wow fadeInUp">
+        <img src="<?= $baseUrl ?>images/portada3/ROMA-WEB-INFO.png" width="100%" alt="">
+        <!-- <h4><span>BIENVENIDO <br> A TU NUEVO LUGAR FAVORITO</span></h4>
         <p>¡Miraflores lo tiene todo!</p>
         <table>
           <tbody>
@@ -61,10 +64,11 @@
               <td>Área de parrilla por departamento con sistema de extracción</td>
             </tr>
           </tbody>
-        </table>
+        </table> -->
       </div>
+
       <!-- end col-6 -->
-      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.05s">
+      <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.05s">
 
 
 
@@ -75,13 +79,13 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <!-- <li data-target="#carouselExampleIndicators" data-slide-to="5"></li> -->
           </ol>
           <div class="carousel-inner">
-            <div class="carousel-item active" style="width: 100%; height:600px;">
+            <!-- <div class="carousel-item active" style="width: 100%; height:600px;">
               <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/roma-vista-6-768x1024.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item" style="width: 100%; height:600px;">
+            </div> -->
+            <div class="carousel-item active" style="width: 100%; height:600px;">
               <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/roma-vista-1-1024x1024.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" style="width: 100%; height:600px;">
@@ -117,6 +121,7 @@
         </div>
 
       </div>
+
     </div>
 
 

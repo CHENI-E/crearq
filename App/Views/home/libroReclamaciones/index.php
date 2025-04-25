@@ -17,11 +17,12 @@
     }
 </style>
 
-<section class="get-consultation" data-background="<?= $baseUrl ?>images/portada3/contactanos-web.png" data-stellar-background-ratio="0.6" style="background-size: 100%; background-position: 100% -1px;">
+<img src="<?= $baseUrl ?>images/portada3/contactanos-web.png" class="w-100" alt="">
+<!-- <section class="get-consultation" data-background="<?= $baseUrl ?>images/portada3/contactanos-web.png" data-stellar-background-ratio="0.6" style="background-size: 100%; background-position: 100% -1px;">
     <div class="bg-red">
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
-</section>
+</section> -->
 
 <section class="recent-posts" style="padding: 0px; margin-top:90px !important;">
   <div class="container">

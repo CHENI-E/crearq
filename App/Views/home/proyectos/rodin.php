@@ -17,14 +17,17 @@
   }
 </style>
 <!-- property-plans -->
-<img src="<?= $baseUrl ?>images/portada/LILAS-2.png" class="w-100" alt="">
+<img src="<?= $baseUrl ?>images/portada3/rodin (1).png" class="w-100" alt="">
 
 
 <section class="property-plans about-content pt-3 pb-5">
   <div class="container">
+    <h4 class="mt-5 text-center"><span>VIVE EN LA ZONA MAS EXCLUSIVA DE SURQUILLO</span></h4>
     <div class="row align-items-center mt-5 mb-5">
-      <div class="col-lg-6 wow fadeInUp">
-        <h4><span>VIVE EN LA ZONA <br> MAS EXCLUSIVA DE SURQUILLO</span></h4>
+
+      <div class="col-lg-6 col-md-6 wow fadeInUp">
+        <img src="<?= $baseUrl ?>images/portada3/RODIN-WEB-INFO.png" width="100%" alt="">
+        <!-- <h4><span>VIVE EN LA ZONA <br> MAS EXCLUSIVA DE SURQUILLO</span></h4>
         <p>Vive con exclusividad y cerca a lo que necesitas.</p>
         <table>
           <tbody>
@@ -65,10 +68,10 @@
               <td>Tablero de piedra sinterizada en cocina</td>
             </tr>
           </tbody>
-        </table>
+        </table> -->
       </div>
       <!-- end col-6 -->
-      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.05s">
+      <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.05s">
 
 
 
@@ -83,28 +86,22 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active" style="width: 100%; height:600px;">
-              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/LILAS/1.png" class="d-block w-100" alt="...">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/RODIN/EDIFICIO (1).png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" style="width: 100%; height:600px;">
-              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/LILAS/2.png" class="d-block w-100" alt="...">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/RODIN/DORMITORIO.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" style="width: 100%; height:600px;">
-              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/LILAS/3.png" class="d-block w-100" alt="...">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/RODIN/COMEDOR.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" style="width: 100%; height:600px;">
-              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/LILAS/4.png" class="d-block w-100" alt="...">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/RODIN/COCINA.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" style="width: 100%; height:600px;">
-              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/LILAS/5.png" class="d-block w-100" alt="...">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/RODIN/SALA.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" style="width: 100%; height:600px;">
-              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/LILAS/6.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item" style="width: 100%; height:600px;">
-              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/LILAS/7.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item" style="width: 100%; height:600px;">
-              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/LILAS/8.png" class="d-block w-100" alt="...">
+              <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/RODIN/EDIFICIO.png" class="d-block w-100" alt="...">
             </div>
           </div>
           <!-- <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
@@ -118,6 +115,7 @@
         </div>
 
       </div>
+      
     </div>
 
 
@@ -129,7 +127,7 @@
             <figure> <img src="<?=$baseUrl?>images/icon-benefits02.png" alt="Image"> <b></b> </figure>
             <h6 style="font-size: 13px; color:#a6acaf; ">Ver Brochure</h6>
           </a>
-          <a href="<?=$baseUrl?>pdf/PLANOS-LILAS.pdf" target="_blank" class="col wow fadeInUp" data-wow-delay="0.15s">
+          <a href="<?=$baseUrl?>pdf/Planos Rodin 245. (1).pdf" target="_blank" class="col wow fadeInUp" data-wow-delay="0.15s">
             <figure> <img src="<?=$baseUrl?>images/icon-benefits04.png" alt="Image"> <b></b> </figure>
             <h6 style="font-size: 13px; color:#a6acaf; ">Ver Planos</h6>
           </a>

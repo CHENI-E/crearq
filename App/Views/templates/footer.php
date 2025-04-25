@@ -76,19 +76,19 @@
             <!-- end col-4 -->
             <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.10s">
                 <ul class="footer-menu">
-                    <li><a href="#">Incio</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Proyectos</a></li>
-                    <li><a href="#">Post Venta</a></li>
+                    <li><a href="<?= $baseUrl ?>">Incio</a></li>
+                    <li><a href="<?= $baseUrl ?>nosotros">Nosotros</a></li>
+                    <li><a href="<?= $baseUrl ?>">Proyectos</a></li>
+                    <li><a href="<?= $baseUrl ?>postVenta">Post Venta</a></li>
                 </ul>
             </div>
             <!-- end col-2 -->
             <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.15s">
                 <ul class="footer-menu">
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Inversionistas</a></li>
-                    <li><a href="#">Contactanos</a></li>
-                    <li><a href="<?=$baseUrl?>LibroReclamacion">Libro de Reclamaciones</a></li>
+                    <li><a href="<?= $baseUrl ?>servicio">Servicios</a></li>
+                    <li><a href="<?= $baseUrl ?>inversionistas">Inversionistas</a></li>
+                    <li><a href="<?= $baseUrl ?>comunicate">Contactanos</a></li>
+                    <li><a href="<?= $baseUrl ?>LibroReclamacion">Libro de Reclamaciones</a></li>
                 </ul>
             </div>
             <!-- end col-2 -->

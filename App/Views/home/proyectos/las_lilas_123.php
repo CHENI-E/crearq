@@ -17,14 +17,16 @@
   }
 </style>
 <!-- property-plans -->
-<img src="<?= $baseUrl ?>images/portada/LILAS-2.png" class="w-100" alt="">
+<img src="<?= $baseUrl ?>images/portada3/las-lilas (1).png" class="w-100" alt="">
 
 
 <section class="property-plans about-content pt-3 pb-5">
   <div class="container">
+    <h4 class="text-center mt-5"><span>VIVE CERCA A TODO EN VALLE HERMOSO</span></h4>
     <div class="row align-items-center mt-5 mb-5">
-      <div class="col-lg-6 wow fadeInUp">
-        <h4><span>VIVE CERCA <br> A TODO EN VALLE HERMOSO</span></h4>
+      <div class="col-lg-6 col-md-6 wow fadeInUp">
+        <img src="<?= $baseUrl ?>images/portada3/LILAS-WEB-INFO.png" width="100%" alt="">
+        <!-- <h4><span>VIVE CERCA <br> A TODO EN VALLE HERMOSO</span></h4>
         <p>Vive con exclusividad y cerca a lo que necesitas.</p>
         <table>
           <tbody>
@@ -57,10 +59,11 @@
               <td>Área de parrilla por departamento con sistema de extracción (ver dptos con característica)</td>
             </tr>
           </tbody>
-        </table>
+        </table> -->
       </div>
+
       <!-- end col-6 -->
-      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.05s">
+      <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.05s">
 
 
 
@@ -110,6 +113,7 @@
         </div>
 
       </div>
+
     </div>
 
 

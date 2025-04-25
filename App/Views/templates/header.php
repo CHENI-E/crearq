@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="format-detection" content="telephone=no">
     <meta name="theme-color" content="#282828" />
-    <title>Crearq</title>
+    <title><?= $title ?? 'Crearq' ?></title>
     <meta name="author" content="Marco">
     <meta name="description" content="Crearq | Raquel">
     <meta name="keywords" content="Crearq">
@@ -67,12 +67,12 @@
                 <li><a href="<?= $baseUrl ?>nosotros">NOSOTROS</a></li>
                 <li><a href="#">PROYECTOS</a>
                     <ul>
-                        <li><a href="">LOS GERANIOS 328</a></li>
-                        <li><a href="">ROMA 255</a></li>
-                        <li><a href="">LAS LILAS 123</a></li>
-                        <li><a href="">AURORA 1940</a></li>
-                        <li><a href="">RODIN</a></li>
-                        <li><a href="">PARQ-Q</a></li>
+                        <li><a href="<?= $baseUrl ?>proyectos/los_geranios_328">LOS GERANIOS 328</a></li>
+                        <li><a href="<?= $baseUrl ?>proyectos/roma_255">ROMA 255</a></li>
+                        <li><a href="<?= $baseUrl ?>proyectos/las_lilas_123">LAS LILAS 123</a></li>
+                        <li><a href="<?= $baseUrl ?>proyectos/aurora_1940">AURORA 1940</a></li>
+                        <li><a href="<?= $baseUrl ?>proyectos/rodin">RODIN</a></li>
+                        <li><a href="<?= $baseUrl ?>proyectos/parq">PAR-Q</a></li>
                     </ul>
                 </li>
                 <li><a href="<?= $baseUrl ?>postVenta">POST VENTA</a></li>
@@ -128,7 +128,7 @@
                                     <li><a href="<?= $baseUrl ?>proyectos/las_lilas_123">LAS LILAS 123</a></li>
                                     <li><a href="<?= $baseUrl ?>proyectos/aurora_1940">AURORA 1940</a></li>
                                     <li><a href="<?= $baseUrl ?>proyectos/rodin">RODIN</a></li>
-                                    <li><a href="">PAR-Q</a></li>
+                                    <li><a href="<?= $baseUrl ?>proyectos/parq">PAR-Q</a></li>
                                 </ul>
                             </li>
                             <li><a href="<?= $baseUrl ?>postVenta">POST VENTA</a></li>

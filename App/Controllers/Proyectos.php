@@ -48,4 +48,11 @@ class Proyectos
         View::render($views, $args);
     }
 
+    public function parq()
+    {
+        $views = ['home/proyectos/par-q'];
+        $args  = ['title' => 'Crearq | ParQ'];
+        View::render($views, $args);
+    }
+
 }

@@ -17,7 +17,7 @@
   }
 </style>
 <!-- property-plans -->
-<img src="<?= $baseUrl ?>images/portada/AURORA-2.png" class="w-100" alt="">
+<img src="<?= $baseUrl ?>images/portada3/aurora (1).png" class="w-100" alt="">
 
 
 <section class="property-plans about-content pt-3 pb-5">

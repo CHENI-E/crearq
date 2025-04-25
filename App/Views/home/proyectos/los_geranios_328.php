@@ -17,14 +17,17 @@
   }
 </style>
 <!-- property-plans -->
-<img src="<?= $baseUrl ?>images/portada/GERANIOS-2.png" class="w-100" alt="">
+<img src="<?= $baseUrl ?>images/portada3/geranios (1).png" class="w-100" alt="">
 
 
 <section class="property-plans about-content pt-3 pb-5">
   <div class="container">
+    <h4 class="mt-5 text-center"><span>El estilo de vida que mereces</span></h4>
     <div class="row align-items-center mt-5 mb-5">
-      <div class="col-lg-6 wow fadeInUp">
-        <h4><span>El estilo de <br> vida que mereces</span></h4>
+
+      <div class="col-lg-6 col-md-6 wow fadeInUp">
+        <img src="<?= $baseUrl ?>images/portada3/GERANIOS-WEB-INFO.png" width="100%" alt="">
+        <!-- <h4><span>El estilo de <br> vida que mereces</span></h4>
         <p>Vive en Lince a pocos metros del Centro Financiero de San Isidro</p>
         <table>
           <tbody>
@@ -61,10 +64,11 @@
               <td>Ubicación Estratégica cerca al Centro Financiero de San Isidro</td>
             </tr>
           </tbody>
-        </table>
+        </table> -->
       </div>
+
       <!-- end col-6 -->
-      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.05s">
+      <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.05s">
 
 
 
@@ -81,7 +85,7 @@
             <div class="carousel-item active">
               <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/geranios01-1024x1024.jpg" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item active">
               <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/geranios02-1024x1024.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
@@ -108,6 +112,7 @@
         </div>
 
       </div>
+
     </div>
 
 

@@ -20,72 +20,31 @@
     margin: 70px 0px 50px 0px;
   }
 </style>
-<header class="slider">
+
+
+<header class="slider" hidden>
   <div class="slider-container">
     <div class="swiper-wrapper">
       <!-- PROYECTO LAS LILAS -->
       <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/las-lilas.png" data-stellar-background-ratio="1.15">
-        <!-- <img src="<?= $baseUrl ?>images/portada3/las-lilas.png" class="w-100"> -->
-        <!-- <div class="container ">
-          <h1><span>Las Lilas 123</span></h1>
-          <h2>Vive en Valle Hemorso</h2>
-          <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
-          <figure><img src="<?= $baseUrl ?>images/services-icon01.png" alt="Image"></figure>
-        </div> -->
       </div>
       <!-- PROYECTO GERANIOS -->
       <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/geranios.png" data-stellar-background-ratio="1.15">
-        <!-- <div class="container">
-          <h1><span>Geranios</span> Lince</h1>
-          <h2>Entrega Abril 2025</h2>
-          <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
-          <figure><img src="<?= $baseUrl ?>images/services-icon08.png" alt="Image"></figure>
-        </div> -->
       </div>
       <!-- PROYECTO ROMA -->
       <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/roma.png" data-stellar-background-ratio="1.15">
-        <!-- <div class="container">
-          <h1><span>Roma</span> Miraflores</h1>
-          <h2>Entre Febrero 2025</h2>
-          <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
-          <figure><img src="<?= $baseUrl ?>images/services-icon07.png" alt="Image"></figure>
-        </div> -->
       </div>
       <!-- PROYECTO AURORA -->
       <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/aurora.png" data-stellar-background-ratio="1.15">
-        <!-- <div class="container">
-          <h1><span>Aurora 1940</span></h1>
-          <h2>La Aurora Miraflores</h2>
-          <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
-          <figure><img src="<?= $baseUrl ?>images/services-icon07.png" alt="Image"></figure>
-        </div> -->
       </div>
       <!-- PROYECTO RODIN -->
       <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/rodin.png" data-stellar-background-ratio="1.15">
-        <!-- <div class="container">
-          <h1><span>Rodin 245</span></h1>
-          <h2>Rodin Surquillo</h2>
-          <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
-          <figure><img src="<?= $baseUrl ?>images/services-icon07.png" alt="Image"></figure>
-        </div> -->
       </div>
       <!-- PROYECTO PARQ -->
       <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/parq.png" data-stellar-background-ratio="1.15">
-        <!-- <div class="container">
-          <h1><span>PARQ</span></h1>
-          <h2>Jr. Rio Huaura 340 - Pueblo Libre</h2>
-          <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
-          <figure><img src="<?= $baseUrl ?>images/services-icon07.png" alt="Image"></figure>
-        </div> -->
       </div>
       <!-- PROYECTO AQUA2 -->
       <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/aqua-2.png" data-stellar-background-ratio="1.15">
-        <!-- <div class="container">
-          <h1><span>PARQ</span></h1>
-          <h2>Jr. Rio Huaura 340 - Pueblo Libre</h2>
-          <a href="#">Ver Proyecto <i class="fas fa-caret-right"></i></a>
-          <figure><img src="<?= $baseUrl ?>images/services-icon07.png" alt="Image"></figure>
-        </div> -->
       </div>
 
     </div>
@@ -116,9 +75,43 @@
   <!-- end slider-container -->
 </header>
 
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="<?= $baseUrl ?>images/portada3/las-lilas.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="<?= $baseUrl ?>images/portada3/geranios.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="<?= $baseUrl ?>images/portada3/roma.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="<?= $baseUrl ?>images/portada3/aurora.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="<?= $baseUrl ?>images/portada3/rodin.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="<?= $baseUrl ?>images/portada3/parq.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="<?= $baseUrl ?>images/portada3/aqua-2.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
 
 <!-- FILTRO DE PROYECTOS -->
-<section class="photo-gallery pt-0 pb-0">
+<section class="photo-gallery pt-2 pb-0 mt-5">
   <div class="container">
     <div class="row">
     	<div class="col-12">
@@ -134,7 +127,7 @@
     		<ul class="gallery">
     			<li class="lince"><a href="<?= $baseUrl ?>proyectos/los_geranios_328"><img src="<?= $baseUrl ?>images/proyectos/GERANIOS-328---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
           <li class="surco"><a href="<?= $baseUrl ?>proyectos/las_lilas_123"><img src="<?= $baseUrl ?>images/proyectos/LAS-LILAS-123---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
-          <li class="p_libre"><a href="<?= $baseUrl ?>"><img src="<?= $baseUrl ?>images/proyectos/PARQ---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
+          <li class="p_libre"><a href="<?= $baseUrl ?>proyectos/parq"><img src="<?= $baseUrl ?>images/proyectos/PARQ---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
           <li class="surquillo"><a href="<?= $baseUrl ?>proyectos/rodin"><img src="<?= $baseUrl ?>images/proyectos/RODIN-245---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
           <li class="miraflores"><a href="<?= $baseUrl ?>proyectos/roma_255"><img src="<?= $baseUrl ?>images/proyectos/ROMA-255---WEB-1-TRANSPARENCIA.png" alt="Image"></a></li>
           <!-- <li class="santa_maria_mar"><a href="<?= $baseUrl ?>proyectos/aqua_2"><img src="<?= $baseUrl ?>images/proyectos/Avance-Web-aqua-2-sin-fondo.png" alt="Image"></a></li> -->
