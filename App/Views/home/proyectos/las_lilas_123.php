@@ -125,7 +125,7 @@
             <figure> <img src="<?=$baseUrl?>images/icon-benefits02.png" alt="Image"> <b></b> </figure>
             <h6 style="font-size: 13px; color:#a6acaf; ">Ver Brochure</h6>
           </a>
-          <a href="<?=$baseUrl?>pdf/PLANOS-LILAS.pdf" target="_blank" class="col wow fadeInUp" data-wow-delay="0.15s">
+          <a href="<?=$baseUrl?>pdf/Dptos Lilas.pdf" target="_blank" class="col wow fadeInUp" data-wow-delay="0.15s">
             <figure> <img src="<?=$baseUrl?>images/icon-benefits04.png" alt="Image"> <b></b> </figure>
             <h6 style="font-size: 13px; color:#a6acaf; ">Ver Planos</h6>
           </a>

@@ -45,7 +45,7 @@
 </section>
 
 
-<section class="about-content" style="padding: 50px;">
+<section class="about-content pt-4 pb-5" style="padding: 0px;">
     <div class="container">
         <section class="contact about-content">
             <div class="container">

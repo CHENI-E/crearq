@@ -70,7 +70,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.05s"> <img src="<?= $baseUrl ?>images/logo-crearq.png" alt="Image" class="logo">
-                <p>Crearp es crear, diseñar, idear, construir y proyectar innovación. Una arquitectura nueva y fresca plasmada en la mejor distribución de espacios en los departamentos.</p>
+                <p>Crearq es crear, diseñar, idear, construir y proyectar innovación. Una arquitectura nueva y fresca plasmada en la mejor distribución de espacios en los departamentos.</p>
                 <!-- end select-box -->
             </div>
             <!-- end col-4 -->
@@ -109,7 +109,7 @@
                 <!-- end contact-box -->
             </div>
             <!-- end col-4 -->
-            <div class="col-12"> <span class="copyright">© 2024 Crearq | Encuetra tu nuevo hogar aqui</span> <span class="creation">Sitio creado por <a href="#">Marco</a></span> </div>
+            <div class="col-12"> <span class="copyright">© 2025 Crearq | Encuentra tu nuevo hogar aqui</span></div>
             <!-- end col-12 -->
         </div>
         <!-- end row -->

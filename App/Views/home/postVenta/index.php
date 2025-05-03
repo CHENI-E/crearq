@@ -33,11 +33,11 @@
     </div>
 
 </section> -->
-<section class="about-content" style="padding: 50px;">
+<section class="about-content" style="padding: 20px;">
     <div class="container">
         <section class="b1servicio row">
 
-            <div class="b1servicio_content col-lg-6">
+            <div class="b1servicio_content col-lg-6 mb-5">
                 <div class="b1servicio_wrap ww_center">
                     <div class="b1servicio_title">
                         <div class="title_light title_40 title_black"><span>POST VENTA</span>
@@ -54,10 +54,10 @@
                         </div>
                         <div class="b1servicio_datos">
                             <div class="b1servicio_link"><span>ESCRÍBENOS</span><a
-                                    href="#">ventas@inversioneshi.com</a>
+                                    href="#">postventa@crearqinmobiliaria.com</a>
                             </div>
                             <div class="b1servicio_link"><span>Teléfono</span><a
-                                    href="tel:+519471685395193844467596">+ 51 967 782 740</a></div>
+                                    href="tel:+519471685395193844467596">+ 51 961 550 654</a></div>
                         </div>
                     </div>
                     <!-- <div class="b1servicio_btn"><a class="btn btn_black"
@@ -67,7 +67,7 @@
                 </div>
             </div>
 
-            <div class="b2servicio_content col-lg-6">
+            <div class="col-lg-6 col-12">
                 <div class="b2servicio_title">
                     <h2>DÉJANOS TUS DATOS
                     </h2>
@@ -143,6 +143,7 @@
                                         <option value="Quirófano" data-id="aliaga-435">Quirófano</option>
                                         <option value="Recuperación" data-id="aliaga-435">Recuperación</option>
                                         <option value="Consultorios" data-id="aliaga-435">Consultorios</option>
+                                        <option value="Clínica Risol" data-id="aliaga-435">Clínica Risol</option>
                                         <option value="Otro" data-id="aliaga-435">Otro</option>
                                     </select><input type="hidden" id="form_support_project_id" name="project_id">
                                 </div>

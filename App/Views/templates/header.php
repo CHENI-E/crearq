@@ -72,7 +72,7 @@
                         <li><a href="<?= $baseUrl ?>proyectos/las_lilas_123">LAS LILAS 123</a></li>
                         <li><a href="<?= $baseUrl ?>proyectos/aurora_1940">AURORA 1940</a></li>
                         <li><a href="<?= $baseUrl ?>proyectos/rodin">RODIN</a></li>
-                        <li><a href="<?= $baseUrl ?>proyectos/parq">PAR-Q</a></li>
+                        <li><a href="<?= $baseUrl ?>proyectos/parq">PARQ</a></li>
                     </ul>
                 </li>
                 <li><a href="<?= $baseUrl ?>postVenta">POST VENTA</a></li>
@@ -128,7 +128,7 @@
                                     <li><a href="<?= $baseUrl ?>proyectos/las_lilas_123">LAS LILAS 123</a></li>
                                     <li><a href="<?= $baseUrl ?>proyectos/aurora_1940">AURORA 1940</a></li>
                                     <li><a href="<?= $baseUrl ?>proyectos/rodin">RODIN</a></li>
-                                    <li><a href="<?= $baseUrl ?>proyectos/parq">PAR-Q</a></li>
+                                    <li><a href="<?= $baseUrl ?>proyectos/parq">PARQ</a></li>
                                 </ul>
                             </li>
                             <li><a href="<?= $baseUrl ?>postVenta">POST VENTA</a></li>

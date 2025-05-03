@@ -126,12 +126,12 @@
    		</ul>
     		<ul class="gallery">
     			<li class="lince"><a href="<?= $baseUrl ?>proyectos/los_geranios_328"><img src="<?= $baseUrl ?>images/proyectos/GERANIOS-328---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
-          <li class="surco"><a href="<?= $baseUrl ?>proyectos/las_lilas_123"><img src="<?= $baseUrl ?>images/proyectos/LAS-LILAS-123---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
-          <li class="p_libre"><a href="<?= $baseUrl ?>proyectos/parq"><img src="<?= $baseUrl ?>images/proyectos/PARQ---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
-          <li class="surquillo"><a href="<?= $baseUrl ?>proyectos/rodin"><img src="<?= $baseUrl ?>images/proyectos/RODIN-245---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
-          <li class="miraflores"><a href="<?= $baseUrl ?>proyectos/roma_255"><img src="<?= $baseUrl ?>images/proyectos/ROMA-255---WEB-1-TRANSPARENCIA.png" alt="Image"></a></li>
+          <li class="surco"><a href="<?= $baseUrl ?>proyectos/las_lilas_123"><img src="<?= $baseUrl ?>images/proyectos/LILAS.jpg" alt="Image"></a></li>
+          <li class="p_libre"><a href="<?= $baseUrl ?>proyectos/parq"><img src="<?= $baseUrl ?>images/proyectos/PARQ.jpg" alt="Image"></a></li>
+          <li class="surquillo"><a href="<?= $baseUrl ?>proyectos/rodin"><img src="<?= $baseUrl ?>images/proyectos/RODIN.jpg" alt="Image"></a></li>
+          <li class="miraflores"><a href="<?= $baseUrl ?>proyectos/roma_255"><img src="<?= $baseUrl ?>images/proyectos/ROMA.jpg" alt="Image"></a></li>
           <!-- <li class="santa_maria_mar"><a href="<?= $baseUrl ?>proyectos/aqua_2"><img src="<?= $baseUrl ?>images/proyectos/Avance-Web-aqua-2-sin-fondo.png" alt="Image"></a></li> -->
-          <li class="miraflores"><a href="<?= $baseUrl ?>proyectos/aurora_1940"><img src="<?= $baseUrl ?>images/proyectos/AURORA---WEB-1-.-TRANSPARENCIA.png" alt="Image"></a></li>
+          <li class="miraflores"><a href="<?= $baseUrl ?>proyectos/aurora_1940"><img src="<?= $baseUrl ?>images/proyectos/AURORA.jpg" alt="Image"></a></li>
         </ul>
     	</div>
     	<!-- end col-12 -->
@@ -148,7 +148,7 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-5 wow fadeInUp">
-        <h4>Más de <span>19 años</span> de trayectoria nos han permitido conectar a cientos de personas con sus hogares ideales y oportunidades de inversión únicas.</h4>
+        <h4>Más de <span>20 años</span> de trayectoria nos han permitido conectar a cientos de personas con sus hogares ideales y oportunidades de inversión únicas.</h4>
         <!-- <h3>Más de <span>19 años</span> de experiencia nos respaldan</h3> -->
         <!-- <a href="#" class="link">SEE ALL GALLERY <i class="fas fa-caret-right"></i></a> -->
       </div>
@@ -248,12 +248,12 @@
 
 
 <!-- FORMULARIO CON EL MAPA -->
-<section class="about-content pt-0" style="padding: 50px;">
-  <div class="container">
+<section class="about-content pt-0" style="padding: 20px;">
+  <div class="m-auto">
     <section class="contact about-content">
-      <div class="container">
+      <div class="">
         <div class="row">
-          <div class="col-lg-6 order-lg-2">
+          <div class="col-lg-6 order-lg-2 col-12">
             <div class="b2servicio_content">
               <div class="b2servicio_title">
                 <h2>DÉJANOS TUS DATOS

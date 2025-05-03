@@ -94,7 +94,7 @@
 </section>
 
 <!-- FORMULARIO CON EL MAPA -->
-<section class="about-content " style="padding: 50px;">
+<section class="about-content pt-5 pb-5" style="padding: 0px;">
   <div class="container">
     <section class="contact about-content">
       <div class="container">
