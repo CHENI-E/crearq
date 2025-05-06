@@ -118,7 +118,7 @@
           </a>
           <a class="col wow fadeInUp" data-wow-delay="0.20s">
             <figure> <img src="<?=$baseUrl?>images/icon-benefits05.png" alt="Image"> <b></b> </figure>
-            <h6 style="font-size: 13px; color:#a6acaf; ">Avenida Tomás Marsano <br>1950, Urb. La Aurora <br> Miraflores</h6>
+            <h6 style="font-size: 13px; color:#a6acaf; ">Jirón Rio Huaura <br>340. Pueblo Libre</h6>
           </a>
         </div>
       </div> 
@@ -201,9 +201,8 @@
 
       <div class="col-lg-6 pt-5 order-lg-1">
         <iframe style="width:100%; height:100%;"
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3900.876289401707!2d-77.00706100000001!3d-12.120616!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7fcf9062391%3A0x219988a3fdde2abf!2sAv.%20Tomas%20Marsano%201950%2C%20Lima%2015048!5e0!3m2!1ses!2spe!4v1737953052122!5m2!1ses!2spe" 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.607975939967!2d-77.07238029999999!3d-12.0704716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c916b5a3f32d%3A0x34ace885cbf22e38!2sJr.%20R%C3%ADo%20Huaura%20340%2C%20Pueblo%20Libre%2015084!5e0!3m2!1ses-419!2spe!4v1746481441955!5m2!1ses-419!2spe" 
         style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        
       </div>
 
     </div>

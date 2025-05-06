@@ -17,7 +17,7 @@
   }
 </style>
 <!-- property-plans -->
- <img src="<?= $baseUrl ?>images/portada3/estas-buscando-invertir.png" class="w-100" alt="">
+ <img src="<?= $baseUrl ?>images/portada3/INVERTIR.jpg" class="w-100" alt="">
 <!-- <section class="get-consultation" data-background="<?= $baseUrl ?>images/servicios_1.jpg" data-stellar-background-ratio="0.6" style="background-size: 100%; background-position: 100% -1px;">
   <div class="container">
     <div class="row">
@@ -125,8 +125,9 @@
       </div>
 
       <div class="col-lg-6 pt-5 order-lg-1">
-        <iframe style="width:100%; height:100%;"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.2378765886474!2d-73.97644805915624!3d40.69075842971381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bb6c6fe52c7%3A0x2b3bb16e97b13c01!2sFort+Greene+Tennis+Courts!5e0!3m2!1sen!2str!4v1559831164025!5m2!1sen!2str" allowfullscreen></iframe>
+          <iframe style="width:100%; height:100%;"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7802.479403328077!2d-77.022379!3d-12.095736000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c865504950a9%3A0x21193b6f6c6ee4c2!2sC.%20Armando%20Blondet%20217%2C%20San%20Isidro%2015047!5e0!3m2!1ses!2spe!4v1740546573452!5m2!1ses!2spe"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
 
@@ -137,3 +138,26 @@
   <!-- end container -->
 </section>
 
+<section class="footer-bar" id="footer-rosado">
+  <div class="container">
+    <!-- PUEDO QUITAR EL mb-5 PARA DESABILITAR EL SHADOW -->
+    <div class="inner wow fadeIn shadow-lg mb-5 bg-body-tertiary rounded">
+      <div class="row justify-content-center">
+
+        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.05s">
+          <figure><img src="<?=$baseUrl?>images/footer-icon01.png" alt="Image"></figure>
+          <h3>Estamos ubicados</h3>
+          <p>Calle Armando Blondet 217, Of. 501<br>
+            San Isidro, Lima, Perú</p>
+        </div>
+
+        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.10s">
+          <figure><img src="<?=$baseUrl?>images/footer-icon02.png" alt="Image"></figure>
+          <h3>Horario de atencion</h3>
+          <p>Lunes a Viernes <strong>09:00</strong> a <strong>18:30</strong> 
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

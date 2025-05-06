@@ -22,10 +22,11 @@
 
 <section class="property-plans about-content pt-3 pb-5">
   <div class="container">
+  <h4 class="text-center mt-5"><span>LA VIDA QUE MERECES <br> ÚLTIMO DEPARTAMENTO</span></h4>
     <div class="row align-items-center mt-5 mb-5">
-      <div class="col-lg-6 wow fadeInUp">
-        <h4><span>Último departamento <br> LA VIDA QUE MERECES</span></h4>
-        <p>Moderno estilo arquitectónico, detalles para hacer tu vida mejor, excelente distribución e iluminación.</p>
+      <div class="col-lg-6 col-md-6 wow fadeInUp">
+        <img src="<?= $baseUrl ?>images/portada3/aurora-info.png" width="100%" alt="">
+        <!-- <p>Moderno estilo arquitectónico, detalles para hacer tu vida mejor, excelente distribución e iluminación.</p>
         <table>
           <tbody>
             <tr>
@@ -49,7 +50,7 @@
               <td>Área de parrilla por departamento con sistema de extracción</td>
             </tr>
           </tbody>
-        </table>
+        </table> -->
       </div>
       <!-- end col-6 -->
       <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.05s">
@@ -64,6 +65,8 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active" style="width: 100%; height:600px;">
@@ -215,3 +218,9 @@
   </div>
   <!-- end container -->
 </section>
+
+<script>
+  document.getElementById("footer-rosado").style.display = "none";
+  document.getElementById("footer-rosado").hidden = true;
+
+</script>

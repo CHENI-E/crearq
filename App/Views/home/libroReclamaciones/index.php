@@ -17,7 +17,7 @@
     }
 </style>
 
-<img src="<?= $baseUrl ?>images/portada3/contactanos-web.png" class="w-100" alt="">
+<img src="<?= $baseUrl ?>images/portada3/CONTÁCTANOS.jpg" class="w-100" alt="">
 <!-- <section class="get-consultation" data-background="<?= $baseUrl ?>images/portada3/contactanos-web.png" data-stellar-background-ratio="0.6" style="background-size: 100%; background-position: 100% -1px;">
     <div class="bg-red">
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -143,3 +143,27 @@
     <!-- end container -->
 </section>
 <!-- end about-content -->
+
+<section class="footer-bar" id="footer-rosado">
+  <div class="container">
+    <!-- PUEDO QUITAR EL mb-5 PARA DESABILITAR EL SHADOW -->
+    <div class="inner wow fadeIn shadow-lg mb-5 bg-body-tertiary rounded">
+      <div class="row justify-content-center">
+
+        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.05s">
+          <figure><img src="<?=$baseUrl?>images/footer-icon01.png" alt="Image"></figure>
+          <h3>Estamos ubicados</h3>
+          <p>Calle Armando Blondet 217, Of. 501<br>
+            San Isidro, Lima, Perú</p>
+        </div>
+
+        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.10s">
+          <figure><img src="<?=$baseUrl?>images/footer-icon02.png" alt="Image"></figure>
+          <h3>Horario de atencion</h3>
+          <p>Lunes a Viernes <strong>09:00</strong> a <strong>18:30</strong> 
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

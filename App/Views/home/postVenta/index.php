@@ -16,7 +16,7 @@
         list-style: none;
     }
 </style>
-<img src="<?= $baseUrl ?>images/portada3/post-venta-web.png" class="w-100" alt="">
+<img src="<?= $baseUrl ?>images/portada3/POST-VENTA.jpg" class="w-100" alt="">
 <!-- <section class="property-customization" style="padding: 260px;">
 
     <div class="video-bg" style="background: linear-gradient(161deg, #26282b 0%, #26282b 60%, #20a7ae 100%);">
@@ -116,8 +116,9 @@
                                         <option value="LOS GERANIOS 328" data-id="aliaga-435">LOS GERANIOS 328</option>
                                         <option value="ROMA 255" data-id="patria">ROMA 255</option>
                                         <option value="LAS LILAS 123" data-id="legado-torre-a">LAS LILAS 123</option>
-                                        <option value="AUROSA 1940" data-id="legado-torre-a">AUROSA 1940</option>
+                                        <option value="AUROSA 1940" data-id="legado-torre-a">AURORA 1940</option>
                                         <option value="AQUA 2" data-id="legado-torre-a">AQUA 2</option>
+                                        <option value="CLÍNICA RISO" data-id="legado-torre-a">CLÍNICA RISO</option>
                                     </select><input type="hidden" id="form_support_project_id" name="project_id">
                                 </div>
                             </div>
@@ -181,3 +182,27 @@
     <!-- end container -->
 </section>
 <!-- end about-content -->
+
+<section class="footer-bar" id="footer-rosado">
+  <div class="container">
+    <!-- PUEDO QUITAR EL mb-5 PARA DESABILITAR EL SHADOW -->
+    <div class="inner wow fadeIn shadow-lg mb-5 bg-body-tertiary rounded">
+      <div class="row justify-content-center">
+
+        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.05s">
+          <figure><img src="<?=$baseUrl?>images/footer-icon01.png" alt="Image"></figure>
+          <h3>Estamos ubicados</h3>
+          <p>Calle Armando Blondet 217, Of. 501<br>
+            San Isidro, Lima, Perú</p>
+        </div>
+
+        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.10s">
+          <figure><img src="<?=$baseUrl?>images/footer-icon02.png" alt="Image"></figure>
+          <h3>Horario de atencion</h3>
+          <p>Lunes a Viernes <strong>09:00</strong> a <strong>18:30</strong> 
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

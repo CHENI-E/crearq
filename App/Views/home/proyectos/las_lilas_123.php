@@ -25,7 +25,7 @@
     <h4 class="text-center mt-5"><span>VIVE CERCA A TODO EN VALLE HERMOSO</span></h4>
     <div class="row align-items-center mt-5 mb-5">
       <div class="col-lg-6 col-md-6 wow fadeInUp">
-        <img src="<?= $baseUrl ?>images/portada3/LILAS-WEB-INFO.png" width="100%" alt="">
+        <img src="<?= $baseUrl ?>images/portada3/lilas.png" width="100%" alt="">
         <!-- <h4><span>VIVE CERCA <br> A TODO EN VALLE HERMOSO</span></h4>
         <p>Vive con exclusividad y cerca a lo que necesitas.</p>
         <table>
@@ -75,6 +75,8 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active" style="width: 100%; height:600px;">

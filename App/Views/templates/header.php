@@ -85,16 +85,12 @@
         <!-- end menu -->
         <div class="side-content">
             <figure> <img src="<?= $baseUrl ?>images/logo-crearq.png" alt="Image"> </figure>
-            <p>Somos una compañía con más de 18 años de experiencia y mucha pasión por la arquitectura.</p>
+            <p>Somos una compañía con más de 20 años de experiencia y mucha pasión por la arquitectura.</p>
             <!-- <ul class="gallery">
                 <li><a href="<?= $baseUrl ?>images/gallery-thumb01.jpg" data-fancybox><img src="<?= $baseUrl ?>images/gallery-thumb01.jpg" alt="Image"></a></li>
                 <li><a href="<?= $baseUrl ?>images/gallery-thumb02.jpg" data-fancybox><img src="<?= $baseUrl ?>images/gallery-thumb02.jpg" alt="Image"></a></li>
                 <li><a href="<?= $baseUrl ?>images/gallery-thumb03.jpg" data-fancybox><img src="<?= $baseUrl ?>images/gallery-thumb03.jpg" alt="Image"></a></li>
             </ul> -->
-            <address>
-                Roma | Av. Benavides 246
-                Miraflores | Parque Kennedy calle. 17
-            </address>
             <h6>+51 967 782 740</h6>
             <p><a href="#">ventas@inversioneshi.com</a></p>
             <ul class="social-media">
@@ -104,7 +100,7 @@
                 <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                 <li><a href="#"><i class="fab fa-youtube"></i></a></li> -->
             </ul>
-            <small>© 2024 Crearp | Encuetra tu nuevo hogar aqui</small>
+            <small>© 2024 Crearq | Encuetra tu nuevo hogar aqui</small>
         </div>
         <!-- end side-content -->
     </div>

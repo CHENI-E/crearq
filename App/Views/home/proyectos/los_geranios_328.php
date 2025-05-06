@@ -85,7 +85,7 @@
             <div class="carousel-item active">
               <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/geranios01-1024x1024.jpg" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item active">
+            <div class="carousel-item">
               <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/geranios02-1024x1024.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">

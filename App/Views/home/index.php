@@ -44,7 +44,7 @@
       <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/parq.png" data-stellar-background-ratio="1.15">
       </div>
       <!-- PROYECTO AQUA2 -->
-      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/aqua-2.png" data-stellar-background-ratio="1.15">
+      <!-- <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/aqua-2.png" data-stellar-background-ratio="1.15"> -->
       </div>
 
     </div>
@@ -95,9 +95,9 @@
     <div class="carousel-item">
       <img src="<?= $baseUrl ?>images/portada3/parq.png" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item">
+    <!-- <div class="carousel-item">
       <img src="<?= $baseUrl ?>images/portada3/aqua-2.png" class="d-block w-100" alt="...">
-    </div>
+    </div> -->
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -354,3 +354,26 @@
 </section>
 
 
+<section class="footer-bar" id="footer-rosado">
+  <div class="container">
+    <!-- PUEDO QUITAR EL mb-5 PARA DESABILITAR EL SHADOW -->
+    <div class="inner wow fadeIn shadow-lg mb-5 bg-body-tertiary rounded">
+      <div class="row justify-content-center">
+
+        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.05s">
+          <figure><img src="<?=$baseUrl?>images/footer-icon01.png" alt="Image"></figure>
+          <h3>Estamos ubicados</h3>
+          <p>Calle Armando Blondet 217, Of. 501<br>
+            San Isidro, Lima, Perú</p>
+        </div>
+
+        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.10s">
+          <figure><img src="<?=$baseUrl?>images/footer-icon02.png" alt="Image"></figure>
+          <h3>Horario de atencion</h3>
+          <p>Lunes a Viernes <strong>09:00</strong> a <strong>18:30</strong> 
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
