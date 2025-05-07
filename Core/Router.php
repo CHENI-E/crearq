@@ -12,25 +12,28 @@ class Router
     {
         $this->splitUrl();
 
-        if (! $this->urlController) {
+        if (!$this->urlController) {
             $page = new \App\Controllers\Home();
             $page->index();
-        } elseif (file_exists(APP.'Controllers/'.ucfirst($this->urlController).'.php')) {
-            $controller          = '\\App\\Controllers\\'.ucfirst($this->urlController);
+        } elseif (file_exists(APP . 'Controllers/' . ucfirst($this->urlController) . '.php')) {
+            $controller = '\\App\\Controllers\\' . ucfirst($this->urlController);
             $this->urlController = new $controller();
 
-            if (method_exists($this->urlController, $this->urlAction) && is_callable([$this->urlController, $this->urlAction])) {
-                if (! empty($this->urlParams)) {
-                    call_user_func_array([$this->urlController, $this->urlAction], $this->urlParams);
+            // 🔧 Validación segura para PHP 8.1
+            $action = is_string($this->urlAction) ? $this->urlAction : '';
+
+            if (method_exists($this->urlController, $action) && is_callable([$this->urlController, $action])) {
+                if (!empty($this->urlParams)) {
+                    call_user_func_array([$this->urlController, $action], $this->urlParams);
                 } else {
-                    $this->urlController->{$this->urlAction}();
+                    $this->urlController->{$action}();
                 }
             } else {
-                if (strlen($this->urlAction) == 0) {
+                if ($action === '') {
                     $this->urlController->index();
                 } else {
                     $page = new \App\Controllers\Error();
-                    $page->pageNotFound($this->urlController, $this->urlAction);
+                    $page->pageNotFound($this->urlController, $action);
                 }
             }
         } else {
@@ -46,11 +49,10 @@ class Router
             $url = filter_var($url, FILTER_SANITIZE_URL);
             $url = explode('/', $url);
 
-            $this->urlController = isset($url[0]) ? $url[0] : null;
-            $this->urlAction     = isset($url[1]) ? $url[1] : null;
+            $this->urlController = $url[0] ?? null;
+            $this->urlAction     = $url[1] ?? null;
 
             unset($url[0], $url[1]);
-
             $this->urlParams = array_values($url);
         }
     }
