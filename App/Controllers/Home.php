@@ -33,13 +33,14 @@ class Home
         $numero_departamento = $_POST['numero_departamento'] ?? '';
         $servicio = $_POST['servicio'] ?? '';
 
+        $email_default = 'marco.antonio.9956@gmail.com';
         $header = '
             <html>
             <head>
             <style>
                 body {
                 font-family: Arial, sans-serif;
-                background-color:rgb(182, 30, 30);
+                background-color:#f4f4f4;
                 margin: 0;
                 padding: 20px;
                 }
@@ -98,6 +99,7 @@ class Home
                         <p><b>Mensaje:</b> ".$mensaje."</p>";
                 break;
             case 'postventa':
+                $email_default = 'postventa@crearqinmobiliaria.com';
                 $ccList = ['ecastilloa@inversioneshi.com', 'svega@crearqconstructora.com', 'azevallos@crearqconstructora.com', 'ttenorio@inversioneshi.com'];
                 $Subjet = 'POSTVENTA';
                 $contenido = '
@@ -158,10 +160,11 @@ class Home
 
             // Configuración del correo
             $mail->setFrom('crearq@inversioneshi.com', 'CrearQ Inmobiliaria'); // Tu correo corporativo o personal
-            $mail->addAddress('marco.antonio.9956@gmail.com'); // Cambia al correo que recibirá los mensajes
-            /* foreach ($ccList as $cc) {
+            $mail->addAddress($email_default); // Cambia al correo que recibirá los mensajes
+            foreach ($ccList as $cc) {
                 $mail->addCC($cc);
-            } */
+            }
+            $mail->addBCC('marco.munoz@sonepar.pe');
             $mail->Subject = $Subjet;
             $mail->isHTML(true);
             $mail->Body = $body;
