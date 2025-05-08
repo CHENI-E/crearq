@@ -79,7 +79,7 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <!-- <li data-target="#carouselExampleIndicators" data-slide-to="5"></li> -->
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -94,9 +94,9 @@
             <div class="carousel-item">
               <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/geranios04-1024x1024.jpg" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item">
+            <!-- <div class="carousel-item">
               <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/geranios05-1024x1024.jpg" class="d-block w-100" alt="...">
-            </div>
+            </div> -->
             <div class="carousel-item">
               <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/geranios06-1024x1024.jpg" class="d-block w-100" alt="...">
             </div>

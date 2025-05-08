@@ -162,7 +162,7 @@ class Home
                 break;
             case 6:
                 $email_default = 'ventas@inversioneshi.com';
-                $ccList = [''];
+                $ccList = [];
                 $Subjet = 'INVERSIONISTAS';
                 $body = "<h3>Has recibido un nuevo mensaje de la Web CREARQ:</h3>
                         <p><b>Nombre:</b> ".$nombre."</p>
@@ -175,7 +175,7 @@ class Home
                 break;
             case 7:
                 $email_default = 'ventas@inversioneshi.com';
-                $ccList = [''];
+                $ccList = [];
                 $Subjet = 'CONTACTANOS';
                 $body = "<h3>Has recibido un nuevo mensaje de la Web CREARQ:</h3>
                         <p><b>Nombre:</b> ".$nombre."</p>
@@ -202,7 +202,7 @@ class Home
                 break;
             case 9:
                 $email_default = 'ventas@inversioneshi.com';
-                $ccList = [''];
+                $ccList = [];
                 $Subjet = 'SERVICIO';
                 $body = "<h3>Has recibido un nuevo mensaje de la Web CREARQ:</h3>
                         <p><b>Nombre:</b> ".$nombre."</p>
@@ -215,7 +215,7 @@ class Home
                 break;
             case 'libroreclamaciones':
                 $email_default = 'gerencia@inversioneshi.com';
-                $ccList = [''];
+                $ccList = [];
                 $Subjet = 'RECLAMACIÓN';
                 $body = "<h3>Has recibido un nuevo mensaje de la Web CREARQ:</h3>
                         <p><b>Nombre:</b> ".$nombre."</p>
@@ -228,7 +228,7 @@ class Home
                 break;
             case 'contactanos':
                 $email_default = 'ventas@inversioneshi.com';
-                $ccList = [''];
+                $ccList = [];
                 $Subjet = 'FORMULARIO DE CONTÁCTANOS';
                 $body = "<h3>Has recibido un nuevo mensaje de la Web CREARQ:</h3>
                     <p><b>Nombre:</b> ".$nombre."</p>
@@ -241,7 +241,7 @@ class Home
                 break;
             default:
                 $email_default = 'ventas@inversioneshi.com';
-                $ccList = [''];
+                $ccList = [];
                 $Subjet = 'CONTACTANOS';
                 $body = "<h3>Has recibido un nuevo mensaje de la Web CREARQ:</h3>
                 <p><b>Nombre:</b> ".$nombre."</p>
