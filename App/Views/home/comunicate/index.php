@@ -109,7 +109,7 @@
                                         </div>
                                     </li>
                                     <li class="col-lg-12 px-1">
-                                        <div class="input input_textarea"><label>Mensaje</label><textarea name="message" required 
+                                        <div class="input input_textarea"><label>Mensaje</label><textarea name="message" required  maxlength="250"
                                                 placeholder="Mensaje"></textarea></div>
                                     </li>
                                 </ul>

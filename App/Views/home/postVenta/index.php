@@ -73,7 +73,7 @@
                     </h2>
                 </div>
                 <form class="b2servicio_form" action="<?=$baseUrl?>Home/storeEmail" id="formServicio" method="post" data-hs-cf-bound="true">
-                    <input type="hidden" name="i" value="8" required>
+                    <input type="hidden" name="i" value="postventa" required>
                     <div class="b2servicio_dni px-1">
                         <div class="input_select_box"><label>Documento de Identidad*</label>
                             <div class="input_select_left">
@@ -151,7 +151,7 @@
                             </div>
                         </li>
                         <li class="col-lg-12 px-1">
-                            <div class="input input_textarea"><label>Detalle del Problema</label><textarea name="message"
+                            <div class="input input_textarea"><label>Detalle del Problema</label><textarea name="message" maxlength="250"
                                     placeholder="Mensaje"></textarea></div>
                         </li>
                     </ul>

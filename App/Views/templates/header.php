@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="<?= $baseUrl ?>css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= $baseUrl ?>css/style.css">
     <link rel="stylesheet" href="<?= $baseUrl ?>css/postVenta.css">
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
     
 </head>

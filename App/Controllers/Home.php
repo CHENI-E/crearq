@@ -32,6 +32,48 @@ class Home
         $ambiente_inspeccionar = $_POST['ambiente_inspeccionar'] ?? '';
         $numero_departamento = $_POST['numero_departamento'] ?? '';
         $servicio = $_POST['servicio'] ?? '';
+
+        $header = '
+            <html>
+            <head>
+            <style>
+                body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 20px;
+                }
+                .container {
+                background-color: #ffffff;
+                padding: 20px;
+                border-radius: 8px;
+                max-width: 600px;
+                margin: auto;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                }
+                h2 {
+                color: #333333;
+                }
+                p {
+                color: #555555;
+                line-height: 1.5;
+                }
+                .label {
+                font-weight: bold;
+                color: #000;
+                }
+                .footer {
+                font-size: 12px;
+                color: #888;
+                text-align: center;
+                margin-top: 30px;
+                }
+            </style>
+            </head>
+            <body>
+            <div class="container">
+                <h2>Nuevo mensaje desde el sitio web CREARQ</h2>
+            ';
         switch ($identificador) {
             case 6:
                 $Subjet = 'INVERSIONISTAS Y PROYECTOS';
@@ -55,18 +97,18 @@ class Home
                         <p><b>Proyecto:</b> ".$proyecto."</p>
                         <p><b>Mensaje:</b> ".$mensaje."</p>";
                 break;
-            case 8:
+            case 'postventa':
+                $ccList = ['ecastilloa@inversioneshi.com', 'svega@crearqconstructora.com', 'azevallos@crearqconstructora.com', 'ttenorio@inversioneshi.com'];
                 $Subjet = 'POSTVENTA';
-                $body = "<h3>Has recibido un nuevo mensaje de la Web CREARQ:</h3>
-                        <p><b>Nombre:</b> ".$nombre."</p>
-                        <p><b>Apellido:</b> ".$apellido."</p>
-                        <p><b>Documento:</b> ".$dni." ".$tipoDocumento."</p>
-                        <p><b>Telefono:</b> ".$telefono."</p>
-                        <p><b>Correo:</b> ".$email."</p>
-                        <p><b>Proyecto:</b> ".$proyecto."</p>
-                        <p><b>Ambiente a Inspeccionar:</b> ".$ambiente_inspeccionar."</p>
-                        <p><b>Número Departamento:</b> ".$numero_departamento."</p>
-                        <p><b>Mensaje:</b> ".$mensaje."</p>";
+                $contenido = '
+                    <p><span class="label">Nombre:</span> '.$nombre.'</p>
+                    <p><span class="label">Apellido:</span> '.$apellido.'</p>
+                    <p><span class="label">Documento:</span> '.$dni.' ('.$tipoDocumento.')</p>
+                    <p><span class="label">Teléfono:</span> '.$telefono.'</p>
+                    <p><span class="label">Correo:</span> '.$email.'</p>
+                    <p><span class="label">Proyecto:</span> '.$proyecto.'</p>
+                    <p><span class="label">Mensaje:</span><br>'.$mensaje.'</p>
+                ';
                 break;
             case 9:
                 $Subjet = 'SERVICIO';
@@ -91,6 +133,17 @@ class Home
                 <p><b>Mensaje:</b> ".$mensaje."</p>";
                 break;
         }
+        $footer = '
+            <div class="footer">
+            Este mensaje fue generado automáticamente por el sitio web de CREARQ.<br>
+            No responda a este correo.
+            </div>
+        </div>
+        </body>
+        </html>
+        ';
+
+        $body = $header . $contenido . $footer;
 
         $mail = new PHPMailer(true);
         try {
@@ -106,14 +159,36 @@ class Home
             // Configuración del correo
             $mail->setFrom('crearq@inversioneshi.com', 'CrearQ Inmobiliaria'); // Tu correo corporativo o personal
             $mail->addAddress('marco.antonio.9956@gmail.com'); // Cambia al correo que recibirá los mensajes
+            /* foreach ($ccList as $cc) {
+                $mail->addCC($cc);
+            } */
             $mail->Subject = $Subjet;
             $mail->isHTML(true);
             $mail->Body = $body;
 
             // Enviar correo
             if ($mail->send()) {
-                header('Location: ' . Util::baseUrl());
-                echo "El mensaje se envió correctamente.";
+                echo '
+                <html>
+                    <head>
+                        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+                    </head>
+                    <body>
+                        <script>
+                            Swal.fire({
+                                title: "Correo enviado",
+                                text: "Nos estaremos comunicando con usted en unos momentos.",
+                                icon: "success",
+                                confirmButtonText: "Aceptar"
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    window.location.href = "' . Util::baseUrl() . '";
+                                }
+                            });
+                        </script>
+                    </body>
+                </html>';
+                exit;
             } else {
                 header('Location: ' . Util::baseUrl());
                 echo "Error al enviar el mensaje.";
