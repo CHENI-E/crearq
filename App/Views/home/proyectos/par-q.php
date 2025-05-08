@@ -22,7 +22,7 @@
 
 <section class="property-plans about-content pt-3 pb-5">
   <div class="container">
-    <h4 class="mt-5 text-center"><span>Último departamento LA VIDA QUE MERECES</span></h4>
+    <h4 class="mt-5 text-center"><span>LA VIDA QUE MERECES</span></h4>
     <div class="row align-items-center mt-5 mb-5">
       <div class="col-lg-6 col-md-6 wow fadeInUp">
         <img src="<?= $baseUrl ?>images/portada3/PARQ-WEB-INFO.png" width="100%" alt="">

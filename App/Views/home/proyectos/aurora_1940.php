@@ -65,8 +65,6 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active" style="width: 100%; height:600px;">
@@ -75,9 +73,9 @@
             <div class="carousel-item" style="width: 100%; height:600px;">
               <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/AURORA/2.png" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item" style="width: 100%; height:600px;">
+            <!-- <div class="carousel-item" style="width: 100%; height:600px;">
               <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/AURORA/3.png" class="d-block w-100" alt="...">
-            </div>
+            </div> -->
             <div class="carousel-item" style="width: 100%; height:600px;">
               <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/AURORA/4.png" class="d-block w-100" alt="...">
             </div>
@@ -90,9 +88,9 @@
             <div class="carousel-item" style="width: 100%; height:600px;">
               <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/AURORA/7.png" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item" style="width: 100%; height:600px;">
+            <!-- <div class="carousel-item" style="width: 100%; height:600px;">
               <img src="<?= $baseUrl ?>images/proyectos/espacios_proyectos/AURORA/8.png" class="d-block w-100" alt="...">
-            </div>
+            </div> -->
           </div>
           <!-- <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
