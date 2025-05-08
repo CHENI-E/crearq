@@ -105,6 +105,8 @@
                                                     <option value="LAS LILAS 123" data-id="legado-torre-a">LAS LILAS 123</option>
                                                     <option value="AURORA 1940" data-id="legado-torre-a">AURORA 1940</option>
                                                     <option value="AQUA 2" data-id="legado-torre-a">AQUA 2</option>
+                                                    <option value="RODIN" data-id="legado-torre-a">RODIN</option>
+                                                    <option value="PARQ" data-id="legado-torre-a">PARQ</option>
                                                 </select><input type="hidden" id="form_support_project_id" name="project_id">
                                             </div>
                                         </div>

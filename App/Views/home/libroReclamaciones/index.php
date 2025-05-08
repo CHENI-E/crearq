@@ -86,8 +86,8 @@
                                                 type="text" name="lastname"></div>
                                     </li>
                                     <li class="col-lg-6 px-1">
-                                        <div class="input"><label>Email *</label><input class="validate[required,custom[email]]" required 
-                                                type="email" name="email"></div>
+                                        <div class="input"><label>Email *</label>
+                                        <input class="validate[required,custom[email]]" required type="email" name="email"></div>
                                     </li>
                                     <li class="col-lg-6 px-1">
                                         <div class="input"><label>Télefono / Celular*</label><input
@@ -96,7 +96,10 @@
                                     </li>
                                     <li class="col-lg-12 px-1">
                                         <div class="input"><label>Proyecto</label>
-                                            <div class="input_select"><span class="icon-arrow-bottom"></span><select required 
+                                            <input class="validate[required]" required type="text" name="project" maxlength="200">
+                                            <!-- <div class="input_select">
+                                                <span class="icon-arrow-bottom"></span>
+                                                <select required 
                                                     class="validate[required]" id="form_support_project" name="project">
                                                     <option value="" disabled="disabled" selected="selected">Seleccione*</option>
                                                     <option value="LOS GERANIOS 328" data-id="aliaga-435">LOS GERANIOS 328</option>
@@ -104,8 +107,9 @@
                                                     <option value="LAS LILAS 123" data-id="legado-torre-a">LAS LILAS 123</option>
                                                     <option value="AURORA 1940" data-id="legado-torre-a">AURORA 1940</option>
                                                     <option value="AQUA 2" data-id="legado-torre-a">AQUA 2</option>
-                                                </select><input type="hidden" id="form_support_project_id" name="project_id">
-                                            </div>
+                                                </select>
+                                                <input type="hidden" id="form_support_project_id" name="project_id">
+                                            </div> -->
                                         </div>
                                     </li>
                                     <li class="col-lg-12 px-1">
