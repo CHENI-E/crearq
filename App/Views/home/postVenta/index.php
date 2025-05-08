@@ -116,7 +116,7 @@
                                         <option value="LOS GERANIOS 328" data-id="aliaga-435">LOS GERANIOS 328</option>
                                         <option value="ROMA 255" data-id="patria">ROMA 255</option>
                                         <option value="LAS LILAS 123" data-id="legado-torre-a">LAS LILAS 123</option>
-                                        <option value="AUROSA 1940" data-id="legado-torre-a">AURORA 1940</option>
+                                        <option value="AURORA 1940" data-id="legado-torre-a">AURORA 1940</option>
                                         <option value="AQUA 2" data-id="legado-torre-a">AQUA 2</option>
                                         <option value="CLÍNICA RISO" data-id="legado-torre-a">CLÍNICA RISO</option>
                                     </select><input type="hidden" id="form_support_project_id" name="project_id">

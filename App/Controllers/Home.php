@@ -39,7 +39,7 @@ class Home
             <style>
                 body {
                 font-family: Arial, sans-serif;
-                background-color: #f4f4f4;
+                background-color:rgb(182, 30, 30);
                 margin: 0;
                 padding: 20px;
                 }
