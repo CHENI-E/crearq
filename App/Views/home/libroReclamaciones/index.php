@@ -59,6 +59,7 @@
                             </div>
                             <form class="b2servicio_form" action="<?=$baseUrl?>Home/storeEmail" id="formServicio" method="post"
                                 data-hs-cf-bound="true">
+                                <input type="hidden" name="i" value="libroreclamaciones" required>
                                 <div class="b2servicio_dni px-1">
                                     <div class="input_select_box"><label>Documento de Identidad*</label>
                                         <div class="input_select_left">
@@ -108,7 +109,7 @@
                                         </div>
                                     </li>
                                     <li class="col-lg-12 px-1">
-                                        <div class="input input_textarea"><label>Reclamo</label><textarea name="message" required 
+                                        <div class="input input_textarea"><label>Reclamo</label><textarea name="message" required maxlength="250" placeholder="Máximo 250 caracteres..."
                                                 placeholder="Mensaje"></textarea></div>
                                     </li>
                                 </ul>

@@ -76,8 +76,94 @@ class Home
                 <h2>Nuevo mensaje desde el sitio web CREARQ</h2>
             ';
         switch ($identificador) {
+            case 'parq':
+                $email_default = 'vyshiki@crearqinmobiliaria.com';
+                $ccList = ['ventas@inversioneshi.com'];
+                $Subjet = 'PROYECTO PARQ';
+                $contenido = '
+                        <p><b>Nombre:</b> '.$nombre.'</p>
+                        <p><b>Apellido:</b> '.$apellido.'</p>
+                        <p><b>Documento:</b> '.$dni.' '.$tipoDocumento.'</p>
+                        <p><b>Telefono:</b> '.$telefono.'</p>
+                        <p><b>Correo:</b> '.$email.'</p>
+                        <p><b>Proyecto:</b> '.$proyecto.'</p>
+                        <p><b>Mensaje:</b> '.$mensaje.'</p>
+                ';
+                break;
+            case 'lilas':
+                $email_default = 'rcam@crearqinmobiliaria.com';
+                $ccList = ['ventas@inversioneshi.com'];
+                $Subjet = 'PROYECTO LILAS';
+                $contenido = '
+                        <p><b>Nombre:</b> '.$nombre.'</p>
+                        <p><b>Apellido:</b> '.$apellido.'</p>
+                        <p><b>Documento:</b> '.$dni.' '.$tipoDocumento.'</p>
+                        <p><b>Telefono:</b> '.$telefono.'</p>
+                        <p><b>Correo:</b> '.$email.'</p>
+                        <p><b>Proyecto:</b> '.$proyecto.'</p>
+                        <p><b>Mensaje:</b> '.$mensaje.'</p>
+                ';
+                break;
+            case 'rodin':
+                $email_default = 'jolivo@crearqinmobiliaria.com';
+                $ccList = ['ventas@inversioneshi.com'];
+                $Subjet = 'PROYECTO RODIN';
+                $contenido = '
+                        <p><b>Nombre:</b> '.$nombre.'</p>
+                        <p><b>Apellido:</b> '.$apellido.'</p>
+                        <p><b>Documento:</b> '.$dni.' '.$tipoDocumento.'</p>
+                        <p><b>Telefono:</b> '.$telefono.'</p>
+                        <p><b>Correo:</b> '.$email.'</p>
+                        <p><b>Proyecto:</b> '.$proyecto.'</p>
+                        <p><b>Mensaje:</b> '.$mensaje.'</p>
+                ';
+                break;
+            case 'geranios':
+                $email_default = 'Jgodenzi@crearqinmobiliaria.com';
+                $ccList = ['ventas@inversioneshi.com'];
+                $Subjet = 'PROYECTO GERANIOS';
+                $contenido = '
+                        <p><b>Nombre:</b> '.$nombre.'</p>
+                        <p><b>Apellido:</b> '.$apellido.'</p>
+                        <p><b>Documento:</b> '.$dni.' '.$tipoDocumento.'</p>
+                        <p><b>Telefono:</b> '.$telefono.'</p>
+                        <p><b>Correo:</b> '.$email.'</p>
+                        <p><b>Proyecto:</b> '.$proyecto.'</p>
+                        <p><b>Mensaje:</b> '.$mensaje.'</p>
+                ';
+                break;
+            case 'roma':
+                $email_default = 'Jgodenzi@crearqinmobiliaria.com';
+                $ccList = ['ventas@inversioneshi.com'];
+                $Subjet = 'PROYECTO ROMA';
+                $contenido = '
+                        <p><b>Nombre:</b> '.$nombre.'</p>
+                        <p><b>Apellido:</b> '.$apellido.'</p>
+                        <p><b>Documento:</b> '.$dni.' '.$tipoDocumento.'</p>
+                        <p><b>Telefono:</b> '.$telefono.'</p>
+                        <p><b>Correo:</b> '.$email.'</p>
+                        <p><b>Proyecto:</b> '.$proyecto.'</p>
+                        <p><b>Mensaje:</b> '.$mensaje.'</p>
+                ';
+                break;
+            case 'aurora':
+                $email_default = 'Jgodenzi@crearqinmobiliaria.com';
+                $ccList = ['ventas@inversioneshi.com'];
+                $Subjet = 'PROYECTO AURORA';
+                $contenido = '
+                        <p><b>Nombre:</b> '.$nombre.'</p>
+                        <p><b>Apellido:</b> '.$apellido.'</p>
+                        <p><b>Documento:</b> '.$dni.' '.$tipoDocumento.'</p>
+                        <p><b>Telefono:</b> '.$telefono.'</p>
+                        <p><b>Correo:</b> '.$email.'</p>
+                        <p><b>Proyecto:</b> '.$proyecto.'</p>
+                        <p><b>Mensaje:</b> '.$mensaje.'</p>
+                ';
+                break;
             case 6:
-                $Subjet = 'INVERSIONISTAS Y PROYECTOS';
+                $email_default = 'ventas@inversioneshi.com';
+                $ccList = [''];
+                $Subjet = 'INVERSIONISTAS';
                 $body = "<h3>Has recibido un nuevo mensaje de la Web CREARQ:</h3>
                         <p><b>Nombre:</b> ".$nombre."</p>
                         <p><b>Apellido:</b> ".$apellido."</p>
@@ -88,6 +174,8 @@ class Home
                         <p><b>Mensaje:</b> ".$mensaje."</p>";
                 break;
             case 7:
+                $email_default = 'ventas@inversioneshi.com';
+                $ccList = [''];
                 $Subjet = 'CONTACTANOS';
                 $body = "<h3>Has recibido un nuevo mensaje de la Web CREARQ:</h3>
                         <p><b>Nombre:</b> ".$nombre."</p>
@@ -113,6 +201,8 @@ class Home
                 ';
                 break;
             case 9:
+                $email_default = 'ventas@inversioneshi.com';
+                $ccList = [''];
                 $Subjet = 'SERVICIO';
                 $body = "<h3>Has recibido un nuevo mensaje de la Web CREARQ:</h3>
                         <p><b>Nombre:</b> ".$nombre."</p>
@@ -123,7 +213,35 @@ class Home
                         <p><b>Servicio:</b> ".$servicio."</p>
                         <p><b>Mensaje:</b> ".$mensaje."</p>";
                 break;
+            case 'libroreclamaciones':
+                $email_default = 'gerencia@inversioneshi.com';
+                $ccList = [''];
+                $Subjet = 'RECLAMACIÓN';
+                $body = "<h3>Has recibido un nuevo mensaje de la Web CREARQ:</h3>
+                        <p><b>Nombre:</b> ".$nombre."</p>
+                        <p><b>Apellido:</b> ".$apellido."</p>
+                        <p><b>Documento:</b> ".$dni." ".$tipoDocumento."</p>
+                        <p><b>Telefono:</b> ".$telefono."</p>
+                        <p><b>Correo:</b> ".$email."</p>
+                        <p><b>Proyecto:</b> ".$proyecto."</p>
+                        <p><b>Mensaje:</b> ".$mensaje."</p>";
+                break;
+            case 'contactanos':
+                $email_default = 'ventas@inversioneshi.com';
+                $ccList = [''];
+                $Subjet = 'FORMULARIO DE CONTÁCTANOS';
+                $body = "<h3>Has recibido un nuevo mensaje de la Web CREARQ:</h3>
+                    <p><b>Nombre:</b> ".$nombre."</p>
+                    <p><b>Apellido:</b> ".$apellido."</p>
+                    <p><b>Documento:</b> ".$dni." ".$tipoDocumento."</p>
+                    <p><b>Telefono:</b> ".$telefono."</p>
+                    <p><b>Correo:</b> ".$email."</p>
+                    <p><b>Proyecto:</b> ".$proyecto."</p>
+                    <p><b>Mensaje:</b> ".$mensaje."</p>";
+                break;
             default:
+                $email_default = 'ventas@inversioneshi.com';
+                $ccList = [''];
                 $Subjet = 'CONTACTANOS';
                 $body = "<h3>Has recibido un nuevo mensaje de la Web CREARQ:</h3>
                 <p><b>Nombre:</b> ".$nombre."</p>
@@ -164,7 +282,7 @@ class Home
             foreach ($ccList as $cc) {
                 $mail->addCC($cc);
             }
-            $mail->addBCC('marco.munoz@sonepar.pe');
+            /* $mail->addBCC('marco.antonio.9956@gmail.com'); */
             $mail->Subject = $Subjet;
             $mail->isHTML(true);
             $mail->Body = $body;

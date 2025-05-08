@@ -151,7 +151,7 @@
           </div>
           <form class="b2servicio_form" action="<?=$baseUrl?>Home/storeEmail" id="formServicio" method="post" 
             data-hs-cf-bound="true">
-            <input type="hidden" name="i" value="6" required>
+            <input type="hidden" name="i" value="lilas" required>
             <input type="hidden" name="project" value="LAS LILAS 123" required>
             <div class="b2servicio_dni px-1">
               <div class="input_select_box"><label>Documento de Identidad*</label>
@@ -188,7 +188,7 @@
                 </div>
               </li>
               <li class="col-lg-12 px-1">
-                <div class="input input_textarea"><label>Mensaje</label><textarea name="message" required
+                <div class="input input_textarea"><label>Mensaje</label><textarea name="message" required maxlength="250" placeholder="Máximo 250 caracteres..."
                     placeholder="Mensaje"></textarea></div>
               </li>
             </ul>

@@ -60,6 +60,7 @@
                             </div>
                             <form class="b2servicio_form" action="<?=$baseUrl?>Home/storeEmail" id="formServicio" method="post"
                                 data-hs-cf-bound="true">
+                                <input type="hidden" name="i" value="contactanos" required>
                                 <div class="b2servicio_dni px-1">
                                     <div class="input_select_box"><label>Documento de Identidad*</label>
                                         <div class="input_select_left">
