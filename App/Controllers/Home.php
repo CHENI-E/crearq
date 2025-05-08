@@ -86,7 +86,7 @@ class Home
                         <p><b>Documento:</b> '.$dni.' '.$tipoDocumento.'</p>
                         <p><b>Telefono:</b> '.$telefono.'</p>
                         <p><b>Correo:</b> '.$email.'</p>
-                        <p><b>Proyecto:</b> '.$proyecto.'</p>
+                        <p><b>Proyecto:</b> ParqQ</p>
                         <p><b>Mensaje:</b> '.$mensaje.'</p>
                 ';
                 break;
@@ -100,7 +100,7 @@ class Home
                         <p><b>Documento:</b> '.$dni.' '.$tipoDocumento.'</p>
                         <p><b>Telefono:</b> '.$telefono.'</p>
                         <p><b>Correo:</b> '.$email.'</p>
-                        <p><b>Proyecto:</b> '.$proyecto.'</p>
+                        <p><b>Proyecto:</b> LAS LILAS 123</p>
                         <p><b>Mensaje:</b> '.$mensaje.'</p>
                 ';
                 break;
@@ -114,7 +114,7 @@ class Home
                         <p><b>Documento:</b> '.$dni.' '.$tipoDocumento.'</p>
                         <p><b>Telefono:</b> '.$telefono.'</p>
                         <p><b>Correo:</b> '.$email.'</p>
-                        <p><b>Proyecto:</b> '.$proyecto.'</p>
+                        <p><b>Proyecto:</b> RODIN</p>
                         <p><b>Mensaje:</b> '.$mensaje.'</p>
                 ';
                 break;
@@ -128,7 +128,7 @@ class Home
                         <p><b>Documento:</b> '.$dni.' '.$tipoDocumento.'</p>
                         <p><b>Telefono:</b> '.$telefono.'</p>
                         <p><b>Correo:</b> '.$email.'</p>
-                        <p><b>Proyecto:</b> '.$proyecto.'</p>
+                        <p><b>Proyecto:</b> LOS GERANIOS 328</p>
                         <p><b>Mensaje:</b> '.$mensaje.'</p>
                 ';
                 break;
@@ -142,7 +142,7 @@ class Home
                         <p><b>Documento:</b> '.$dni.' '.$tipoDocumento.'</p>
                         <p><b>Telefono:</b> '.$telefono.'</p>
                         <p><b>Correo:</b> '.$email.'</p>
-                        <p><b>Proyecto:</b> '.$proyecto.'</p>
+                        <p><b>Proyecto:</b> ROMA 255</p>
                         <p><b>Mensaje:</b> '.$mensaje.'</p>
                 ';
                 break;
@@ -156,7 +156,7 @@ class Home
                         <p><b>Documento:</b> '.$dni.' '.$tipoDocumento.'</p>
                         <p><b>Telefono:</b> '.$telefono.'</p>
                         <p><b>Correo:</b> '.$email.'</p>
-                        <p><b>Proyecto:</b> '.$proyecto.'</p>
+                        <p><b>Proyecto:</b> AURORA 1940</p>
                         <p><b>Mensaje:</b> '.$mensaje.'</p>
                 ';
                 break;
