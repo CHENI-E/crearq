@@ -126,7 +126,7 @@
    		</ul>
     		<ul class="gallery">
     			<li class="lince"><a href="<?= $baseUrl ?>proyectos/los_geranios_328"><img src="<?= $baseUrl ?>images/proyectos/GERANIOS-328---WEB-1---TRANSPARENCIA.png" alt="Image"></a></li>
-          <li class="surco"><a href="<?= $baseUrl ?>proyectos/las_lilas_123"><img src="<?= $baseUrl ?>images/proyectos/LILAS.jpg" alt="Image"></a></li>
+          <li class="surco"><a href="<?= $baseUrl ?>proyectos/las_lilas_123"><img src="<?= $baseUrl ?>images/proyectos/LILAS_update.jpg" alt="Image"></a></li>
           <li class="p_libre"><a href="<?= $baseUrl ?>proyectos/parq"><img src="<?= $baseUrl ?>images/proyectos/PARQ.jpg" alt="Image"></a></li>
           <li class="surquillo"><a href="<?= $baseUrl ?>proyectos/rodin"><img src="<?= $baseUrl ?>images/proyectos/RODIN.jpg" alt="Image"></a></li>
           <li class="miraflores"><a href="<?= $baseUrl ?>proyectos/roma_255"><img src="<?= $baseUrl ?>images/proyectos/ROMA.jpg" alt="Image"></a></li>
