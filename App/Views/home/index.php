@@ -26,22 +26,22 @@
   <div class="slider-container">
     <div class="swiper-wrapper">
       <!-- PROYECTO LAS LILAS -->
-      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/las-lilas.png" data-stellar-background-ratio="1.15">
+      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada_inicio/las-lilas_calidad.png" data-stellar-background-ratio="1.15">
       </div>
       <!-- PROYECTO GERANIOS -->
-      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/geranios.png" data-stellar-background-ratio="1.15">
+      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada_inicio/geranios_calidad.png" data-stellar-background-ratio="1.15">
       </div>
       <!-- PROYECTO ROMA -->
-      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/roma.png" data-stellar-background-ratio="1.15">
+      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada_inicio/roma_calidad.png" data-stellar-background-ratio="1.15">
       </div>
       <!-- PROYECTO AURORA -->
-      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/aurora.png" data-stellar-background-ratio="1.15">
+      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada_inicio/aurora_calidad.png" data-stellar-background-ratio="1.15">
       </div>
       <!-- PROYECTO RODIN -->
-      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/rodin.png" data-stellar-background-ratio="1.15">
+      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada_inicio/rodin_calidad.png" data-stellar-background-ratio="1.15">
       </div>
       <!-- PROYECTO PARQ -->
-      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/parq.png" data-stellar-background-ratio="1.15">
+      <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada_inicio/parq_calidad.png" data-stellar-background-ratio="1.15">
       </div>
       <!-- PROYECTO AQUA2 -->
       <!-- <div class="swiper-slide" data-background="<?= $baseUrl ?>images/portada3/aqua-2.png" data-stellar-background-ratio="1.15"> -->
