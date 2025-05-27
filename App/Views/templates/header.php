@@ -20,6 +20,16 @@
     <meta property="og:title" content="Crearq">
     <meta property="og:type" content="website">
 
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Crearq",
+    "url": "https://www.inversioneshi.com/", 
+    "logo": "https://www.inversioneshi.com/ico/crearq-icon-114.png"
+    }
+    </script>
+
 
     <!-- FAVICON FILES -->
     <link href="<?= $baseUrl ?>ico/crearq-icon-144.png" rel="crearq-icon" sizes="144x144">
@@ -40,17 +50,6 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
 
-    <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Crearq",
-    "url": "https://www.inversioneshi.com/", 
-    "logo": "https://www.inversioneshi.com/ico/crearq-icon-114.png"
-    }
-    </script>
-
-    
 </head>
 
 <body>
