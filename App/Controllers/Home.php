@@ -18,6 +18,8 @@ class Home
 
     public function storeEmail()
     {
+        echo "desabilitado";
+        return;
         /* header('Location: ' . Util::baseUrl()); */
         $identificador = $_POST['i'] ?? ''; // 7 es index y comunicate , 6 inversionistas y proyectos(definir que proyecto es), 8 postVenta
         $Subjet = '';
