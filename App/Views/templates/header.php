@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<!-- Mirrored from themezinho.net/hompark/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 14 Oct 2024 04:25:39 GMT -->
+
 
 <head>
     <meta charset="utf-8">
@@ -19,14 +19,13 @@
     <meta property="og:site_name" content="Crearq">
     <meta property="og:title" content="Crearq">
     <meta property="og:type" content="website">
-    <!-- <meta property="og:url" content="http://www.themezinho.net/hompark"> -->
 
 
     <!-- FAVICON FILES -->
-    <link href="<?= $baseUrl ?>ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
-    <link href="<?= $baseUrl ?>ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon" sizes="114x114">
-    <link href="<?= $baseUrl ?>ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72">
-    <link href="<?= $baseUrl ?>ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon">
+    <link href="<?= $baseUrl ?>ico/crearq-icon-144.png" rel="crearq-icon" sizes="144x144">
+    <link href="<?= $baseUrl ?>ico/crearq-icon-114.png" rel="crearq-icon" sizes="114x114">
+    <link href="<?= $baseUrl ?>ico/crearq-icon-72.png" rel="crearq-icon" sizes="72x72">
+    <link href="<?= $baseUrl ?>ico/crearq-icon-57.png" rel="crearq-icon">
     <link href="<?= $baseUrl ?>images/faviconCrearq.png" rel="shortcut icon">
 
     <!-- CSS FILES -->
