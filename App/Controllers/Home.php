@@ -150,24 +150,32 @@ class Home
             $validacion = "Apellido inválido.";
         }
 
-        if (!$this->validarCampo($proyecto, 2, 100, true)) {
-            $validacion = "Proyecto inválido.";
+        if($proyecto != '') {
+            if (!$this->validarCampo($proyecto, 2, 100, true)) {
+                $validacion = "Proyecto inválido.";
+            }
         }
 
         if (!$this->validarCampo($mensaje, 10, 1000, true)) {
             $validacion = "Mensaje inválido.";
         }
 
-        if (!$this->validarCampo($servicio, 2, 100)) {
-            $validacion = "Servicio inválido.";
+        if($servicio != '') {
+            if (!$this->validarCampo($servicio, 2, 100)) {
+                $validacion = "Servicio inválido.";
+            }
         }
 
-        if (!$this->validarCampo($ambiente_inspeccionar, 0, 100)) {
-            $validacion = "Ambiente inválido.";
+        if($ambiente_inspeccionar != '') {
+            if (!$this->validarCampo($ambiente_inspeccionar, 0, 100)) {
+                $validacion = "Ambiente inválido.";
+            }
         }
 
-        if (!$this->validarCampo($numero_departamento, 1, 10, true)) {
-            $validacion = "Número de departamento inválido.";
+        if($numero_departamento != '') {
+            if (!$this->validarCampo($numero_departamento, 1, 10, true)) {
+                $validacion = "Número de departamento inválido.";
+            }
         }
 
         if ($validacion) {
