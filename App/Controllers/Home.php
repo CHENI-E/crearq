@@ -16,10 +16,101 @@ class Home
         View::render($views, $args);
     }
 
+    function validarCampo($valor, $min = 2, $max = 100, $permitirNumeros = false) {
+        // Eliminar espacios extra
+        $valor = trim($valor);
+
+        // Verificar longitud
+        if (strlen($valor) < $min || strlen($valor) > $max) {
+            return false;
+        }
+
+        // Prohibir URLs
+        if (preg_match('/https?:\/\/|www\./i', $valor)) {
+            return false;
+        }
+
+        // Prohibir HTML o scripts
+        if (preg_match('/<[^>]*>|script|onerror|onload/i', $valor)) {
+            return false;
+        }
+
+        // Verificar caracteres válidos
+        $pattern = $permitirNumeros ? '/^[a-zA-Z0-9\sáéíóúÁÉÍÓÚñÑüÜ.,()\-]+$/' : '/^[a-zA-Z\sáéíóúÁÉÍÓÚñÑüÜ.,()\-]+$/';
+        return preg_match($pattern, $valor);
+    }
+
+
     public function storeEmail()
     {
-        echo "desabilitado";
-        return;
+
+        session_start();
+
+        // Inicializar la sesión si no existe
+        if (!isset($_SESSION['envios'])) {
+            $_SESSION['envios'] = 0;
+            $_SESSION['envios_time'] = time();
+        }
+
+        // Tiempo actual y diferencia con el primer envío
+        $tiempo_actual = time();
+        $tiempo_espera = 6 * 3600; // 6 horas en segundos
+
+        if ($_SESSION['envios'] >= 5) {
+            $diferencia = $tiempo_actual - $_SESSION['envios_time'];
+            if ($diferencia < $tiempo_espera) {
+                echo '
+                <html>
+                    <head>
+                        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+                    </head>
+                    <body>
+                        <script>
+                            Swal.fire({
+                                title: "Límite alcanzado",
+                                text: "Ya has enviado 5 mensajes. Por favor, espera 6 horas antes de volver a intentarlo.",
+                                icon: "warning",
+                                confirmButtonText: "Aceptar"
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    window.location.href = "' . Util::baseUrl() . '";
+                                }
+                            });
+                        </script>
+                    </body>
+                </html>';
+                return;
+            } else {
+                $_SESSION['envios'] = 0;
+                $_SESSION['envios_time'] = $tiempo_actual;
+            }
+        }
+
+        if (stripos($_POST['document'], 'http://') !== false || stripos($_POST['document'], 'https://') !== false || preg_match('/<[^>]*script|onerror|onload/i', $_POST['document'])) {
+            echo '
+                <html>
+                    <head>
+                        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+                    </head>
+                    <body>
+                        <script>
+                            Swal.fire({
+                                title: "Error",
+                                text: "Contenido sospechoso.",
+                                icon: "error",
+                                confirmButtonText: "Aceptar"
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    window.location.href = "' . Util::baseUrl() . '";
+                                }
+                            });
+                        </script>
+                    </body>
+                </html>';
+                exit;
+                return;
+        }
+
         /* header('Location: ' . Util::baseUrl()); */
         $identificador = $_POST['i'] ?? ''; // 7 es index y comunicate , 6 inversionistas y proyectos(definir que proyecto es), 8 postVenta
         $Subjet = '';
@@ -34,6 +125,75 @@ class Home
         $ambiente_inspeccionar = $_POST['ambiente_inspeccionar'] ?? '';
         $numero_departamento = $_POST['numero_departamento'] ?? '';
         $servicio = $_POST['servicio'] ?? '';
+
+        $validacion = null;
+        // Validaciones
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $validacion = "Correo invalido";
+        }
+
+        if (!preg_match('/^\d{8,15}$/', $telefono)) {
+            $validacion = "Número de teléfono no válido.";
+        }
+
+        if (!preg_match('/^\d{6,15}$/', $dni)) {
+            $validacion = "Número de documento inválido.";
+        }
+
+        // Campos de texto sin caracteres especiales
+        if (!validarCampo($nombre, 2, 50)) {
+            $validacion = "Nombre inválido.";
+        }
+
+        if (!validarCampo($apellido, 2, 50)) {
+            $validacion = "Apellido inválido.";
+        }
+
+        if (!validarCampo($proyecto, 2, 100, true)) {
+            $validacion = "Proyecto inválido.";
+        }
+
+        if (!validarCampo($mensaje, 10, 1000, true)) {
+            $validacion = "Mensaje inválido.";
+        }
+
+        if (!validarCampo($servicio, 2, 100)) {
+            $validacion = "Servicio inválido.";
+        }
+
+        if (!validarCampo($ambiente_inspeccionar, 0, 100)) {
+            $validacion = "Ambiente inválido.";
+        }
+
+        if (!validarCampo($numero_departamento, 1, 10, true)) {
+            $validacion = "Número de departamento inválido.";
+        }
+
+        if ($validacion) {
+            echo '
+                <html>
+                    <head>
+                        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+                    </head>
+                    <body>
+                        <script>
+                            Swal.fire({
+                                title: "Error",
+                                text: "' . $validacion . '",
+                                icon: "error",
+                                confirmButtonText: "Aceptar"
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    window.location.href = "' . Util::baseUrl() . '";
+                                }
+                            });
+                        </script>
+                    </body>
+                </html>';
+                exit;
+                return;
+            /* exit($validacion); */
+        }
 
         $email_default = 'marco.antonio.9956@gmail.com';
         $header = '
@@ -269,6 +429,8 @@ class Home
 
         $mail = new PHPMailer(true);
         try {
+            // Aumentar el contador de envíos
+            $_SESSION['envios']++;
             // Configuración del servidor SMTP
             $mail->isSMTP();
             $mail->Host       = 'mail.inversioneshi.com';  // Cambia según tu proveedor
