@@ -43,6 +43,12 @@ class Home
 
     public function storeEmail()
     {
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            http_response_code(405); // Method Not Allowed
+            echo "Método no permitido.";
+            return;
+        }
+
         /* echo "hola mundo";
         return; */
         session_start();
@@ -435,7 +441,7 @@ class Home
         ';
 
         $body = $header . $contenido . $footer;
-        $email_default = 'marco.antonio.9956@gmail.com';
+        /* $email_default = 'marco.antonio.9956@gmail.com'; */
         $mail = new PHPMailer(true);
         try {
             // Aumentar el contador de envíos
