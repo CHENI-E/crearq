@@ -43,8 +43,8 @@ class Home
 
     public function storeEmail()
     {
-        echo "hola mundo";
-        return;
+        /* echo "hola mundo";
+        return; */
         session_start();
 
         // Inicializar la sesión si no existe
