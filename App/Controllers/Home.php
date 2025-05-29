@@ -142,31 +142,31 @@ class Home
         }
 
         // Campos de texto sin caracteres especiales
-        if (!validarCampo($nombre, 2, 50)) {
+        if (!$this->validarCampo($nombre, 2, 50)) {
             $validacion = "Nombre inválido.";
         }
 
-        if (!validarCampo($apellido, 2, 50)) {
+        if (!$this->validarCampo($apellido, 2, 50)) {
             $validacion = "Apellido inválido.";
         }
 
-        if (!validarCampo($proyecto, 2, 100, true)) {
+        if (!$this->validarCampo($proyecto, 2, 100, true)) {
             $validacion = "Proyecto inválido.";
         }
 
-        if (!validarCampo($mensaje, 10, 1000, true)) {
+        if (!$this->validarCampo($mensaje, 10, 1000, true)) {
             $validacion = "Mensaje inválido.";
         }
 
-        if (!validarCampo($servicio, 2, 100)) {
+        if (!$this->validarCampo($servicio, 2, 100)) {
             $validacion = "Servicio inválido.";
         }
 
-        if (!validarCampo($ambiente_inspeccionar, 0, 100)) {
+        if (!$this->validarCampo($ambiente_inspeccionar, 0, 100)) {
             $validacion = "Ambiente inválido.";
         }
 
-        if (!validarCampo($numero_departamento, 1, 10, true)) {
+        if (!$this->validarCampo($numero_departamento, 1, 10, true)) {
             $validacion = "Número de departamento inválido.";
         }
 
@@ -427,7 +427,7 @@ class Home
         ';
 
         $body = $header . $contenido . $footer;
-
+        $email_default = 'marco.antonio.9956@gmail.com';
         $mail = new PHPMailer(true);
         try {
             // Aumentar el contador de envíos
@@ -442,7 +442,7 @@ class Home
             $mail->Port       = 465; // 465 para SSL, 587 para TLS
 
             // Configuración del correo
-            $mail->setFrom('crearq@inversioneshi.com', 'CrearQ Inmobiliaria'); // Tu correo corporativo o personal
+            $mail->setFrom('crearq@inversioneshi.com', 'CrearQ Inmobiliaria'); 
             $mail->addAddress($email_default); // Cambia al correo que recibirá los mensajes
             foreach ($ccList as $cc) {
                 $mail->addCC($cc);
