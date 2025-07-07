@@ -151,7 +151,7 @@
                             </div>
                         </li>
                         <li class="col-lg-12 px-1">
-                            <div class="input input_textarea"><label>Detalle del Problema</label><textarea name="message_postventa" maxlength="250"
+                            <div class="input input_textarea"><label>Detalle del Problema</label><textarea name="message"
                                     placeholder="Mensaje"></textarea></div>
                         </li>
                     </ul>

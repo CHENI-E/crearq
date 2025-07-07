@@ -132,7 +132,6 @@ class Home
         $ambiente_inspeccionar = $_POST['ambiente_inspeccionar'] ?? '';
         $numero_departamento = $_POST['numero_departamento'] ?? '';
         $servicio = $_POST['servicio'] ?? '';
-        $message_postventa = $_POST['message_postventa'] ?? '';
 
         $validacion = null;
         // Validaciones
@@ -164,13 +163,7 @@ class Home
         }
 
         if($mensaje != ''){
-            if (!$this->validarCampo($mensaje, 10, 1000, true)) {
-                $validacion = "Mensaje inválido.";
-            }
-        }
-
-        if($message_postventa != ''){
-            if (!$this->validarCampo($message_postventa, 10, 10000, true)) {
+            if (!$this->validarCampo($mensaje, 10, 2500, true)) {
                 $validacion = "Mensaje inválido.";
             }
         }
@@ -383,7 +376,7 @@ class Home
                     <p><span class="label">Teléfono:</span> '.$telefono.'</p>
                     <p><span class="label">Correo:</span> '.$email.'</p>
                     <p><span class="label">Proyecto:</span> '.$proyecto.'</p>
-                    <p><span class="label">Mensaje:</span><br>'.$message_postventa.'</p>
+                    <p><span class="label">Mensaje:</span><br>'.$message.'</p>
                 ';
                 break;
             case 9:
