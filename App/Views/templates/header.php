@@ -10,11 +10,11 @@
     <meta name="theme-color" content="#282828" />
     <title><?= $title ?? 'Crearq' ?></title>
     <meta name="author" content="Marco">
-    <meta name="description" content="Crearq | Raquel">
+    <meta name="description" content="Crearq | Constructora Inmobiliaria">
     <meta name="keywords" content="Crearq">
 
     <!-- SOCIAL MEDIA META -->
-    <meta property="og:description" content="Crearq | Raquel">
+    <meta property="og:description" content="Crearq | Constructora Inmobiliaria">
     <meta property="og:image" content="preview.html">
     <meta property="og:site_name" content="Crearq">
     <meta property="og:title" content="Crearq">
