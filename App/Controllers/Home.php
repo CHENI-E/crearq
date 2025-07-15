@@ -40,6 +40,28 @@ class Home
         return preg_match($pattern, $valor);
     }
 
+    public function validarCampoMensaje($valor, $min = 2, $max = 100, $permitirNumeros = false)
+    {
+        // Eliminar espacios extra
+        $valor = trim($valor);
+
+        // Verificar longitud
+        if (strlen($valor) < $min || strlen($valor) > $max) {
+            return false;
+        }
+
+        // Prohibir URLs
+        if (preg_match('/https?:\/\/|www\./i', $valor)) {
+            return false;
+        }
+
+        // Prohibir HTML o scripts
+        if (preg_match('/<[^>]*>|script|onerror|onload/i', $valor)) {
+            return false;
+        }
+
+        return $valor;
+    }
 
     public function storeEmail()
     {
@@ -163,8 +185,8 @@ class Home
         }
 
         if($mensaje != ''){
-            if (!$this->validarCampo($mensaje, 10, 2500, true)) {
-                $validacion = "Mensaje inválido.";
+            if (!$this->validarCampoMensaje($mensaje, 10, 2500, true)) {
+                $validacion = "El Mensaje debe ser mayor a 10 caracteres y no puede llevar URLs o HTML.";
             }
         }
 
