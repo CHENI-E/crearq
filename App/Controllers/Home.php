@@ -348,7 +348,7 @@ class Home
                 ';
                 break;
             case 'aurora':
-                $email_default = 'Jgodenzi@crearqinmobiliaria.com';
+                $email_default = 'rcam@crearqinmobiliaria.com'; //'Jgodenzi@crearqinmobiliaria.com';
                 $ccList = ['ventas@inversioneshi.com'];
                 $Subjet = 'PROYECTO AURORA';
                 $contenido = '
