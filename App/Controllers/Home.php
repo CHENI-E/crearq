@@ -320,7 +320,7 @@ class Home
                 ';
                 break;
             case 'geranios':
-                $email_default = 'Jgodenzi@crearqinmobiliaria.com';
+                $email_default = 'rcam@crearqinmobiliaria.com'; //'Jgodenzi@crearqinmobiliaria.com';
                 $ccList = ['ventas@inversioneshi.com'];
                 $Subjet = 'PROYECTO GERANIOS';
                 $contenido = '
@@ -334,7 +334,7 @@ class Home
                 ';
                 break;
             case 'roma':
-                $email_default = 'Jgodenzi@crearqinmobiliaria.com';
+                $email_default = 'rcam@crearqinmobiliaria.com'; //'Jgodenzi@crearqinmobiliaria.com';
                 $ccList = ['ventas@inversioneshi.com'];
                 $Subjet = 'PROYECTO ROMA';
                 $contenido = '
