@@ -398,7 +398,7 @@ class Home
                     <p><span class="label">Teléfono:</span> '.$telefono.'</p>
                     <p><span class="label">Correo:</span> '.$email.'</p>
                     <p><span class="label">Proyecto:</span> '.$proyecto.'</p>
-                    <p><span class="label">Mensaje:</span><br>'.$message.'</p>
+                    <p><span class="label">Mensaje:</span><br>'.$mensaje.'</p>
                 ';
                 break;
             case 9:
